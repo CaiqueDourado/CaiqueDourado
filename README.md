@@ -27,7 +27,7 @@ I build autonomous systems that discover, ingest, normalize, and interpret massi
 
 ## Selected work
 
-### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) — Product intelligence platform *(2020, re-architected 2026)*
+### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Product intelligence platform, 2020 / re-architected 2026)
 The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Brazilian retail prices, 3,600+ stores, and local certifications (INMETRO, ANVISA). Brands do not pay for ranking positions.
 - End-to-end Data Mining & Generative AI platform with a **17-stage ETL pipeline** from raw scraping to structured portals and multimodal distribution
 - 2.8M+ real user reviews processed; catalogs monitored across 3,600+ Brazilian stores
@@ -36,7 +36,7 @@ The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Br
 - **Human-in-the-Loop (HITL)** editorial system: AI generates, humans validate, platform publishes
 - **LLM Ops** (`tiktoken`): long-context management (100k+ tokens), chunking, cost optimization and hallucination mitigation
 - **Automated video pipeline** (`Remotion`, `moviepy`, `edge-tts`): LLM-generated scripts feed `Remotion` compositions with neural TTS narration, published to YouTube Shorts & TikTok
-- **Frontend:** Next.js 16 App Router + ISR (TTFB ~80–150ms on cache hit); 3-layer cache (`React cache()` + `unstable_cache` + Upstash Redis); deployed on Vercel Edge CDN; `shadcn/ui` + Radix UI
+- **Frontend:** Next.js 16 App Router + ISR (TTFB ~80-150ms on cache hit); 3-layer cache (`React cache()` + `unstable_cache` + Upstash Redis); deployed on Vercel Edge CDN; `shadcn/ui` + Radix UI
 - **Observability:** Sentry (runtime errors), Vercel Analytics, Speed Insights (Core Web Vitals in production)
 - **Agent-ready architecture:** `llms.txt`, MCP Server Card, ARD 1.0 catalog, `agent-skills.json`; `Accept: text/markdown` content negotiation via `turndown` (HTML-to-Markdown pipeline); server-side OG image generation via `@napi-rs/canvas`
 - **AEO / GEO:** Custom 12-step HTML-to-Markdown pipeline (`lib/markdown-for-agents.ts`) that strips 95%+ of UI noise from Next.js pages for LLM consumption (1.55 MB HTML down to 64 KB Markdown, 86 images deduplicated to 8); `Content-Signal` directives in `robots.txt` (`ai-train=no, search=yes`); canonical attribution header injected into every Markdown response
@@ -60,58 +60,58 @@ The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Br
 |:---:|:---:|
 | [![Video 1](https://img.youtube.com/vi/zbM5CcOTwac/maxresdefault.jpg)](https://www.youtube.com/watch?v=zbM5CcOTwac) | [![Video 2](https://img.youtube.com/vi/5rFta5DY1KI/maxresdefault.jpg)](https://www.youtube.com/watch?v=5rFta5DY1KI) |
 
-### [SuperNichos](https://supernichos.com) — Niche & keyword mining tool *(2023–present)*
+### [SuperNichos](https://supernichos.com) (Niche & keyword mining tool, 2023-present)
 - 700,000 niches and 50M+ keywords in a single platform
 - Largest niche discovery and segment mining tool in Brazil
 
-### Agência Disco — Head of Operations *(2023–present)*
+### Agência Disco (Head of Operations, 2023-present)
 Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões, and 20+ more.
 - Growth Marketing, CRO, Programmatic SEO, A/B Testing (GrowthBook)
 - CRM & marketing automation (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, server-side tracking, Customer Events, analytics & BI
 
-### Samurai Experts / Locaweb — CMO & Growth *(2021–2023)*
+### Samurai Experts / Locaweb (CMO & Growth, 2021-2023)
 - Chief Marketing Officer, Growth Hacker
 - Branding Manager at Wake (wake.tech)
 
-### Editora Juspodivm — Head of E-commerce *(2014–2021, 7+ years)*
+### Editora Juspodivm (Head of E-commerce, 2014-2021, 7+ years)
 - Scaled the team from 1 to 8 people; became the largest e-commerce in Brazil's North/Northeast region
 - Full ERP + e-commerce platform migration (flipped in a single day in 2016)
 - **e-Bit Diamond Seal** (one of only 3 companies in the Brazilian book segment)
 - **RA1000** by Reclame Aqui (top reputation seal)
 - Stack: Moovin, e-Millennium ERP, Konduto, SendGrid, Maxipago, AWS, Cloudflare, Criteo, Optimizely
 
-### Cupons VIP — Co-founder & CTO *(2011–2013)*
+### Cupons VIP (Co-founder & CTO, 2011-2013)
 - Built from scratch: ASP.NET + SQL Server + Azure (9 months, nights and weekends)
 - Scaled to 140,000 monthly pageviews, 40,000+ customers across Salvador, Fortaleza, and Recife
 - 2M emails/month; RA1000 seal; partnerships with iBahia and Microsoft Azure
 
-### "Baralho do Crime" *(2011)* — Viral government project
+### "Baralho do Crime" (2011, viral government project)
 - Delivered overnight for Bahia's Public Security Secretary (Pacto pela Vida)
 - 10,000 visitors in a single day; covered by G1/Globo, Terra, UOL, and national press
 
 ### Open Source & Publications
-- `Akatus .NET SDK` — Payment gateway integration library
-- `Mailee.me .NET SDK` — Email marketing integration library
+- `Akatus .NET SDK`: Payment gateway integration library
+- `Mailee.me .NET SDK`: Email marketing integration library
 - Articles: *Criando apps para Orkut com OpenSocial API*, *Push Notifications guide*, *Monitoring ASP.NET errors with appfail.net*
 
 ---
 
 ## Recognition
 
-- 🏆 **E-Commerce Brasil Award 2019** — Professional of the Year, Sales Category
+- 🏆 **E-Commerce Brasil Award 2019:** Professional of the Year, Sales Category
 - 🎤 **Speaker** at E-Commerce Brasil Ads & Performance Congress 2019 (Google Analytics)
-- 🏅 **e-Bit Diamond Seal** — Editora Juspodivm (top 3 in Brazilian book segment)
+- 🏅 **e-Bit Diamond Seal:** Editora Juspodivm (top 3 in Brazilian book segment)
 - ⭐ **RA1000** by Reclame Aqui (Cupons VIP + Juspodivm)
-- 🤝 **Advisory Board Member** at ABLEC (Brazilian E-Commerce Retailers Association, 2019–2022)
+- 🤝 **Advisory Board Member** at ABLEC (Brazilian E-Commerce Retailers Association, 2019-2022)
 - 📚 **Member** of Academia E-Commerce Brasil (2020)
 
 ---
 
 ## Education & Certifications
 
-- Growth Leaders Academy — Growth Hacking (2021)
-- FIB — Computer Science / Systems Analysis (2007)
+- Growth Leaders Academy: Growth Hacking (2021)
+- FIB: Computer Science / Systems Analysis (2007)
 - Google Analytics · Google AdWords (Search & Shopping) · SEMrush Academy · e-Millennium ERP
 
 ---
@@ -160,7 +160,7 @@ Construo sistemas autônomos que coletam, normalizam e interpretam grandes volum
 
 ## Projetos em destaque
 
-### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) — Motor de inteligência de produtos *(2020, relançado em 2026)*
+### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Motor de inteligência de produtos, 2020 / relançado em 2026)
 O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura adicional de preços do varejo brasileiro, 3.600+ lojas e certificações locais (INMETRO, ANVISA). Marcas não pagam por posição nos rankings.
 - Plataforma de Data Mining e IA Generativa de ponta a ponta com **ETL de 17 fases**, do scraping bruto a portais estruturados e distribuição multimodal
 - Mais de 2,8 milhões de avaliações reais processadas; catálogos monitorados em 3.600+ lojas brasileiras
@@ -169,7 +169,7 @@ O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura adicional de 
 - **Human-in-the-Loop (HITL):** IA gera, humanos validam, plataforma publica
 - **LLM Ops** (`tiktoken`): gestão de contexto longo (100k+ tokens), chunking, controle de custo e mitigação de alucinações
 - **Pipeline de vídeo automatizado** (`Remotion`, `moviepy`, `edge-tts`): roteiros gerados por IA alimentam composições `Remotion` com narração neural, publicados no YouTube Shorts e TikTok
-- **Frontend:** Next.js 16 App Router + ISR (TTFB ~80–150ms em cache hit); cache em 3 camadas (`React cache()` + `unstable_cache` + Upstash Redis); deploy na Vercel Edge CDN; `shadcn/ui` + Radix UI
+- **Frontend:** Next.js 16 App Router + ISR (TTFB ~80-150ms em cache hit); cache em 3 camadas (`React cache()` + `unstable_cache` + Upstash Redis); deploy na Vercel Edge CDN; `shadcn/ui` + Radix UI
 - **Observabilidade:** Sentry (erros em runtime), Vercel Analytics, Speed Insights (Core Web Vitals em produção)
 - **Arquitetura agent-ready:** `llms.txt`, MCP Server Card, ARD 1.0, `agent-skills.json`; negociação `Accept: text/markdown` via pipeline `turndown` (HTML para Markdown); geração server-side de imagens OG com `@napi-rs/canvas`
 - **AEO / GEO:** Pipeline HTML-to-Markdown de 12 etapas (`lib/markdown-for-agents.ts`) que remove 95%+ do ruído de UI de páginas Next.js para consumo por LLMs (1,55 MB de HTML reduzidos a 64 KB de Markdown, 86 imagens deduplicadas para 8); diretivas `Content-Signal` no `robots.txt` (`ai-train=no, search=yes`); cabeçalho de atribuição canônica injetado em cada resposta Markdown
@@ -193,58 +193,58 @@ O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura adicional de 
 |:---:|:---:|
 | [![Vídeo 1](https://img.youtube.com/vi/zbM5CcOTwac/maxresdefault.jpg)](https://www.youtube.com/watch?v=zbM5CcOTwac) | [![Vídeo 2](https://img.youtube.com/vi/5rFta5DY1KI/maxresdefault.jpg)](https://www.youtube.com/watch?v=5rFta5DY1KI) |
 
-### [SuperNichos](https://supernichos.com) — Mineração de nichos e palavras-chave *(2023–atual)*
+### [SuperNichos](https://supernichos.com) (Mineração de nichos e palavras-chave, 2023-atual)
 - 700.000 nichos e 50 milhões de palavras-chave em uma plataforma
 - Maior ferramenta de mineração de nichos e segmentos do Brasil
 
-### Agência Disco — Head de Operações *(2023–atual)*
+### Agência Disco (Head de Operações, 2023-atual)
 E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões e mais de 20 outras.
 - Growth Marketing, CRO, SEO Programático, Testes A/B (GrowthBook)
 - Automação de CRM e marketing (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, server-side tracking, Customer Events, analytics e BI
 
-### Samurai Experts / Locaweb — CMO & Growth *(2021–2023)*
+### Samurai Experts / Locaweb (CMO & Growth, 2021-2023)
 - Chief Marketing Officer e Growth Hacker
 - Gerente de Branding na Wake (wake.tech)
 
-### Editora Juspodivm — Head de E-commerce *(2014–2021, 7+ anos)*
+### Editora Juspodivm (Head de E-commerce, 2014-2021, 7+ anos)
 - Criou e escalou o setor de 1 para 8 profissionais; tornou-se o maior e-commerce do Norte/Nordeste do Brasil
 - Migração completa de ERP + plataforma de e-commerce (virada em um único dia em 2016)
 - **Selo Diamante e-Bit** (uma das 3 empresas do segmento de livros no Brasil)
 - **RA1000** pelo Reclame Aqui (melhor reputação)
 - Stack: Moovin, e-Millennium ERP, Konduto, SendGrid, Maxipago, AWS, Cloudflare, Criteo, Optimizely
 
-### Cupons VIP — Co-fundador & CTO *(2011–2013)*
+### Cupons VIP (Co-fundador & CTO, 2011-2013)
 - Construído do zero em ASP.NET + SQL Server + Azure (9 meses, noites e fins de semana)
 - Escalou para 140.000 pageviews mensais e 40.000+ clientes em Salvador, Fortaleza e Recife
 - 2 milhões de e-mails/mês; Selo RA1000; parceria com iBahia e Microsoft Azure
 
-### "Baralho do Crime" *(2011)* — Projeto viral para o Governo da Bahia
+### "Baralho do Crime" (2011, projeto viral para o Governo da Bahia)
 - Entregue da noite para o dia para a Secretaria de Segurança Pública (Pacto pela Vida)
 - 10.000 visitantes em um único dia; cobertura no G1/Globo, Terra, UOL e imprensa nacional
 
 ### Open Source & Publicações
-- `Akatus .NET SDK` — Biblioteca de integração para gateway de pagamento
-- `Mailee.me .NET SDK` — Biblioteca de integração para e-mail marketing
+- `Akatus .NET SDK`: Biblioteca de integração para gateway de pagamento
+- `Mailee.me .NET SDK`: Biblioteca de integração para e-mail marketing
 - Artigos: *Criando apps para Orkut com OpenSocial API*, *Guia completo de Push Notifications*, *Monitorando erros ASP.NET com appfail.net*
 
 ---
 
 ## Reconhecimentos
 
-- 🏆 **Prêmio E-Commerce Brasil 2019** — Profissional Destaque do Ano, Categoria Vendas
+- 🏆 **Prêmio E-Commerce Brasil 2019:** Profissional Destaque do Ano, Categoria Vendas
 - 🎤 **Palestrante** no Congresso E-Commerce Brasil Ads & Performance 2019 (Google Analytics)
-- 🏅 **Selo Diamante e-Bit** — Editora Juspodivm (top 3 no segmento de livros do Brasil)
+- 🏅 **Selo Diamante e-Bit:** Editora Juspodivm (top 3 no segmento de livros do Brasil)
 - ⭐ **RA1000** pelo Reclame Aqui (Cupons VIP + Juspodivm)
-- 🤝 **Conselheiro** da ABLEC (Associação Brasileira de Lojistas de E-Commerce, 2019–2022)
+- 🤝 **Conselheiro** da ABLEC (Associação Brasileira de Lojistas de E-Commerce, 2019-2022)
 - 📚 **Membro** da Academia E-Commerce Brasil (2020)
 
 ---
 
 ## Formação & Certificações
 
-- Growth Leaders Academy — Growth Hacking (2021)
-- FIB — Ciência da Computação / Análise de Sistemas (2007)
+- Growth Leaders Academy: Growth Hacking (2021)
+- FIB: Ciência da Computação / Análise de Sistemas (2007)
 - Google Analytics · Google AdWords (Rede de Pesquisa e Shopping) · SEMrush Academy · e-Millennium ERP
 
 ---
