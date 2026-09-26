@@ -204,8 +204,8 @@ Bible verse platform with automated programmatic shareable graphics designed for
 ![Versiculo do Dia](./assets/versiculo-do-dia.com_screenshot.png)
 
 ### [919Apps.com](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule) (2022)
-Programmatic discovery catalog generated from the Apple Enterprise Partner Feed (EPF), indexing 2.4 million apps.
-- **Scale:** 2.4M apps ingested and indexed from the official Apple Enterprise Partner Feed
+Programmatic discovery catalog generated from the [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf) (EPF), indexing 2.4 million apps.
+- **Scale:** 2.4M apps ingested and indexed from the official [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf)
 - **Internationalization:** Multi-language catalog published across 176 countries
 - **Regionalization:** Advanced cultural and geographic formatting implemented using C# `System.Globalization.CultureInfo` and `System.Globalization.RegionInfo`
 - **Live Archive:** [Visit archived site](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule)
@@ -479,8 +479,8 @@ Plataforma de versículos bíblicos com imagens programáticas compartilháveis 
 ![Versículo do Dia](./assets/versiculo-do-dia.com_screenshot.png)
 
 ### [919Apps.com](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule) (2022)
-Portal programático gerado a partir do Apple Enterprise Partner Feed (EPF), catalogando 2,4 milhões de aplicativos.
-- **Escala:** 2,4 milhões de aplicativos indexados diretamente do Apple Enterprise Partner Feed
+Portal programático gerado a partir do [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf) (EPF), catalogando 2,4 milhões de aplicativos.
+- **Escala:** 2,4 milhões de aplicativos indexados diretamente do [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf)
 - **Alcance internacional:** Site multi-idiomas publicado em 176 países
 - **Regionalização:** Suporte avançado a internacionalização usando `System.Globalization.CultureInfo` e `System.Globalization.RegionInfo` em C#
 - **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule)
