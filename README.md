@@ -60,6 +60,8 @@ The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Br
 |:---:|:---:|
 | [![Video 1](https://img.youtube.com/vi/zbM5CcOTwac/maxresdefault.jpg)](https://www.youtube.com/watch?v=zbM5CcOTwac) | [![Video 2](https://img.youtube.com/vi/5rFta5DY1KI/maxresdefault.jpg)](https://www.youtube.com/watch?v=5rFta5DY1KI) |
 
+![TudoSobreProdutos platform screenshot](./assets/tudosobreprodutos_screenshot.png)
+
 ### [SuperNichos](https://supernichos.com) (Niche & keyword mining tool, 2023-present)
 - 700,000 niches and 50M+ keywords in a single platform
 - Largest niche discovery and segment mining tool in Brazil
@@ -334,6 +336,8 @@ O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura adicional de 
 | | |
 |:---:|:---:|
 | [![Vídeo 1](https://img.youtube.com/vi/zbM5CcOTwac/maxresdefault.jpg)](https://www.youtube.com/watch?v=zbM5CcOTwac) | [![Vídeo 2](https://img.youtube.com/vi/5rFta5DY1KI/maxresdefault.jpg)](https://www.youtube.com/watch?v=5rFta5DY1KI) |
+
+![Screenshot da plataforma TudoSobreProdutos](./assets/tudosobreprodutos_screenshot.png)
 
 ### [SuperNichos](https://supernichos.com) (Mineração de nichos e palavras-chave, 2023-atual)
 - 700.000 nichos e 50 milhões de palavras-chave em uma plataforma
