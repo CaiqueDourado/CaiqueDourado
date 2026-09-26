@@ -75,6 +75,13 @@ The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Br
 
 [![SuperNichos Case Study on YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
+### [Gambis Mode [On]](https://caiquedourado.com.br) (Independent Venture: Programmatic SEO & Data Mining, 2017-present)
+Independent software engineering and programmatic SEO laboratory responsible for the architecture, deployment, and monetization of **over 40 production web platforms**.
+- **Scale:** Over 30 million indexed pages generated from massive open datasets (Apple Enterprise Partner Feed, DBpedia, Freebase, IMDB, MusicBrainz, MovieLens, Open Food Facts, Tabela FIPE, Brazilian Federal Revenue CNPJs, Correios CEPs, Quotes, Bible)
+- **Data Engineering & NLP:** Entity deduplication with OpenRefine, phonetic and string similarity algorithms (Metaphone, Soundex, N-gram, MinHash), and syntactic parsing via Stanford NLP (POS Tagger)
+- **Infrastructure & Automation:** Distributed multi-proxy scrapers (Selenium, Chrome Headless, Cloudflare Workers, anti-captcha mitigation), dynamic banner rendering in C# (`System.Drawing.Image`), and serverless edge hosting on Google Cloud Storage
+- **Monetization & AdTech Ecosystem:** Large-scale commercial monetization through header bidding, ad exchanges, and affiliate networks (Google Ad Manager, Google AdSense, Awin, Lomadee, Rakuten Marketing, Amazon Associates, Taboola, Teads, MGID, Seedtag, Rubicon, RTB House, Cazamba, Clever Advertising)
+
 ### Agência Disco (Head of Operations, 2023-present)
 Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões, and 20+ more.
 - Growth Marketing, CRO, Programmatic SEO, A/B Testing (GrowthBook)
@@ -216,7 +223,16 @@ Programmatic discovery catalog generated from the [Apple Enterprise Partner Feed
 
 ![919Apps](./assets/919apps.com_screenshot.png)
 
----
+### [People Also Ask Plugin](https://br.wordpress.org/plugins/people-also-ask/) (WordPress Plugin, 2024-2026)
+Official WordPress plugin published on the WordPress.org repository, automating programmatic SEO content generation based on real-time Google "People Also Ask" SERP data.
+- **SERP Scraping:** Multi-level extraction of Google questions and answers via SerpAPI and DataForSEO API
+- **Automated Publishing:** Automatically structures content into headings (H2/H3), FAQ schemas, and contextual YouTube video embeds
+- **Architecture:** WordPress plugin architecture in PHP using Custom Post Types, WordPress Hooks, REST API, and headless browser proxying
+- **Official Repository:** [br.wordpress.org/plugins/people-also-ask](https://br.wordpress.org/plugins/people-also-ask/) · [Video demo](https://www.youtube.com/watch?v=txbozF2zYZA)
+
+| | | |
+|:---:|:---:|:---:|
+| ![PAA Plugin Dashboard](./assets/paa_screenshot_1.png) | ![PAA Plugin Settings](./assets/paa_screenshot_2.png) | ![PAA Plugin Output](./assets/paa_screenshot_3.png) |
 
 ---
 
@@ -353,6 +369,13 @@ O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura adicional de 
 3. **Mineração de oportunidades:** Clusterização dos dados finais para identificar milhares de nichos promissores e oportunidades de mercado (para criação de produtos, oferta de serviços, atendimento de dores de público, etc.).
 
 [![Estudo de caso SuperNichos no YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
+
+### [Gambis Mode [On]](https://caiquedourado.com.br) (Laboratório Independente: SEO Programático & Data Mining, 2017-atual)
+Laboratório autônomo de engenharia de software e SEO programático responsável pela concepção, arquitetura e monetização de **mais de 40 projetos online em produção**.
+- **Escala:** Mais de 30 milhões de páginas indexadas a partir de bases de dados massivas (Apple Enterprise Partner Feed, DBpedia, Freebase, IMDB, MusicBrainz, MovieLens, Open Food Facts, Tabela FIPE, CNPJs da Receita Federal, CEPs dos Correios, Frases, Bíblia)
+- **Engenharia de Dados e NLP:** Deduplicação de entidades com OpenRefine, algoritmos de similaridade fonética e textual (Metaphone, Soundex, N-gram, MinHash) e estruturação sintática com POS Tagger do Stanford NLP
+- **Infraestrutura e Automação:** Crawlers distribuídos multiproxy (Selenium, Chrome Headless, Cloudflare Workers, evasão de captcha), geração programática de imagens em C# (`System.Drawing.Image`) e hospedagem estática serverless no Google Cloud Storage
+- **Monetização e AdTech em Escala:** Operação de mídia programática e redes de afiliação de alto volume (Google Ad Manager, Google AdSense, Awin, Lomadee, Rakuten Marketing, Amazon Associates, Taboola, Teads, MGID, Seedtag, Rubicon, RTB House, Cazamba, Clever Advertising)
 
 ### Agência Disco (Head de Operações, 2023-atual)
 E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões e mais de 20 outras.
@@ -495,7 +518,16 @@ Portal programático gerado a partir do [Apple Enterprise Partner Feed](https://
 
 ![919Apps](./assets/919apps.com_screenshot.png)
 
----
+### [People Also Ask Plugin](https://br.wordpress.org/plugins/people-also-ask/) (Plugin WordPress, 2024-2026)
+Plugin oficial publicado no repositório do WordPress.org, criado para automatizar a geração de conteúdo para SEO programático com base na seção "As pessoas também perguntam" (People Also Ask) da SERP do Google.
+- **Extração de SERP:** Raspagem multinível de perguntas e respostas via SerpAPI e DataForSEO API
+- **Geração de Conteúdo:** Estruturação automática de artigos com headings (H2/H3), FAQs com Schema Markup e embeds de vídeos do YouTube
+- **Arquitetura:** Desenvolvido em PHP com Custom Post Types, WordPress Hooks, REST API e backend com proxies headless
+- **Repositório Oficial:** [br.wordpress.org/plugins/people-also-ask](https://br.wordpress.org/plugins/people-also-ask/) · [Vídeo de demonstração](https://www.youtube.com/watch?v=txbozF2zYZA)
+
+| | | |
+|:---:|:---:|:---:|
+| ![PAA Plugin Dashboard](./assets/paa_screenshot_1.png) | ![PAA Plugin Configurações](./assets/paa_screenshot_2.png) | ![PAA Plugin Artigo Gerado](./assets/paa_screenshot_3.png) |
 
 ---
 
