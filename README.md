@@ -250,6 +250,12 @@ Keynote delivered to hundreds of e-commerce leaders on web analytics architectur
 
 When not architecting pipelines or analyzing data, I play electric bass. I run a YouTube channel with over 100 recorded bass covers: [youtube.com/@CaiqueDourado](https://www.youtube.com/@CaiqueDourado/videos).
 
+[![Bass Cover - Caique Dourado](https://img.youtube.com/vi/OMJANZzKwzU/maxresdefault.jpg)](https://www.youtube.com/watch?v=OMJANZzKwzU)
+
+| | |
+|:---:|:---:|
+| ![Caique Dourado speaking](./assets/caique_palestrante.jpg) | ![Caique Dourado](./assets/caique_evento_final.jpg) |
+
 ---
 
 ## Let's connect
@@ -519,6 +525,12 @@ Palestra técnica ministrada para centenas de profissionais e lojistas sobre pla
 
 Fora dos terminais e dos pipelines de dados, sou contrabaixista. Mantenho um canal no YouTube com mais de 100 covers gravados: [youtube.com/@CaiqueDourado](https://www.youtube.com/@CaiqueDourado/videos).
 
+[![Bass Cover no YouTube - Caique Dourado](https://img.youtube.com/vi/OMJANZzKwzU/maxresdefault.jpg)](https://www.youtube.com/watch?v=OMJANZzKwzU)
+
+| | |
+|:---:|:---:|
+| ![Caique Dourado palestrando](./assets/caique_palestrante.jpg) | ![Caique Dourado](./assets/caique_evento_final.jpg) |
+
 ---
 
 ## Vamos conversar
@@ -532,9 +544,3 @@ Fora dos terminais e dos pipelines de dados, sou contrabaixista. Mantenho um can
 <sub>Programador, empreendedor, baixista e leitor voraz. Minerando dados na web e transformando caos em estrutura desde 2001.</sub>
 
 </details>
-
-<p align="center">
-  <img src="./assets/caique_palestrante.jpg" alt="Caique Dourado Palestrante" width="480" />
-  &nbsp;&nbsp;
-  <img src="./assets/caique_evento_final.jpg" alt="Caique Dourado" width="480" />
-</p>
