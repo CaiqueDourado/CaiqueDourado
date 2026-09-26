@@ -69,6 +69,8 @@ The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Br
 2. **Normalization & Clustering:** Normalized search queries and grouped terms to uncover semantic and textual patterns using string similarity algorithms (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
 3. **Mining & Discovery:** Clustered final data to uncover thousands of profitable niches and market opportunities (for product development, service offerings, addressing unmet customer pain points, and programmatic SEO).
 
+[![SuperNichos Case Study on YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
+
 ### Agência Disco (Head of Operations, 2023-present)
 Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões, and 20+ more.
 - Growth Marketing, CRO, Programmatic SEO, A/B Testing (GrowthBook)
@@ -335,6 +337,8 @@ O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura adicional de 
 1. **Base de dados:** Ingestão do dataset do DataForSEO com 50M de termos buscados no Google Brasil.
 2. **Normalização e agrupamento:** Tratamento e agrupamento dos termos de busca para encontrar padrões textuais e semânticos usando algoritmos de similaridade (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
 3. **Mineração de oportunidades:** Clusterização dos dados finais para identificar milhares de nichos promissores e oportunidades de mercado (para criação de produtos, oferta de serviços, atendimento de dores de público, etc.).
+
+[![Estudo de caso SuperNichos no YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
 ### Agência Disco (Head de Operações, 2023-atual)
 E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões e mais de 20 outras.
