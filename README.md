@@ -244,6 +244,12 @@ Keynote delivered to hundreds of e-commerce leaders on web analytics architectur
 
 ---
 
+## Beyond Code
+
+When not architecting pipelines or analyzing data, I play electric bass. I run a YouTube channel with over 100 recorded bass covers: [youtube.com/@CaiqueDourado](https://www.youtube.com/@CaiqueDourado/videos).
+
+---
+
 ## Let's connect
 
 - 🌐 [tudosobreprodutos.com.br](https://www.tudosobreprodutos.com.br)
@@ -502,6 +508,12 @@ Palestra técnica ministrada para centenas de profissionais e lojistas sobre pla
 - Growth Leaders Academy: Growth Hacking (2021)
 - FIB: Ciência da Computação / Análise de Sistemas (2007)
 - Google Analytics · Google AdWords (Rede de Pesquisa e Shopping) · SEMrush Academy · e-Millennium ERP
+
+---
+
+## Além do Código
+
+Fora dos terminais e dos pipelines de dados, sou contrabaixista. Mantenho um canal no YouTube com mais de 100 covers gravados: [youtube.com/@CaiqueDourado](https://www.youtube.com/@CaiqueDourado/videos).
 
 ---
 
