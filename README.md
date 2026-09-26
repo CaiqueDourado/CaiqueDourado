@@ -81,10 +81,18 @@ Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee,
 - **RA1000** by Reclame Aqui (top reputation seal)
 - Stack: Moovin, e-Millennium ERP, Konduto, SendGrid, Maxipago, AWS, Cloudflare, Criteo, Optimizely
 
+| | |
+|:---:|:---:|
+| ![Editora Juspodivm E-commerce team](./assets/juspodivm_equipe.jpg) | ![e-Bit Diamond award trophy](./assets/juspodivm_ebit_diamante.jpg) |
+
 ### Cupons VIP (Co-founder & CTO, 2011-2013)
 - Built from scratch: ASP.NET + SQL Server + Azure (9 months, nights and weekends)
 - Scaled to 140,000 monthly pageviews, 40,000+ customers across Salvador, Fortaleza, and Recife
 - 2M emails/month; RA1000 seal; partnerships with iBahia and Microsoft Azure
+
+| | |
+|:---:|:---:|
+| ![Cupons VIP in national media](./assets/cupons_vip_materia.jpg) | ![Cupons VIP platform](./assets/cupons_vip_screenshot.png) |
 
 ### "Baralho do Crime" (2011, viral government project)
 - Delivered overnight for Bahia's Public Security Secretary (Pacto pela Vida)
@@ -94,6 +102,92 @@ Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee,
 - `Akatus .NET SDK`: Payment gateway integration library
 - `Mailee.me .NET SDK`: Email marketing integration library
 - Articles: *Criando apps para Orkut com OpenSocial API*, *Push Notifications guide*, *Monitoring ASP.NET errors with appfail.net*
+
+---
+
+## Programmatic SEO Projects
+
+Large-scale programmatic architectures developed since 2020, generating millions of indexed organic pages through autonomous web crawling, catalog entity resolution, NLP sentiment analysis, and serverless edge delivery.
+
+### [Tudo Sobre Produtos - 1st Version](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v) (2020)
+Comprehensive online product intelligence guide with detailed specifications, real user reviews, and comparisons.
+- **Scale:** 280,000 products extracted from XML feeds across 4,800 Brazilian e-commerce stores
+- **Social proof:** 2,871,096 user reviews collected via Bazaarvoice API
+- **Web scraping:** Automated crawler for technical specification sheets across merchant stores
+- **Entity resolution challenge:** Clustering 280,000 products from different stores with conflicting naming conventions and missing EAN/SKU
+- **Deduplication solution:** Multi-algorithm fuzzy matching on product titles (Metaphone, Soundex, N-gram, MinHash) combined with perceptual image hashing ([ImageHash](https://github.com/coenm/ImageHash))
+- **NLP Sentiment extraction:** Pros and Cons generated via sentence splitting with POS Tagger + Sentiment Analysis with Amazon Comprehend ([see architecture presentation](https://docs.google.com/presentation/d/1Y9ShmHLBnlbyZYIlbUPzZ_-QEk0fqIO6UMf-0dZOPQM/edit#slide=id.p))
+- **Structured Data:** JSON-LD schemas for FAQ, ItemList, Product, Table, BreadcrumbList, and Article
+- **Stack & Architecture:** 100% static HTML generated with C# and SQL Server, deployed to Google Cloud Storage (serverless, infinite scale)
+- **Live Archive:** [Visit archived site](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v)
+
+![Tudo Sobre Produtos 1st Version](./assets/tudosobreprodutos_primeira_versao.png)
+
+### Portal de Cartórios no Brasil (Brazilian Registry Offices, 2024)
+Registry offices directory built for a client, crawling the official "Justiça Aberta" (National Justice Council / CNJ) portal with automated programmatic publishing on WordPress.
+- **Scale:** 14,000 programmatic pages generated (one dedicated portal for every registry office in Brazil)
+- **Performance:** +900% growth in organic search traffic
+- **Crawler:** Custom scraping engine built in C# with HtmlAgilityPack and Fizzler
+- **Data enrichment:** Office name, physical address, direct contact info, services offered, notary officer in charge, registered acts, and official annual revenue
+- **Publishing pipeline:** SQL Server database with automated ingestion into WordPress via REST API
+
+![Semrush organic growth - Brazilian Registry Offices](./assets/certidaoonlinebrasil.com.br_semrush.png)
+
+### [Nomes e Sobrenomes](https://web.archive.org/web/20250610174857/https://nomessobrenomes.com/qual-o-significado-do-nome-alan-gustavo) (2023)
+Static platform with 90,000 pages covering given name meanings, popularity statistics, and surname ancestry/etymology.
+- **Data Sources:** Brazilian Corporate Partners registry (Receita Federal CNPJ database) + IBGE API for historical name frequency
+- **AI Content:** OpenAI API (GPT-3.5 Turbo) for structured semantic content generation
+- **Visuals:** Programmatic banner and image generation in C#
+- **Architecture:** 100% static HTML generated with C# and SQL Server, hosted on Google Cloud Storage (serverless, infinite scale)
+- **Performance:** 100% mobile-friendly with perfect Core Web Vitals scores
+- **Structured Data:** JSON-LD schemas for FAQ, ItemList, WebSite, Breadcrumbs, and Article
+- **Live Archive:** [Visit archived site](https://web.archive.org/web/20250610174857/https://nomessobrenomes.com/qual-o-significado-do-nome-alan-gustavo)
+
+![Nomes e Sobrenomes](./assets/nomessobrenomes.com_screenshot.png)
+
+### [Tudo Sobre Lojas](https://web.archive.org/web/20250618081809/https://tudosobrelojas.com/a-loja-saboreat-e-confavel-tudo-sobre-a-loja-saboreat/) (2023)
+Comprehensive intelligence and reputational analysis of 63,933 Brazilian e-commerce websites with enriched business data.
+- **Coverage:** Scraping and profiling of 63,933 Brazilian online stores
+- **Automated Visual Evidence:** Automated headless screenshot generation of Reclame Aqui reputation profiles and store homepages using C# and Selenium
+- **Data Enrichment:** Extracted domain owner CNPJ from Whois and cross-referenced with the Federal Revenue database (corporate partners, legal name, trade name, CNPJ, CNAE classification, share capital, physical address, email, phone)
+- **Security & Reputation:** Automated SSL certificate verification and direct cross-referencing links to Consumidor.gov.br, Jusbrasil, and Reclame Aqui
+- **Platform Detection:** Automatic fingerprinting of e-commerce platforms (Shopify, VTEX, WooCommerce, Nuvemshop, etc.)
+- **AI Synthesis:** Contextual explanatory content generated via OpenAI API
+- **Live Archive:** [Visit archived site](https://web.archive.org/web/20250618081809/https://tudosobrelojas.com/a-loja-saboreat-e-confavel-tudo-sobre-a-loja-saboreat/)
+
+![Tudo Sobre Lojas](./assets/tudosobrelojas.com_screenshot.png)
+
+### [Tudo sobre as Palavras](https://web.archive.org/web/20250923215535/https://tudosobreaspalavras.com/tudo-sobre-a-palavra-arrogado) (2023)
+Comprehensive Portuguese dictionary platform with 187,000 words, including definitions, synonyms, grammar analysis, and educational exercises.
+- **Scale:** 187,000 programmatic pages generated (one for every dictionary entry) combining a pt-BR lexical database with OpenAI API content generation
+- **Linguistic Metadata:** Idiomatic and regional definitions, synonyms, antonyms, phonetics and pronunciation, grammatical class, consonants, vowels, root/stem, syllabic division, tonic syllable, singular/plural, gender forms, verb conjugations (infinitive, gerund, past participle), letter counts, educational games, rhymes, and usage examples
+- **Visuals:** Dynamic banner and educational graphic generation in C#
+- **Architecture:** 100% static HTML generated with C# and SQL Server, hosted on Google Cloud Storage (serverless, infinite scale)
+- **Performance:** 100% mobile-friendly with perfect Core Web Vitals scores and JSON-LD schemas
+- **Live Archive:** [Visit archived site](https://web.archive.org/web/20250923215535/https://tudosobreaspalavras.com/tudo-sobre-a-palavra-arrogado)
+
+![Tudo sobre as Palavras](./assets/tudosobreaspalavras_screenshot.png)
+
+### [Versiculo-Do-Dia.com](https://versiculo-do-dia.com/) (2022)
+Bible verse platform with automated programmatic shareable graphics designed for social media distribution.
+- **Automated Graphics:** Programmatic generation of high-resolution Bible verse images formatted for social media sharing (Instagram, Facebook, WhatsApp)
+- **Database:** Full relational Bible database
+- **Engine:** Dynamic image rendering engine in C#
+- **Architecture:** 100% static HTML platform hosted on Google Cloud Storage
+- **Live Site:** [Visit site](https://versiculo-do-dia.com/)
+
+![Versiculo do Dia](./assets/versiculo-do-dia.com_screenshot.png)
+
+### [919Apps.com](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule) (2022)
+Programmatic discovery catalog generated from the Apple Enterprise Partner Feed (EPF), indexing 2.4 million apps.
+- **Scale:** 2.4M apps ingested and indexed from the official Apple Enterprise Partner Feed
+- **Internationalization:** Multi-language catalog published across 176 countries
+- **Regionalization:** Advanced cultural and geographic formatting implemented using C# `System.Globalization.CultureInfo` and `System.Globalization.RegionInfo`
+- **Live Archive:** [Visit archived site](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule)
+
+![919Apps](./assets/919apps.com_screenshot.png)
+
+---
 
 ---
 
@@ -214,10 +308,18 @@ E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, 
 - **RA1000** pelo Reclame Aqui (melhor reputação)
 - Stack: Moovin, e-Millennium ERP, Konduto, SendGrid, Maxipago, AWS, Cloudflare, Criteo, Optimizely
 
+| | |
+|:---:|:---:|
+| ![Equipe de E-commerce Editora Juspodivm](./assets/juspodivm_equipe.jpg) | ![Troféu Selo Diamante e-Bit](./assets/juspodivm_ebit_diamante.jpg) |
+
 ### Cupons VIP (Co-fundador & CTO, 2011-2013)
 - Construído do zero em ASP.NET + SQL Server + Azure (9 meses, noites e fins de semana)
 - Escalou para 140.000 pageviews mensais e 40.000+ clientes em Salvador, Fortaleza e Recife
 - 2 milhões de e-mails/mês; Selo RA1000; parceria com iBahia e Microsoft Azure
+
+| | |
+|:---:|:---:|
+| ![Cupons VIP na mídia nacional](./assets/cupons_vip_materia.jpg) | ![Plataforma Cupons VIP](./assets/cupons_vip_screenshot.png) |
 
 ### "Baralho do Crime" (2011, projeto viral para o Governo da Bahia)
 - Entregue da noite para o dia para a Secretaria de Segurança Pública (Pacto pela Vida)
@@ -227,6 +329,92 @@ E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, 
 - `Akatus .NET SDK`: Biblioteca de integração para gateway de pagamento
 - `Mailee.me .NET SDK`: Biblioteca de integração para e-mail marketing
 - Artigos: *Criando apps para Orkut com OpenSocial API*, *Guia completo de Push Notifications*, *Monitorando erros ASP.NET com appfail.net*
+
+---
+
+## Projetos de SEO Programático
+
+Arquiteturas programáticas de grande escala desenvolvidas desde 2020, gerando milhões de páginas orgânicas bem posicionadas por meio de coleta autônoma de dados, normalização de catálogos, análise de NLP e entrega serverless estática.
+
+### [Tudo Sobre Produtos (1ª Versão)](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v) (2020)
+Guia completo de produtos online com informações detalhadas, reviews e comparações.
+- **Escala:** 280 mil produtos obtidos no Feed XML de 4.800 lojas brasileiras diferentes
+- **Prova social:** 2.871.096 avaliações reais obtidas da API Bazaarvoice
+- **Web scraping:** Crawler de ficha técnica dedicado nas diversas lojas
+- **Desafio de resolução de entidades:** Agrupar 280 mil produtos de diferentes lojas, com nomenclaturas distintas e muitos sem EAN/SKU
+- **Solução de deduplicação:** Algoritmos de similaridade fonética e de texto (Metaphone, Soundex, N-gram, MinHash) combinados com [perceptual image hashing](https://github.com/coenm/ImageHash)
+- **Extração de NLP:** Prós e Contras gerados a partir da divisão de sentenças com POS Tagger + análise de sentimentos com Amazon Comprehend ([veja a apresentação do processo](https://docs.google.com/presentation/d/1Y9ShmHLBnlbyZYIlbUPzZ_-QEk0fqIO6UMf-0dZOPQM/edit#slide=id.p))
+- **Dados estruturados:** Schemas JSON-LD de FAQ, ItemList, Product, Table, BreadcrumbList e Article
+- **Arquitetura & Stack:** 100% em HTML estático gerado em C#, banco SQL Server e hospedado no Google Cloud Storage (serverless, escalabilidade infinita)
+- **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v)
+
+![Tudo Sobre Produtos 1ª Versão](./assets/tudosobreprodutos_primeira_versao.png)
+
+### Portal de Cartórios no Brasil (2024)
+Desenvolvido para um cliente. Crawler de cartórios no portal Justiça Aberta (CNJ), com geração de páginas programáticas no WordPress.
+- **Escala:** 14 mil páginas geradas (uma página dedicada para cada cartório no Brasil)
+- **Impacto:** Aumento de 900% nas visitas orgânicas
+- **Crawler:** Construído em C# com HtmlAgilityPack e Fizzler
+- **Dados enriquecidos por cartório:** Nome do cartório, endereço físico, dados de contato, serviços oferecidos, dados do cartorário responsável, atos praticados e arrecadação oficial
+- **Pipeline:** Banco SQL Server com publicação automatizada via WordPress REST API
+
+![Crescimento orgânico Semrush - Cartórios](./assets/certidaoonlinebrasil.com.br_semrush.png)
+
+### [Nomes e Sobrenomes](https://web.archive.org/web/20250610174857/https://nomessobrenomes.com/qual-o-significado-do-nome-alan-gustavo) (2023)
+Site estático com 90.000 páginas sobre significados de nomes, estatísticas e história dos sobrenomes.
+- **Fontes de dados:** Base de sócios de empresas brasileiras (CNPJ da Receita Federal) + API de dados do IBGE para estatísticas e distribuição de nomes
+- **IA Generativa:** API OpenAI (GPT-3.5 Turbo) para geração do conteúdo semântico
+- **Geração visual:** C# para geração programática das imagens e banners
+- **Arquitetura:** 100% em HTML estático gerado em C#, banco SQL Server e hospedagem no Google Cloud Storage (serverless, escalabilidade infinita)
+- **Performance:** 100% adequado a dispositivos móveis com notas perfeitas no Web Vitals
+- **Dados estruturados:** Schemas JSON-LD de FAQ, ItemList, WebSite, Breadcrumbs e Article
+- **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20250610174857/https://nomessobrenomes.com/qual-o-significado-do-nome-alan-gustavo)
+
+![Nomes e Sobrenomes](./assets/nomessobrenomes.com_screenshot.png)
+
+### [Tudo Sobre Lojas](https://web.archive.org/web/20250618081809/https://tudosobrelojas.com/a-loja-saboreat-e-confavel-tudo-sobre-a-loja-saboreat/) (2023)
+Análise completa de lojas virtuais e e-commerces brasileiros com dados enriquecidos de reputação e cadastro.
+- **Escala:** Scraping e análise de 63.933 lojas brasileiras
+- **Evidências visuais automáticas:** Geração de screenshots da página da loja no Reclame Aqui e da homepage da loja usando C# e Selenium
+- **Enriquecimento cadastral:** Extração do CNPJ no Whois e cruzamento com a base de CNPJ da Receita Federal (sócios, razão social, nome fantasia, CNPJ, CNAE, capital social, endereço, e-mail, telefone)
+- **Segurança & Reputação:** Checagem automatizada de certificado SSL e links diretos para busca de reclamações no Consumidor.gov.br, Jusbrasil e Reclame Aqui
+- **Identificação de tecnologia:** Detecção automática da plataforma de e-commerce utilizada (Shopify, VTEX, WooCommerce, Nuvemshop, etc.)
+- **IA:** Geração de conteúdo de apoio e síntese explicativa com API da OpenAI
+- **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20250618081809/https://tudosobrelojas.com/a-loja-saboreat-e-confavel-tudo-sobre-a-loja-saboreat/)
+
+![Tudo Sobre Lojas](./assets/tudosobrelojas.com_screenshot.png)
+
+### [Tudo sobre as Palavras](https://web.archive.org/web/20250923215535/https://tudosobreaspalavras.com/tudo-sobre-a-palavra-arrogado) (2023)
+Dicionário completo com 187 mil palavras, incluindo significados, sinônimos, gramática e exercícios educativos.
+- **Escala:** 187 mil páginas geradas (uma para cada verbete) a partir de banco de dados pt-BR + geração de conteúdo com API da OpenAI
+- **Riqueza gramatical:** Significado idiomático e regional, sinônimos, antônimos, ortografia e pronúncia, classe gramatical, consoantes, vogais, radical, separação silábica, sílaba tônica, singular/plural, flexão de gênero, tempos verbais (infinitivo, gerúndio, particípio), contagem de letras, atividades, jogos, rimas e exemplos práticos de uso
+- **Imagens:** Geração programática de imagens e artes explicativas em C#
+- **Arquitetura:** 100% em HTML estático gerado em C#, banco SQL Server e hospedado no Google Cloud Storage (serverless, escalabilidade infinita)
+- **Performance:** 100% adequado a dispositivos móveis, pontuação máxima no Web Vitals e schemas JSON-LD
+- **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20250923215535/https://tudosobreaspalavras.com/tudo-sobre-a-palavra-arrogado)
+
+![Tudo sobre as Palavras](./assets/tudosobreaspalavras_screenshot.png)
+
+### [Versiculo-Do-Dia.com](https://versiculo-do-dia.com/) (2022)
+Plataforma de versículos bíblicos com imagens programáticas compartilháveis para redes sociais.
+- **Geração de imagens:** Automação de artes de versículos bíblicos formatadas para compartilhamento em redes sociais (Instagram, Facebook, WhatsApp)
+- **Base de dados:** Banco relacional completo da Bíblia
+- **Motor visual:** Renderizador dinâmico de imagens em C#
+- **Arquitetura:** Site 100% estático em HTML hospedado no Google Cloud Storage
+- **Site no ar:** [Conheça o site](https://versiculo-do-dia.com/)
+
+![Versículo do Dia](./assets/versiculo-do-dia.com_screenshot.png)
+
+### [919Apps.com](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule) (2022)
+Portal programático gerado a partir do Apple Enterprise Partner Feed (EPF), catalogando 2,4 milhões de aplicativos.
+- **Escala:** 2,4 milhões de aplicativos indexados diretamente do Apple Enterprise Partner Feed
+- **Alcance internacional:** Site multi-idiomas publicado em 176 países
+- **Regionalização:** Suporte avançado a internacionalização usando `System.Globalization.CultureInfo` e `System.Globalization.RegionInfo` em C#
+- **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule)
+
+![919Apps](./assets/919apps.com_screenshot.png)
+
+---
 
 ---
 
@@ -260,3 +448,7 @@ E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, 
 <sub>Programador, empreendedor, baixista e leitor voraz. Minerando dados na web e transformando caos em estrutura desde 2001.</sub>
 
 </details>
+
+<p align="center">
+  <img src="./assets/caique_palestrante.jpg" alt="Caique Dourado Palestrante" width="600" />
+</p>
