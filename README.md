@@ -64,6 +64,11 @@ The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Br
 - 700,000 niches and 50M+ keywords in a single platform
 - Largest niche discovery and segment mining tool in Brazil
 
+**How it was built:**
+1. **Data Ingestion:** Processed the DataForSEO dataset containing 50M search queries from Google Brazil.
+2. **Normalization & Clustering:** Normalized search queries and grouped terms to uncover semantic and textual patterns using string similarity algorithms (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
+3. **Mining & Discovery:** Clustered final data to uncover thousands of profitable niches and market opportunities (for product development, service offerings, addressing unmet customer pain points, and programmatic SEO).
+
 ### Agência Disco (Head of Operations, 2023-present)
 Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões, and 20+ more.
 - Growth Marketing, CRO, Programmatic SEO, A/B Testing (GrowthBook)
@@ -81,14 +86,25 @@ Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee,
 - **RA1000** by Reclame Aqui (top reputation seal)
 - Stack: Moovin, e-Millennium ERP, Konduto, SendGrid, Maxipago, AWS, Cloudflare, Criteo, Optimizely
 
-| | |
-|:---:|:---:|
-| ![Editora Juspodivm E-commerce team](./assets/juspodivm_equipe.jpg) | ![e-Bit Diamond award trophy](./assets/juspodivm_ebit_diamante.jpg) |
+| | | |
+|:---:|:---:|:---:|
+| ![Editora Juspodivm E-commerce team](./assets/juspodivm_equipe.jpg) | ![Caique Dourado & Marcelo Linhares, E-Commerce Brasil](./assets/juspodivm_palestra_marcelo_linhares.jpg) | ![e-Bit Diamond award trophy](./assets/juspodivm_ebit_diamante.jpg) |
+
+### [Google Analytics Real Time Dashboard](https://caiquedourado.com.br/dashboard-em-tempo-real-para-acompanhamento-seu-e-commerce/) (2017)
+Real-time analytics and channel monitoring dashboard built for e-commerce operations.
+- Real-time traffic, conversion, and acquisition channel monitoring
+- Adopted and used by more than 5,000 e-commerce stores
+
+![Google Analytics Real Time Dashboard](./assets/ga_realtime_dashboard.png)
 
 ### Cupons VIP (Co-founder & CTO, 2011-2013)
-- Built from scratch: ASP.NET + SQL Server + Azure (9 months, nights and weekends)
-- Scaled to 140,000 monthly pageviews, 40,000+ customers across Salvador, Fortaleza, and Recife
-- 2M emails/month; RA1000 seal; partnerships with iBahia and Microsoft Azure
+Built from scratch in ASP.NET + SQL Server + Azure (9 months of development, nights and weekends). Acted as CTO and hands-on entrepreneur across all operational and engineering fronts:
+- **Product Development:** Full-stack architecture (Frontend, Backend in ASP.NET and SQL Server)
+- **Infrastructure & Hosting:** Server management and edge monitoring on Azure CDN and Cloudflare
+- **Customer Success:** Scaled support quality to earn the prestigious **RA1000** seal (top reputation on Reclame Aqui)
+- **Email Deliverability:** Maintained 99% sender IP reputation across SenderBase, SenderScore, and Microsoft SNDS
+- **High-Volume Email Marketing:** Scaled transactional and promotional campaigns to 2M emails/month
+- **Growth:** In 1.5 years, grew from 0 to 140,000 monthly pageviews and ~40,000 customers across Salvador, Fortaleza, and Recife; formal partnerships with iBahia and Microsoft Azure
 
 | | |
 |:---:|:---:|
@@ -96,7 +112,14 @@ Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee,
 
 ### "Baralho do Crime" (2011, viral government project)
 - Delivered overnight for Bahia's Public Security Secretary (Pacto pela Vida)
-- 10,000 visitors in a single day; covered by G1/Globo, Terra, UOL, and national press
+- 10,000 visitors in a single day; covered widely across national press
+- Significant media coverage:
+  - [G1 / Globo: Segurança Pública da Bahia divulga Baralho do Crime](http://g1.globo.com/bahia/noticia/2011/06/seguranca-publica-da-bahia-divulga-baralho-do-crime.html)
+  - [UOL Notícias: Governo da Bahia lança jogo na internet para deter criminosos](http://noticias.uol.com.br/ultimas-noticias/efe/2011/06/03/governo-da-bahia-lanca-jogo-na-internet-para-deter-criminosos.jhtm)
+
+| | |
+|:---:|:---:|
+| ![Baralho do Crime memory game](./assets/baralho_do_crime_jogo.jpg) | ![Baralho do Crime portal](./assets/baralho_do_crime_portal.png) |
 
 ### Open Source & Publications
 - `Akatus .NET SDK`: Payment gateway integration library
@@ -188,6 +211,17 @@ Programmatic discovery catalog generated from the Apple Enterprise Partner Feed 
 ![919Apps](./assets/919apps.com_screenshot.png)
 
 ---
+
+---
+
+## Keynotes & Talks
+
+### [Congresso E-Commerce Brasil Ads & Performance 2019](https://caiquedourado.com.br/congresso-e-commerce-brasil-adsperformance-2019-google-analytics-como-estruturar-quais-indicadores-medir-e-que-decisoes-tomar-partir-deles/)
+*Google Analytics: Como estruturar, quais indicadores medir e que decisões tomar a partir deles?*
+
+Keynote delivered to hundreds of e-commerce leaders on web analytics architecture, metric structuring, conversion funnels, and data-driven decision making.
+
+[![Watch talk on YouTube](https://img.youtube.com/vi/ubBikpBRV68/maxresdefault.jpg)](https://www.youtube.com/watch?v=ubBikpBRV68)
 
 ---
 
@@ -291,6 +325,11 @@ O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura adicional de 
 - 700.000 nichos e 50 milhões de palavras-chave em uma plataforma
 - Maior ferramenta de mineração de nichos e segmentos do Brasil
 
+**Como fiz?**
+1. **Base de dados:** Ingestão do dataset do DataForSEO com 50M de termos buscados no Google Brasil.
+2. **Normalização e agrupamento:** Tratamento e agrupamento dos termos de busca para encontrar padrões textuais e semânticos usando algoritmos de similaridade (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
+3. **Mineração de oportunidades:** Clusterização dos dados finais para identificar milhares de nichos promissores e oportunidades de mercado (para criação de produtos, oferta de serviços, atendimento de dores de público, etc.).
+
 ### Agência Disco (Head de Operações, 2023-atual)
 E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões e mais de 20 outras.
 - Growth Marketing, CRO, SEO Programático, Testes A/B (GrowthBook)
@@ -308,14 +347,25 @@ E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, 
 - **RA1000** pelo Reclame Aqui (melhor reputação)
 - Stack: Moovin, e-Millennium ERP, Konduto, SendGrid, Maxipago, AWS, Cloudflare, Criteo, Optimizely
 
-| | |
-|:---:|:---:|
-| ![Equipe de E-commerce Editora Juspodivm](./assets/juspodivm_equipe.jpg) | ![Troféu Selo Diamante e-Bit](./assets/juspodivm_ebit_diamante.jpg) |
+| | | |
+|:---:|:---:|:---:|
+| ![Equipe de E-commerce Editora Juspodivm](./assets/juspodivm_equipe.jpg) | ![Palestrantes Caique Dourado e Marcelo Linhares](./assets/juspodivm_palestra_marcelo_linhares.jpg) | ![Troféu Selo Diamante e-Bit](./assets/juspodivm_ebit_diamante.jpg) |
+
+### [Google Analytics Real Time Dashboard](https://caiquedourado.com.br/dashboard-em-tempo-real-para-acompanhamento-seu-e-commerce/) (2017)
+Criação de dashboard em tempo real para acompanhamento de canais e tráfego em e-commerce.
+- Monitoramento em tempo real de visitantes, canais de aquisição e conversões
+- Utilizado por mais de 5.000 lojas virtuais
+
+![Google Analytics Real Time Dashboard](./assets/ga_realtime_dashboard.png)
 
 ### Cupons VIP (Co-fundador & CTO, 2011-2013)
-- Construído do zero em ASP.NET + SQL Server + Azure (9 meses, noites e fins de semana)
-- Escalou para 140.000 pageviews mensais e 40.000+ clientes em Salvador, Fortaleza e Recife
-- 2 milhões de e-mails/mês; Selo RA1000; parceria com iBahia e Microsoft Azure
+Construído do zero em ASP.NET + SQL Server + Azure (9 meses, noites e fins de semana). Atuava como CTO e empreendedor faz-tudo:
+- **Desenvolvimento de Produto:** Full-stack (Frontend, Backend em ASP.NET e SQL Server)
+- **Hospedagem e Monitoramento:** Gestão de servidores, CDN Azure e Cloudflare
+- **Atendimento e Reputação:** Conquista do selo **RA1000** (melhores empresas no Reclame Aqui)
+- **Entregabilidade de E-mails:** Reputação dos IPs de envio em 99% no SenderBase, SenderScore e Microsoft SNDS
+- **E-mail Marketing em Escala:** Disparo de campanhas e e-mails transacionais para 2 milhões de e-mails/mês
+- **Crescimento:** Em 1 ano e meio, saímos do zero para 140.000 visualizações de páginas mensais e aproximadamente 40.000 clientes em Salvador, Fortaleza e Recife; parcerias com iBahia e Microsoft Azure
 
 | | |
 |:---:|:---:|
@@ -323,7 +373,14 @@ E-commerce e growth para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, 
 
 ### "Baralho do Crime" (2011, projeto viral para o Governo da Bahia)
 - Entregue da noite para o dia para a Secretaria de Segurança Pública (Pacto pela Vida)
-- 10.000 visitantes em um único dia; cobertura no G1/Globo, Terra, UOL e imprensa nacional
+- 10.000 visitantes em um único dia; grande repercussão na imprensa nacional
+- Repercussão na mídia:
+  - [G1 / Globo: Segurança Pública da Bahia divulga Baralho do Crime](http://g1.globo.com/bahia/noticia/2011/06/seguranca-publica-da-bahia-divulga-baralho-do-crime.html)
+  - [UOL Notícias: Governo da Bahia lança jogo na internet para deter criminosos](http://noticias.uol.com.br/ultimas-noticias/efe/2011/06/03/governo-da-bahia-lanca-jogo-na-internet-para-deter-criminosos.jhtm)
+
+| | |
+|:---:|:---:|
+| ![Baralho do Crime jogo de memória](./assets/baralho_do_crime_jogo.jpg) | ![Baralho do Crime portal](./assets/baralho_do_crime_portal.png) |
 
 ### Open Source & Publicações
 - `Akatus .NET SDK`: Biblioteca de integração para gateway de pagamento
@@ -418,6 +475,17 @@ Portal programático gerado a partir do Apple Enterprise Partner Feed (EPF), cat
 
 ---
 
+## Palestras
+
+### [Congresso E-Commerce Brasil Ads & Performance 2019](https://caiquedourado.com.br/congresso-e-commerce-brasil-adsperformance-2019-google-analytics-como-estruturar-quais-indicadores-medir-e-que-decisoes-tomar-partir-deles/)
+*Google Analytics: Como estruturar, quais indicadores medir e que decisões tomar a partir deles?*
+
+Palestra técnica ministrada para centenas de profissionais e lojistas sobre planejamento de métricas no Google Analytics, modelagem de funis de conversão e tomada de decisões analíticas no e-commerce.
+
+[![Assista à palestra no YouTube](https://img.youtube.com/vi/ubBikpBRV68/maxresdefault.jpg)](https://www.youtube.com/watch?v=ubBikpBRV68)
+
+---
+
 ## Reconhecimentos
 
 - 🏆 **Prêmio E-Commerce Brasil 2019:** Profissional Destaque do Ano, Categoria Vendas
@@ -450,5 +518,7 @@ Portal programático gerado a partir do Apple Enterprise Partner Feed (EPF), cat
 </details>
 
 <p align="center">
-  <img src="./assets/caique_palestrante.jpg" alt="Caique Dourado Palestrante" width="600" />
+  <img src="./assets/caique_palestrante.jpg" alt="Caique Dourado Palestrante" width="480" />
+  &nbsp;&nbsp;
+  <img src="./assets/caique_evento_final.jpg" alt="Caique Dourado" width="480" />
 </p>
