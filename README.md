@@ -149,7 +149,7 @@ if r.ok:
 
 [![llm-cost-kit cover](https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/llm-cost-kit)
 
-Tracks the true cost of every LLM call — prompt, cached, output, and thinking tokens — across OpenAI, Gemini, Claude and DeepSeek, with per-call price tables you can trace back to the provider's pricing page. Born from a real cost audit that cut a product's AI bill from US$1.00 to US$ .14 (−85.8%).
+Tracks the true cost of every LLM call — prompt, cached, output, and thinking tokens — across OpenAI, Gemini, Claude and DeepSeek, with per-call price tables you can trace back to the provider's pricing page. Born from a real cost audit that cut a product's AI bill from US$1.00 to US$0.14 (−85.8%).
 
 ```python
 from llm_cost_kit import Ledger, PriceTable, SQLiteSink, target, timer
