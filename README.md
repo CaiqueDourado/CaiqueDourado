@@ -1,4 +1,4 @@
-<picture>
+﻿<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <img alt="Caique Dourado - Software Engineer, Data Pipelines & Generative AI" src="./assets/banner-light.svg" width="100%">
 </picture>
@@ -15,30 +15,7 @@ Founder of [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) and 
 [![Twitter](https://img.shields.io/badge/Twitter-30363d?style=flat-square&logo=x&logoColor=white)](https://twitter.com/caiquedourado)
 [![Email](https://img.shields.io/badge/Email-30363d?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@tudosobreprodutos.com.br)
 
-<img src="https://img.shields.io/badge/pages%20indexed-30M%2B-8250df?style=flat-square&labelColor=30363d" alt="30M+ Pages Indexed">
-<img src="https://img.shields.io/badge/queries%20mined-50M%2B-8250df?style=flat-square&labelColor=30363d" alt="50M+ Queries Mined">
-<img src="https://img.shields.io/badge/reviews%20processed-2.8M%2B-8250df?style=flat-square&labelColor=30363d" alt="2.8M+ Reviews Processed">
-<img src="https://img.shields.io/badge/stores%20monitored-3%2C600%2B-8250df?style=flat-square&labelColor=30363d" alt="3,600+ Stores Monitored">
-<img src="https://img.shields.io/badge/production%20platforms-40%2B-2ea043?style=flat-square&labelColor=30363d" alt="40+ Production Platforms">
 
----
-
-<div align="center">
-
-### Tech Ecosystem & Brands
-
-<a href="https://www.python.org" title="Python"><img src="https://github.com/python.png?size=80" width="42" height="42" alt="Python"></a>&nbsp;
-<a href="https://nextjs.org" title="Next.js"><img src="https://github.com/vercel.png?size=80" width="42" height="42" alt="Next.js / Vercel"></a>&nbsp;
-<a href="https://openai.com" title="OpenAI"><img src="https://github.com/openai.png?size=80" width="42" height="42" alt="OpenAI"></a>&nbsp;
-<a href="https://cloud.google.com" title="Google Cloud & BigQuery"><img src="https://github.com/google.png?size=80" width="42" height="42" alt="Google Cloud"></a>&nbsp;
-<a href="https://wordpress.org" title="WordPress.org"><img src="https://github.com/WordPress.png?size=80" width="42" height="42" alt="WordPress"></a>&nbsp;
-<a href="https://www.shopify.com" title="Shopify"><img src="https://github.com/Shopify.png?size=80" width="42" height="42" alt="Shopify"></a>&nbsp;
-<a href="https://redis.io" title="Redis"><img src="https://github.com/redis.png?size=80" width="42" height="42" alt="Redis"></a>&nbsp;
-<a href="https://www.docker.com" title="Docker"><img src="https://github.com/docker.png?size=80" width="42" height="42" alt="Docker"></a>&nbsp;
-<a href="https://playwright.dev" title="Microsoft Playwright"><img src="https://github.com/microsoft.png?size=80" width="42" height="42" alt="Microsoft"></a>&nbsp;
-<a href="https://github.com/scrapy/scrapy" title="Scrapy"><img src="https://github.com/scrapy.png?size=80" width="42" height="42" alt="Scrapy"></a>
-
-</div>
 
 ---
 
@@ -148,12 +125,24 @@ if r.ok:
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://github.com/microsoft.png?size=80" width="56" height="56" alt="PtBr.Text"></a>
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://github.com/microsoft.png?size=80" width="56" height="56" alt="BrCommerceKit"></a>
   </td>
   <td>
-    <a href="https://github.com/CaiqueDourado/PtBr.Text"><b>PtBr.Text &amp; BrCommerceKit</b></a>: Brazilian Portuguese data toolkit for .NET and C#: CPF, CNPJ, phone validation, accent folding, and platform fingerprinting for Brazilian stores.<br>
-    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://img.shields.io/badge/.NET-C%23-30363d?style=flat-square&logo=csharp&logoColor=white" alt="C#"></a>
-    <img src="https://img.shields.io/badge/Validation-CPF%20%2F%20CNPJ-2ea043?style=flat-square" alt="Validation">
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><b>BrCommerceKit</b></a>: Brazilian e-commerce engineering toolkit for .NET / C#. Platform fingerprinting across 20 engines (Shopify, VTEX, Nuvemshop, Loja Integrada), streaming feed parser for Brazilian dialects (<code>preco_por</code>, <code>g:</code>), Shopify <code>products.json</code> reader, BRL price normalizer, and catalog quality inspector (placeholder images and generic EAN detection).<br>
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://img.shields.io/badge/.NET-C%23-30363d?style=flat-square&logo=csharp&logoColor=white" alt="C#"></a>
+    <img src="https://img.shields.io/badge/Platforms-20%20Engines-8250df?style=flat-square&labelColor=30363d" alt="Platforms">
+    <img src="https://img.shields.io/badge/CLI-brdetect%20%2F%20feed--inspect-2ea043?style=flat-square" alt="CLI tools">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://github.com/dotnet.png?size=80" width="56" height="56" alt="PtBr.Text"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><b>PtBr.Text</b></a>: Brazilian Portuguese text &amp; data engineering toolkit for .NET. Validation and formatting for CPF, new alphanumeric CNPJ, CEP, and 9-digit phones. Includes data-to-text generation (gender/plural agreement), RAKE PT-BR keyword extraction with essential stopwords, and contact extraction.<br>
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://img.shields.io/badge/.NET-NuGet%20v0.1-30363d?style=flat-square&logo=nuget&logoColor=white" alt="NuGet"></a>
+    <img src="https://img.shields.io/badge/Tax%20ID-Alphanumeric%20CNPJ-8250df?style=flat-square&labelColor=30363d" alt="Alphanumeric CNPJ">
+    <img src="https://img.shields.io/badge/NLP-RAKE%20PT--BR-2ea043?style=flat-square" alt="RAKE">
   </td>
 </tr>
 <tr>
