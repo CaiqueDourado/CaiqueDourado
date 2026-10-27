@@ -51,6 +51,10 @@ I build autonomous systems that discover, ingest, normalize, and interpret massi
 
 ---
 
+| | | |
+|:---:|:---:|:---:|
+| ![Editora Juspodivm E-commerce team](./assets/juspodivm_equipe.jpg) | ![Caique Dourado & Marcelo Linhares, E-Commerce Brasil](./assets/juspodivm_palestra_marcelo_linhares.jpg) | ![e-Bit Diamond award trophy](./assets/juspodivm_ebit_diamante.jpg) |
+
 ## Selected work
 
 ### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Product intelligence platform, 2020 / re-architected 2026)
@@ -353,10 +357,6 @@ Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee,
 - **e-Bit Diamond Seal** (one of only 3 companies in the Brazilian book segment)
 - **RA1000** by Reclame Aqui (top reputation seal)
 - Stack: Moovin, e-Millennium ERP, Konduto, SendGrid, Maxipago, AWS, Cloudflare, Criteo, Optimizely
-
-| | | |
-|:---:|:---:|:---:|
-| ![Editora Juspodivm E-commerce team](./assets/juspodivm_equipe.jpg) | ![Caique Dourado & Marcelo Linhares, E-Commerce Brasil](./assets/juspodivm_palestra_marcelo_linhares.jpg) | ![e-Bit Diamond award trophy](./assets/juspodivm_ebit_diamante.jpg) |
 
 ### [Google Analytics Real Time Dashboard](https://caiquedourado.com.br/dashboard-em-tempo-real-para-acompanhamento-seu-e-commerce/) (2017)
 Real-time analytics and channel monitoring dashboard built for e-commerce operations.
