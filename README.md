@@ -142,6 +142,67 @@ if r.ok:
 [![Repository](https://img.shields.io/badge/Repository-CaiqueDourado%2Ftranscriptladder-30363d?style=flat-square&logo=github&logoColor=white)](https://github.com/CaiqueDourado/transcriptladder)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-30363d?style=flat-square&logo=python&logoColor=white)](https://github.com/CaiqueDourado/transcriptladder)
 [![License: MIT](https://img.shields.io/badge/license-MIT-30363d?style=flat-square)](https://github.com/CaiqueDourado/transcriptladder/blob/main/LICENSE)
+---
+
+### [llm-cost-kit](https://github.com/CaiqueDourado/llm-cost-kit)
+*Know what each LLM call really costs, with prices you can trace back to the provider's page.*
+
+[![llm-cost-kit cover](https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/llm-cost-kit)
+
+Tracks the true cost of every LLM call — prompt, cached, output, and thinking tokens — across OpenAI, Gemini, Claude and DeepSeek, with per-call price tables you can trace back to the provider's pricing page. Born from a real cost audit that cut a product's AI bill from US$1.00 to US$ .14 (−85.8%).
+
+```python
+from llm_cost_kit import Ledger, PriceTable, SQLiteSink, target, timer
+
+prices = PriceTable.load("prices.yaml")   # every price has source and checked_at
+ledger = Ledger(prices, SQLiteSink("costs.sqlite"))
+
+for product in products:
+    with target(product_id=product["id"]):
+        with timer() as t:
+            resp = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
+        ledger.record(resp, model="gemini-2.5-flash", flow="spec_sheet", latency_ms=t.ms)
+```
+
+```bash
+$ llm-cost-kit report costs.sqlite --by meta.product_id
+$ llm-cost-kit prices prices.yaml        # stale or suspicious prices
+$ llm-cost-kit check src/ --recorder record   # scripts calling LLMs without metering
+```
+
+[![Repository](https://img.shields.io/badge/Repository-CaiqueDourado%2Fllm--cost--kit-30363d?style=flat-square&logo=github&logoColor=white)](https://github.com/CaiqueDourado/llm-cost-kit)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-30363d?style=flat-square&logo=python&logoColor=white)](https://github.com/CaiqueDourado/llm-cost-kit)
+[![License: MIT](https://img.shields.io/badge/license-MIT-30363d?style=flat-square)](https://github.com/CaiqueDourado/llm-cost-kit/blob/main/LICENSE)
+
+---
+
+### [SimilarImageFinder](https://github.com/CaiqueDourado/SimilarImageFinder)
+*Find duplicate and near-duplicate product photos with perceptual image hashing — Python and .NET return the same bits.*
+
+[![SimilarImageFinder cover](https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/phash-steps.png)](https://github.com/CaiqueDourado/SimilarImageFinder)
+
+Perceptual hashing (aHash, dHash, pHash) that finds near-duplicate images even after resize, recompression, or brightness edits. Forged from 5 years managing 114M product offers from 7,179 Brazilian stores — where the same photo from different merchants never had the same SHA-256.
+
+```python
+from similar_image_finder import perceptual_hash
+
+a = perceptual_hash("store-a/lamp.jpg")
+b = perceptual_hash("store-b/pendente-preto-600x600.webp")
+print(a - b)   # Hamming distance: 0-6 = same picture, >20 = different product
+```
+
+```csharp
+using SimilarImageFinder;
+
+var a = ImageLoader.Hash("store-a/lamp.jpg");          // pHash, 64 bits
+var b = ImageLoader.Hash("store-b/pendente.webp");
+Console.WriteLine(a - b);                             // Hamming distance
+```
+
+[![Repository](https://img.shields.io/badge/Repository-CaiqueDourado%2FSimilarImageFinder-30363d?style=flat-square&logo=github&logoColor=white)](https://github.com/CaiqueDourado/SimilarImageFinder)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-30363d?style=flat-square&logo=python&logoColor=white)](https://github.com/CaiqueDourado/SimilarImageFinder)
+[![.NET 8](https://img.shields.io/badge/.NET-8.0-30363d?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/CaiqueDourado/SimilarImageFinder)
+[![License: MIT](https://img.shields.io/badge/license-MIT-30363d?style=flat-square)](https://github.com/CaiqueDourado/SimilarImageFinder/blob/main/LICENSE)
 
 ---
 
