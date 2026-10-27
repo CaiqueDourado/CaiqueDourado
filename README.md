@@ -1,4 +1,4 @@
-﻿<picture>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
   <img alt="Caique Dourado - Software Engineer, Data Pipelines & Generative AI" src="./assets/banner-light.svg" width="100%">
 </picture>
@@ -17,9 +17,80 @@ Founder of [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) and 
 
 
 
+## Tech Stack
+
+![Python](https://img.shields.io/badge/Python-30363d?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-30363d?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-30363d?style=flat-square&logo=javascript&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-30363d?style=flat-square&logo=csharp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-30363d?style=flat-square&logo=php&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-30363d?style=flat-square&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-30363d?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-30363d?style=flat-square&logo=react&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-30363d?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-30363d?style=flat-square&logo=redis&logoColor=white)
+![Google BigQuery](https://img.shields.io/badge/BigQuery-30363d?style=flat-square&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-30363d?style=flat-square&logo=docker&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-30363d?style=flat-square&logo=playwright&logoColor=white)
+![Scrapy](https://img.shields.io/badge/Scrapy-30363d?style=flat-square&logo=scrapy&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-30363d?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-30363d?style=flat-square&logo=vercel&logoColor=white)
+
 ---
 
-## Featured Open Source Libraries
+## What I do
+
+I build autonomous systems that discover, ingest, normalize, and interpret massive volumes of unstructured web data, turning raw noise into purchasing intelligence and actionable business decisions.
+
+- **Distributed Crawlers & Data Pipelines:** Resilient scraping infrastructure (Playwright, DrissionPage, curl_cffi, Scrapy, httpx) with smart proxy rotation and anti-bot mitigation across 3,600+ stores.
+- **Data Engineering & Deduplication:** Cross-merchant catalog clustering without EAN/SKU using Metaphone, Soundex, N-gram, MinHash, and Perceptual Image Hashing.
+- **AI, LLMs & NLP at Scale:** Sentiment extraction from millions of reviews, RAG pipelines, multi-provider LLM orchestration (OpenAI, Gemini, Claude), Whisper transcription, YouTube automation, and neural TTS.
+- **Programmatic SEO / AEO / GEO:** Data-driven content generation at scale (30M+ pages); structured data, schema markup, technical SEO, Core Web Vitals. Answer Engine Optimization (Perplexity, ChatGPT Search) and Generative Engine Optimization to position content as the canonical source for AI-generated answers.
+- **E-commerce Growth & CRO:** A/B testing (GrowthBook, Optimizely), CRM automation (Klaviyo, Insider), GA4, server-side tracking, conversion funnel optimization.
+- **High-Performance Modern Web:** Next.js (SSR/SSG, TypeScript) + async Python backends (FastAPI, Redis, Supabase/PostgreSQL, BigQuery).
+
+---
+
+## Selected work
+
+### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Product intelligence platform, 2020 / re-architected 2026)
+The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Brazilian retail prices, 3,600+ stores, and local certifications (INMETRO, ANVISA). Brands do not pay for ranking positions.
+- End-to-end Data Mining & Generative AI platform with a **17-stage ETL pipeline** from raw scraping to structured portals and multimodal distribution
+- 2.8M+ real user reviews processed; catalogs monitored across 3,600+ Brazilian stores
+- **Evaluation methodology:** 4-step process: specs screening (manufacturers + global data) → Big Data (cross-referencing thousands of real user reviews and expert video transcripts) → AI Engine (chronic failure patterns and real qualities ignored by other sites) → Human curation (specialists validate every data point for context accuracy); 3 rigour pillars: consolidated social proof, long-term durability metrics (not just out-of-box performance), and normalized technical comparability across price tiers
+- Custom deduplication pipeline for cross-merchant product matching without EAN/SKU
+- **Human-in-the-Loop (HITL)** editorial system: AI generates, humans validate, platform publishes
+- **LLM Ops** (`tiktoken`): long-context management (100k+ tokens), chunking, cost optimization and hallucination mitigation
+- **Automated video pipeline** (`Remotion`, `moviepy`, `edge-tts`): LLM-generated scripts feed `Remotion` compositions with neural TTS narration, published to YouTube Shorts & TikTok
+- **Frontend:** Next.js 16 App Router + ISR (TTFB ~80-150ms on cache hit); 3-layer cache (`React cache()` + `unstable_cache` + Upstash Redis); deployed on Vercel Edge CDN; `shadcn/ui` + Radix UI
+- **Observability:** Sentry (runtime errors), Vercel Analytics, Speed Insights (Core Web Vitals in production)
+- **Agent-ready architecture:** `llms.txt`, MCP Server Card, ARD 1.0 catalog, `agent-skills.json`; `Accept: text/markdown` content negotiation via `turndown` (HTML-to-Markdown pipeline); server-side OG image generation via `@napi-rs/canvas`
+- **AEO / GEO:** Custom 12-step HTML-to-Markdown pipeline (`lib/markdown-for-agents.ts`) that strips 95%+ of UI noise from Next.js pages for LLM consumption (1.55 MB HTML down to 64 KB Markdown, 86 images deduplicated to 8); `Content-Signal` directives in `robots.txt` (`ai-train=no, search=yes`); canonical attribution header injected into every Markdown response
+
+**System workflow:**
+
+![TudoSobreProdutos pipeline workflow](./workflow_tudo_sobre_produtos.png)
+
+**Live examples:**
+
+| Type | URL |
+|:---|:---|
+| Product page | [Apple AirPods Pro 3](https://www.tudosobreprodutos.com.br/fones-de-ouvido/apple-airpods-pro-3) |
+| Comparison | [AirPods Pro 2 vs AirPods Pro 3](https://www.tudosobreprodutos.com.br/fones-de-ouvido/comparacoes/apple-airpods-pro-2-x-apple-airpods-pro-3) |
+| Ranking Top 10 | [Top 4 Apple Headphones](https://www.tudosobreprodutos.com.br/fones-de-ouvido/melhores/top-4-fones-de-ouvido-apple-qual-vale-mais-a-pena) |
+| Article | [U-shape vs V-shape vs Neutral Sound](https://www.tudosobreprodutos.com.br/fones-de-ouvido/artigos/assinaturas-sonoras-explicadas-u-shape-vs-v-shape-vs-neutro) |
+
+**Videos generated by the Remotion pipeline:**
+
+| | |
+|:---:|:---:|
+| [![Video 1](https://img.youtube.com/vi/zbM5CcOTwac/maxresdefault.jpg)](https://www.youtube.com/watch?v=zbM5CcOTwac) | [![Video 2](https://img.youtube.com/vi/5rFta5DY1KI/maxresdefault.jpg)](https://www.youtube.com/watch?v=5rFta5DY1KI) |
+
+**Website www.tudosobreprodutos.com.br:**
+
+![TudoSobreProdutos platform screenshot](./assets/tudosobreprodutos_screenshot.png)
+
+---
 
 ### [scrapladder](https://github.com/CaiqueDourado/scrapladder)
 *Fetch web pages by climbing an escalating ladder of methods, remembering per domain which rung worked.*
@@ -71,7 +142,7 @@ if r.ok:
 
 ---
 
-## Open Source Libraries & Developer Tools
+### Open Source Libraries & Developer Tools
 
 <table>
 <tr>
@@ -171,7 +242,7 @@ if r.ok:
 
 ---
 
-## Open Datasets & Scale Highlights
+### Open Datasets & Scale Highlights
 
 | Repository / Dataset | Volume / Scale | Focus & Description |
 | :--- | :--- | :--- |
@@ -183,79 +254,6 @@ if r.ok:
 | [**municipios-e-estados-do-brasil**](https://github.com/CaiqueDourado/municipios-e-estados-do-brasil) | **5,570 municipalities** | All 5,570 Brazilian cities, 27 states, IBGE codes, and geographic metadata. |
 
 ---
-
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-30363d?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-30363d?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-30363d?style=flat-square&logo=javascript&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-30363d?style=flat-square&logo=csharp&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-30363d?style=flat-square&logo=php&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-30363d?style=flat-square&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-30363d?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-30363d?style=flat-square&logo=react&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-30363d?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-30363d?style=flat-square&logo=redis&logoColor=white)
-![Google BigQuery](https://img.shields.io/badge/BigQuery-30363d?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-30363d?style=flat-square&logo=docker&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-30363d?style=flat-square&logo=playwright&logoColor=white)
-![Scrapy](https://img.shields.io/badge/Scrapy-30363d?style=flat-square&logo=scrapy&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-30363d?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-30363d?style=flat-square&logo=vercel&logoColor=white)
-
----
-
-## What I do
-
-I build autonomous systems that discover, ingest, normalize, and interpret massive volumes of unstructured web data, turning raw noise into purchasing intelligence and actionable business decisions.
-
-- **Distributed Crawlers & Data Pipelines:** Resilient scraping infrastructure (Playwright, DrissionPage, curl_cffi, Scrapy, httpx) with smart proxy rotation and anti-bot mitigation across 3,600+ stores.
-- **Data Engineering & Deduplication:** Cross-merchant catalog clustering without EAN/SKU using Metaphone, Soundex, N-gram, MinHash, and Perceptual Image Hashing.
-- **AI, LLMs & NLP at Scale:** Sentiment extraction from millions of reviews, RAG pipelines, multi-provider LLM orchestration (OpenAI, Gemini, Claude), Whisper transcription, YouTube automation, and neural TTS.
-- **Programmatic SEO / AEO / GEO:** Data-driven content generation at scale (30M+ pages); structured data, schema markup, technical SEO, Core Web Vitals. Answer Engine Optimization (Perplexity, ChatGPT Search) and Generative Engine Optimization to position content as the canonical source for AI-generated answers.
-- **E-commerce Growth & CRO:** A/B testing (GrowthBook, Optimizely), CRM automation (Klaviyo, Insider), GA4, server-side tracking, conversion funnel optimization.
-- **High-Performance Modern Web:** Next.js (SSR/SSG, TypeScript) + async Python backends (FastAPI, Redis, Supabase/PostgreSQL, BigQuery).
-
----
-
-## Selected work
-
-### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Product intelligence platform, 2020 / re-architected 2026)
-The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Brazilian retail prices, 3,600+ stores, and local certifications (INMETRO, ANVISA). Brands do not pay for ranking positions.
-- End-to-end Data Mining & Generative AI platform with a **17-stage ETL pipeline** from raw scraping to structured portals and multimodal distribution
-- 2.8M+ real user reviews processed; catalogs monitored across 3,600+ Brazilian stores
-- **Evaluation methodology:** 4-step process: specs screening (manufacturers + global data) → Big Data (cross-referencing thousands of real user reviews and expert video transcripts) → AI Engine (chronic failure patterns and real qualities ignored by other sites) → Human curation (specialists validate every data point for context accuracy); 3 rigour pillars: consolidated social proof, long-term durability metrics (not just out-of-box performance), and normalized technical comparability across price tiers
-- Custom deduplication pipeline for cross-merchant product matching without EAN/SKU
-- **Human-in-the-Loop (HITL)** editorial system: AI generates, humans validate, platform publishes
-- **LLM Ops** (`tiktoken`): long-context management (100k+ tokens), chunking, cost optimization and hallucination mitigation
-- **Automated video pipeline** (`Remotion`, `moviepy`, `edge-tts`): LLM-generated scripts feed `Remotion` compositions with neural TTS narration, published to YouTube Shorts & TikTok
-- **Frontend:** Next.js 16 App Router + ISR (TTFB ~80-150ms on cache hit); 3-layer cache (`React cache()` + `unstable_cache` + Upstash Redis); deployed on Vercel Edge CDN; `shadcn/ui` + Radix UI
-- **Observability:** Sentry (runtime errors), Vercel Analytics, Speed Insights (Core Web Vitals in production)
-- **Agent-ready architecture:** `llms.txt`, MCP Server Card, ARD 1.0 catalog, `agent-skills.json`; `Accept: text/markdown` content negotiation via `turndown` (HTML-to-Markdown pipeline); server-side OG image generation via `@napi-rs/canvas`
-- **AEO / GEO:** Custom 12-step HTML-to-Markdown pipeline (`lib/markdown-for-agents.ts`) that strips 95%+ of UI noise from Next.js pages for LLM consumption (1.55 MB HTML down to 64 KB Markdown, 86 images deduplicated to 8); `Content-Signal` directives in `robots.txt` (`ai-train=no, search=yes`); canonical attribution header injected into every Markdown response
-
-**System workflow:**
-
-![TudoSobreProdutos pipeline workflow](./workflow_tudo_sobre_produtos.png)
-
-**Live examples:**
-
-| Type | URL |
-|:---|:---|
-| Product page | [Apple AirPods Pro 3](https://www.tudosobreprodutos.com.br/fones-de-ouvido/apple-airpods-pro-3) |
-| Comparison | [AirPods Pro 2 vs AirPods Pro 3](https://www.tudosobreprodutos.com.br/fones-de-ouvido/comparacoes/apple-airpods-pro-2-x-apple-airpods-pro-3) |
-| Ranking Top 10 | [Top 4 Apple Headphones](https://www.tudosobreprodutos.com.br/fones-de-ouvido/melhores/top-4-fones-de-ouvido-apple-qual-vale-mais-a-pena) |
-| Article | [U-shape vs V-shape vs Neutral Sound](https://www.tudosobreprodutos.com.br/fones-de-ouvido/artigos/assinaturas-sonoras-explicadas-u-shape-vs-v-shape-vs-neutro) |
-
-**Videos generated by the Remotion pipeline:**
-
-| | |
-|:---:|:---:|
-| [![Video 1](https://img.youtube.com/vi/zbM5CcOTwac/maxresdefault.jpg)](https://www.youtube.com/watch?v=zbM5CcOTwac) | [![Video 2](https://img.youtube.com/vi/5rFta5DY1KI/maxresdefault.jpg)](https://www.youtube.com/watch?v=5rFta5DY1KI) |
-
-**Website www.tudosobreprodutos.com.br:**
-
-![TudoSobreProdutos platform screenshot](./assets/tudosobreprodutos_screenshot.png)
 
 ### [SuperNichos](https://supernichos.com) (Niche & keyword mining tool, 2023-present)
 - 700,000 niches and 50M+ keywords in a single platform
