@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-label="Caique Dourado - Software Engineer, Data Engineering and AI Systems">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="metricGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+    <filter id="blurFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="80" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1280" height="460" rx="16" fill="url(#bg)" />
+
+  <!-- Ambient Glow Circles -->
+  <circle cx="150" cy="50" r="180" fill="#0284C7" opacity="0.15" filter="url(#blurFilter)" />
+  <circle cx="1150" cy="80" r="220" fill="#6366F1" opacity="0.18" filter="url(#blurFilter)" />
+  <circle cx="700" cy="400" r="160" fill="#38BDF8" opacity="0.12" filter="url(#blurFilter)" />
+
+  <!-- Outer Border -->
+  <rect x="1" y="1" width="1278" height="458" rx="15" fill="none" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Top Status Badge -->
+  <g transform="translate(64, 48)">
+    <rect width="260" height="28" rx="14" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <circle cx="14" cy="14" r="4.5" fill="#10B981" />
+    <text x="28" y="18.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#94A3B8" letter-spacing="0.8">CAIQUE DOURADO · BRAZIL</text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <text x="64" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" fill="#F8FAFC" letter-spacing="-1.5">
+    Caique Dourado
+  </text>
+
+  <!-- Subtitle -->
+  <text x="64" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="500" fill="#94A3B8" letter-spacing="-0.3">
+    Software Engineer <tspan fill="#475569">·</tspan> Data Pipelines <tspan fill="#475569">·</tspan> AI &amp; Generative Systems
+  </text>
+
+  <!-- Tagline / Mission -->
+  <text x="64" y="214" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#38BDF8" letter-spacing="0.2">
+    Turning unstructured web noise into actionable intelligence &amp; scalable platforms since 2001
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="64" y1="246" x2="1216" y2="246" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Metrics Grid (5 Cards) -->
+  <!-- Card 1 -->
+  <g transform="translate(64, 274)">
+    <rect width="216" height="136" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
+    <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="#38BDF8" letter-spacing="-1">30M+</text>
+    <text x="24" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Pages Generated</text>
+    <text x="24" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Programmatic Web &amp; SEO</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(304, 274)">
+    <rect width="216" height="136" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
+    <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="#818CF8" letter-spacing="-1">50M+</text>
+    <text x="24" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Search Queries</text>
+    <text x="24" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Clustered in SuperNichos</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(544, 274)">
+    <rect width="216" height="136" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
+    <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="#34D399" letter-spacing="-1">2.8M+</text>
+    <text x="24" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Reviews Analyzed</text>
+    <text x="24" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">TudoSobreProdutos Engine</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(784, 274)">
+    <rect width="216" height="136" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
+    <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="#F43F5E" letter-spacing="-1">3,600+</text>
+    <text x="24" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Stores Monitored</text>
+    <text x="24" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Real-time Retail Scrapers</text>
+  </g>
+
+  <!-- Card 5 -->
+  <g transform="translate(1024, 274)">
+    <rect width="192" height="136" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
+    <text x="24" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="#FBBF24" letter-spacing="-1">25+</text>
+    <text x="24" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#F1F5F9">Years Building</text>
+    <text x="24" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748B">Delphi 2001 → AI 2026</text>
+  </g>
+</svg>
