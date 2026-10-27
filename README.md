@@ -54,6 +54,8 @@ I build autonomous systems that discover, ingest, normalize, and interpret massi
 ## Selected work
 
 ### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Product intelligence platform, 2020 / re-architected 2026)
+
+![TudoSobreProdutos platform screenshot](./assets/tudosobreprodutos_screenshot.png)
 The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Brazilian retail prices, 3,600+ stores, and local certifications (INMETRO, ANVISA). Brands do not pay for ranking positions.
 - End-to-end Data Mining & Generative AI platform with a **17-stage ETL pipeline** from raw scraping to structured portals and multimodal distribution
 - 2.8M+ real user reviews processed; catalogs monitored across 3,600+ Brazilian stores
@@ -88,7 +90,6 @@ The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Br
 
 **Website www.tudosobreprodutos.com.br:**
 
-![TudoSobreProdutos platform screenshot](./assets/tudosobreprodutos_screenshot.png)
 
 ---
 
