@@ -359,6 +359,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 
 | | Repository / Dataset | Volume / Scale | Focus & Description |
 | :---: | :--- | :--- | :--- |
+| <a href="https://github.com/CaiqueDourado/google-keywords-dataset"><img src="https://raw.githubusercontent.com/CaiqueDourado/google-keywords-dataset/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="google-keywords-dataset"></a> | [**google-keywords-dataset**](https://github.com/CaiqueDourado/google-keywords-dataset) | **38M searches**, 1.73M patterns, 138M pattern → search pairs | Google keywords with volume, CPC and competition (Brazil, US, Spain, Argentina), search patterns of five algorithms and hand-made curation labels; the data behind SuperNichos. |
 | <a href="https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil"><img src="https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="catalogo-produtos-ecommerce-brasil"></a> | [**catalogo-produtos-ecommerce-brasil**](https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil) | **114M offers** (7,179 stores) | Massive open Brazilian e-commerce price and product offers catalog. |
 | <a href="https://github.com/CaiqueDourado/reviews-produtos-ptbr"><img src="https://github.com/CaiqueDourado/reviews-produtos-ptbr/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="reviews-produtos-ptbr"></a> | [**reviews-produtos-ptbr**](https://github.com/CaiqueDourado/reviews-produtos-ptbr) | **2.87M reviews** | Brazilian product reviews dataset with sentiment classification and extracted pros/cons. |
 | <a href="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr"><img src="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr/raw/main/docs/img/gold-methods.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pares-matching-produtos-ptbr"></a> | [**pares-matching-produtos-ptbr**](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) | **2.1M labelled pairs** | Benchmark dataset of product offers labeled for deduplication and fuzzy match validation. |
@@ -377,9 +378,11 @@ Console.WriteLine(a - b);                             // Hamming distance
 - Largest niche discovery and segment mining tool in Brazil
 
 **How it was built:**
-1. **Data Ingestion:** Processed the DataForSEO dataset containing 50M search queries from Google Brazil.
+1. **Data Ingestion:** Processed 55M Google search queries with volume, CPC and competition (Keyword Planner metrics via Ubersuggest in 2018, plus DataForSEO for Brazil, the US, Spain and Argentina).
 2. **Normalization & Clustering:** Normalized search queries and grouped terms to uncover semantic and textual patterns using string similarity algorithms (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
 3. **Mining & Discovery:** Clustered final data to uncover thousands of profitable niches and market opportunities (for product development, service offerings, addressing unmet customer pain points, and programmatic SEO).
+
+- **Open data & code:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38M searches, 1.73M patterns of five algorithms, 154k patterns labelled by hand)
 
 [![SuperNichos Case Study on YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
@@ -940,6 +943,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 
 | | Repositório / Dataset | Volume / Escala | Foco & Descrição |
 | :---: | :--- | :--- | :--- |
+| <a href="https://github.com/CaiqueDourado/google-keywords-dataset"><img src="https://raw.githubusercontent.com/CaiqueDourado/google-keywords-dataset/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="google-keywords-dataset"></a> | [**google-keywords-dataset**](https://github.com/CaiqueDourado/google-keywords-dataset) | **38 mi de buscas**, 1,73 mi de padrões, 138 mi de pares padrão → busca | Palavras-chave do Google com volume, CPC e concorrência (Brasil, EUA, Espanha, Argentina), padrões de busca de cinco algoritmos e rótulos de curadoria feitos à mão; os dados por trás do SuperNichos. |
 | <a href="https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil"><img src="https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="catalogo-produtos-ecommerce-brasil"></a> | [**catalogo-produtos-ecommerce-brasil**](https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil) | **114M de ofertas** (7.179 lojas) | Catálogo aberto massivo de preços e ofertas de produtos do e-commerce brasileiro. |
 | <a href="https://github.com/CaiqueDourado/reviews-produtos-ptbr"><img src="https://github.com/CaiqueDourado/reviews-produtos-ptbr/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="reviews-produtos-ptbr"></a> | [**reviews-produtos-ptbr**](https://github.com/CaiqueDourado/reviews-produtos-ptbr) | **2,87M de avaliações** | Base de dados de avaliações de produtos no Brasil com classificação de sentimento e extração de prós e contras. |
 | <a href="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr"><img src="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr/raw/main/docs/img/gold-methods.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pares-matching-produtos-ptbr"></a> | [**pares-matching-produtos-ptbr**](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) | **2,1M de pares rotulados** | Dataset de benchmark com pares de ofertas de produtos rotulados para validação de deduplicação e fuzzy match. |
@@ -958,9 +962,11 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 - Maior ferramenta de descoberta de nichos e mineração de segmentos do Brasil
 
 **Como foi construído:**
-1. **Ingestão de Dados:** Processamento da base do DataForSEO contendo 50 milhões de buscas no Google Brasil.
+1. **Ingestão de Dados:** Processamento de 55 milhões de buscas do Google com volume, CPC e concorrência (métricas do Keyword Planner via Ubersuggest em 2018, mais DataForSEO para Brasil, EUA, Espanha e Argentina).
 2. **Normalização & Clusterização:** Normalização dos termos de busca e agrupamento para identificar padrões semânticos e textuais usando algoritmos de similaridade de strings (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
 3. **Mineração & Descoberta:** Clusterização final para revelar milhares de nichos lucrativos e oportunidades de mercado (para criação de produtos, serviços, atendimento de dores latentes e SEO programático).
+
+- **Dados e código abertos:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38 mi de buscas, 1,73 mi de padrões de cinco algoritmos, 154 mil padrões rotulados à mão)
 
 [![Estudo de Caso SuperNichos no YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
