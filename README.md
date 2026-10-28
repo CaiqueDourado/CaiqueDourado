@@ -342,7 +342,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://supernichos.com"><img src="https://supernichos.com/wp-content/uploads/2023/10/logo-n-light.svg" width="56" height="56" style="border-radius: 8px; object-fit: contain; background-color: #000036; padding: 6px; box-sizing: border-box;" alt="SuperNichos"></a>
+    <a href="https://supernichos.com"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/SuperNichos.png" width="56" height="56" alt="SuperNichos"></a>
   </td>
   <td>
     <a href="https://supernichos.com"><b>SuperNichos</b></a>: Brazil's largest niche discovery and segment mining engine. Ingests 50M Google Brazil queries, normalizing and clustering terms with Metaphone, Soundex, MinHash, and N-gram algorithms.<br>
@@ -923,7 +923,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://supernichos.com"><img src="https://supernichos.com/wp-content/uploads/2023/10/logo-n-light.svg" width="56" height="56" style="border-radius: 8px; object-fit: contain; background-color: #000036; padding: 6px; box-sizing: border-box;" alt="SuperNichos"></a>
+    <a href="https://supernichos.com"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/SuperNichos.png" width="56" height="56" alt="SuperNichos"></a>
   </td>
   <td>
     <a href="https://supernichos.com"><b>SuperNichos</b></a>: Maior motor de descoberta de nichos e mineração de segmentos do Brasil. Ingestão de 50M de buscas do Google Brasil, normalizando e agrupando termos com Metaphone, Soundex, MinHash e N-gram.<br>
