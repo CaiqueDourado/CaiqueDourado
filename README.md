@@ -318,6 +318,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 | [**reviews-produtos-ptbr**](https://github.com/CaiqueDourado/reviews-produtos-ptbr) | **2.87M reviews** | Brazilian product reviews dataset with sentiment classification and extracted pros/cons. |
 | [**pares-matching-produtos-ptbr**](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) | **2.1M labelled pairs** | Benchmark dataset of product offers labeled for deduplication and fuzzy match validation. |
 | [**lojas-virtuais-brasil**](https://github.com/CaiqueDourado/lojas-virtuais-brasil) | **63,974 stores** | Census of Brazilian online stores with platform fingerprinting, SSL verification, and CNPJ data. |
+| [**fipe-ficha-tecnica-veiculos**](https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos) | **1.65M FIPE prices**, 37,794 versions | Brazilian vehicle prices 2020–2026 (cars, motorcycles, trucks), specifications and vehicle × product matches. |
 | [**nomes-e-sobrenomes-brasil**](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) | **104k names** | Brazilian given names, surnames, and frequency data from IBGE Census and public records. |
 | [**municipios-e-estados-do-brasil**](https://github.com/CaiqueDourado/municipios-e-estados-do-brasil) | **5,570 municipalities** | All 5,570 Brazilian cities, 27 states, IBGE codes, and geographic metadata. |
 
