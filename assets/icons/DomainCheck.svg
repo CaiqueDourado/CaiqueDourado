@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="DomainCheck">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1120"/><stop offset=".5" stop-color="#0F172A"/><stop offset="1" stop-color="#020617"/></linearGradient>
+ <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="40" y1="40" x2="216" y2="216"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
+ <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="34"/></filter>
+ <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7"/></filter>
+ <clipPath id="tile"><rect width="256" height="256" rx="44"/></clipPath>
+</defs>
+<rect width="256" height="256" rx="44" fill="url(#bg)"/>
+<g clip-path="url(#tile)">
+ <circle cx="40" cy="30" r="90" fill="#38BDF8" opacity=".28" filter="url(#blur)"/>
+ <circle cx="230" cy="236" r="90" fill="#818CF8" opacity=".24" filter="url(#blur)"/>
+</g>
+<rect x="1" y="1" width="254" height="254" rx="43" fill="none" stroke="#334155" stroke-width="2"/>
+<g transform="translate(128 128) scale(.78) translate(-128 -128)">
+ <g filter="url(#soft)" opacity=".55"><circle cx="116" cy="120" r="66" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="8"/><ellipse cx="116" cy="120" rx="28" ry="66" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="7"/>
+<path d="M50 120H182 M62 86H170 M62 154H170" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="7"/>
+<circle cx="184" cy="184" r="34" fill="#0F172A" stroke="#34D399" stroke-width="7"/><path d="M168 184l11 11 21-22" stroke="#34D399" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
+ <circle cx="116" cy="120" r="66" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="8"/><ellipse cx="116" cy="120" rx="28" ry="66" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="7"/>
+<path d="M50 120H182 M62 86H170 M62 154H170" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-width="7"/>
+<circle cx="184" cy="184" r="34" fill="#0F172A" stroke="#34D399" stroke-width="7"/><path d="M168 184l11 11 21-22" stroke="#34D399" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</g>
+</svg>
