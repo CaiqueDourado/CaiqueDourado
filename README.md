@@ -217,7 +217,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 <table>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/scrapladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/scrapladder.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="scrapladder"></a>
+    <a href="https://github.com/CaiqueDourado/scrapladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/scrapladder.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="scrapladder"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/scrapladder"><b>scrapladder</b></a>: Fetch web pages by climbing an escalating ladder of methods (plain HTTP, curl_cffi TLS impersonation, Playwright, paid scraping APIs) and remember per domain which rung worked.<br>
@@ -227,7 +227,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/transcriptladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/transcriptladder.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="transcriptladder"></a>
+    <a href="https://github.com/CaiqueDourado/transcriptladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/transcriptladder.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="transcriptladder"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/transcriptladder"><b>transcriptladder</b></a>: Resilient YouTube transcription combining caption APIs, yt-dlp metadata, and faster-whisper neural fallback. Generates clean text, timed segments, and SRT.<br>
@@ -237,7 +237,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/DedupKit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/DedupKit.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DedupKit"></a>
+    <a href="https://github.com/CaiqueDourado/DedupKit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/DedupKit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DedupKit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/DedupKit"><b>DedupKit</b></a>: Cross-merchant product deduplication for Brazilian Portuguese e-commerce. Identifies matching listings without EAN/SKU and rejects false positives (Python &amp; .NET with identical results).<br>
@@ -247,7 +247,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-cost-kit.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-cost-kit"></a>
+    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-cost-kit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-cost-kit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/llm-cost-kit"><b>llm-cost-kit</b></a>: Calculate exact pricing and token costs for LLM inference calls across OpenAI, Anthropic Claude, Google Gemini, and open models with up-to-date sources.<br>
@@ -257,7 +257,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-batch-kit.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-batch-kit"></a>
+    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-batch-kit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-batch-kit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/llm-batch-kit"><b>llm-batch-kit</b></a>: Provider Batch APIs at half price without mismatched answers or paying twice: (prompt, item) pairs, signed manifest, idempotent collection and a Postgres in-flight queue.<br>
@@ -267,7 +267,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/SimilarImageFinder.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="SimilarImageFinder"></a>
+    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/SimilarImageFinder.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="SimilarImageFinder"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><b>SimilarImageFinder</b></a>: Perceptual image hashing engine (aHash, dHash, pHash, wHash) for large-scale e-commerce product image deduplication and catalog clustering.<br>
@@ -276,7 +276,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/BrCommerceKit.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="BrCommerceKit"></a>
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/BrCommerceKit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="BrCommerceKit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/BrCommerceKit"><b>BrCommerceKit</b></a>: Brazilian e-commerce engineering toolkit for .NET / C#. Platform fingerprinting across 20 engines (Shopify, VTEX, Nuvemshop, Loja Integrada), streaming feed parser for Brazilian dialects (<code>preco_por</code>, <code>g:</code>), Shopify <code>products.json</code> reader, BRL price normalizer, and catalog quality inspector (placeholder images and generic EAN detection).<br>
@@ -287,7 +287,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/PtBr.Text.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="PtBr.Text"></a>
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/PtBr.Text.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="PtBr.Text"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/PtBr.Text"><b>PtBr.Text</b></a>: Brazilian Portuguese text &amp; data engineering toolkit for .NET. Validation and formatting for CPF, new alphanumeric CNPJ, CEP, and 9-digit phones. Includes data-to-text generation (gender/plural agreement), RAKE PT-BR keyword extraction with essential stopwords, and contact extraction.<br>
@@ -298,7 +298,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/pros-e-contras-ptbr.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pros-e-contras-ptbr"></a>
+    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/pros-e-contras-ptbr.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pros-e-contras-ptbr"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><b>pros-e-contras-ptbr</b></a>: Top pros and cons of a product from its Brazilian Portuguese reviews. No API, no model download; lexicon learned from 11.7M real review clauses.<br>
@@ -309,7 +309,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/DomainCheck"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/DomainCheck.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DomainCheck"></a>
+    <a href="https://github.com/CaiqueDourado/DomainCheck"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/DomainCheck.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DomainCheck"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/DomainCheck"><b>DomainCheck</b></a>: Is this domain available? Registro.br for <code>.br</code>, WHOIS discovered through IANA for every other extension, a DNS pre-check and a name generator.<br>
@@ -320,7 +320,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/ibge-nomes"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/ibge-nomes.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="ibge-nomes"></a>
+    <a href="https://github.com/CaiqueDourado/ibge-nomes"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/ibge-nomes.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="ibge-nomes"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/ibge-nomes"><b>ibge-nomes</b></a>: Python client for IBGE’s names API (2010 Census): rank, frequency, state, gender and decade. Standard library only.<br>
@@ -798,7 +798,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 <table>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/scrapladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/scrapladder.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="scrapladder"></a>
+    <a href="https://github.com/CaiqueDourado/scrapladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/scrapladder.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="scrapladder"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/scrapladder"><b>scrapladder</b></a>: Baixa páginas web subindo uma escada progressiva de métodos (HTTP simples, personificação TLS com curl_cffi, Playwright, APIs pagas) e lembra por domínio qual degrau funcionou.<br>
@@ -808,7 +808,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/transcriptladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/transcriptladder.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="transcriptladder"></a>
+    <a href="https://github.com/CaiqueDourado/transcriptladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/transcriptladder.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="transcriptladder"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/transcriptladder"><b>transcriptladder</b></a>: Transcrição resiliente de vídeos do YouTube combinando APIs de legendas, metadados do yt-dlp e fallback neural com faster-whisper. Gera texto limpo, segmentos cronometrados e SRT.<br>
@@ -818,7 +818,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/DedupKit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/DedupKit.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DedupKit"></a>
+    <a href="https://github.com/CaiqueDourado/DedupKit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/DedupKit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DedupKit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/DedupKit"><b>DedupKit</b></a>: Deduplicação de produtos entre múltiplos lojistas para o e-commerce brasileiro. Identifica ofertas idênticas sem EAN/SKU e rejeita falsos positivos (Python e .NET com resultados idênticos).<br>
@@ -828,7 +828,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-cost-kit.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-cost-kit"></a>
+    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-cost-kit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-cost-kit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/llm-cost-kit"><b>llm-cost-kit</b></a>: Calcula custos exatos e precificação de tokens para chamadas de inferência de LLM em OpenAI, Anthropic Claude, Google Gemini e modelos abertos com fontes atualizadas.<br>
@@ -838,7 +838,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-batch-kit.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-batch-kit"></a>
+    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-batch-kit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-batch-kit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/llm-batch-kit"><b>llm-batch-kit</b></a>: APIs de lote do provedor pela metade do preço, sem resposta trocada nem pagar duas vezes: pares (prompt, item), manifesto assinado, coleta idempotente e fila no Postgres.<br>
@@ -848,7 +848,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/SimilarImageFinder.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="SimilarImageFinder"></a>
+    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/SimilarImageFinder.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="SimilarImageFinder"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><b>SimilarImageFinder</b></a>: Motor de hash perceptual de imagens (aHash, dHash, pHash, wHash) para deduplicação em grande escala de fotos de produtos e clusterização de catálogos de e-commerce.<br>
@@ -857,7 +857,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/BrCommerceKit.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="BrCommerceKit"></a>
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/BrCommerceKit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="BrCommerceKit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/BrCommerceKit"><b>BrCommerceKit</b></a>: Toolkit de engenharia de e-commerce brasileiro para .NET / C#. Identificação de 20 plataformas (Shopify, VTEX, Nuvemshop, Loja Integrada), leitor streaming de feeds com dialetos brasileiros (<code>preco_por</code>, <code>g:</code>), leitor de <code>products.json</code> da Shopify, normalizador de preços em BRL e inspetor de qualidade de catálogo (placeholder e EANs genéricos).<br>
@@ -868,7 +868,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/PtBr.Text.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="PtBr.Text"></a>
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/PtBr.Text.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="PtBr.Text"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/PtBr.Text"><b>PtBr.Text</b></a>: Toolkit de texto e dados em português brasileiro para .NET. Validação e formatação de CPF, novo CNPJ alfanumérico, CEP e telefones de 9 dígitos. Geração de texto com concordância de gênero/plural, extração RAKE PT-BR de palavras-chave e extração de contatos.<br>
@@ -879,7 +879,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/pros-e-contras-ptbr.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pros-e-contras-ptbr"></a>
+    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/pros-e-contras-ptbr.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pros-e-contras-ptbr"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><b>pros-e-contras-ptbr</b></a>: Principais prós e contras de um produto a partir de avaliações em português brasileiro. Sem API, sem download de modelos; léxico aprendido a partir de 11,7 milhões de cláusulas de reviews reais.<br>
@@ -890,7 +890,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/DomainCheck"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/DomainCheck.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DomainCheck"></a>
+    <a href="https://github.com/CaiqueDourado/DomainCheck"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/DomainCheck.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DomainCheck"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/DomainCheck"><b>DomainCheck</b></a>: Esse domínio está disponível? Consulta ao Registro.br para <code>.br</code>, WHOIS descoberto via IANA para qualquer outra extensão, pré-checagem via DNS e gerador de nomes candidatos.<br>
@@ -901,7 +901,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/ibge-nomes"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/ibge-nomes.svg" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="ibge-nomes"></a>
+    <a href="https://github.com/CaiqueDourado/ibge-nomes"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/ibge-nomes.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="ibge-nomes"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/ibge-nomes"><b>ibge-nomes</b></a>: Cliente Python para a API de nomes do IBGE (Censo 2010): posição no ranking, frequência, estado de maior incidência, sexo e década de nascimento. Apenas biblioteca padrão.<br>
