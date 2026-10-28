@@ -10,6 +10,7 @@ Building systems that turn web noise into decisions since 2001.
 Founder of [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) and [SuperNichos](https://supernichos.com). Head of Operations at [Agência Disco](https://www.disco-tec.com) (one of Brazil's leading Shopify agencies). Former CMO at Samurai Experts / Locaweb. Advisory Board Member at ABLEC. Over 25 years hands-on, from Delphi 5 in 2001 to distributed AI pipelines in 2026.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-30363d?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caiquedourado/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-30363d?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/caiquedourado)
 [![Website](https://img.shields.io/badge/Website-30363d?style=flat-square&logo=googlechrome&logoColor=white)](https://caiquedourado.com.br)
 [![YouTube](https://img.shields.io/badge/YouTube-30363d?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@CaiqueDourado)
 [![Twitter](https://img.shields.io/badge/Twitter-30363d?style=flat-square&logo=x&logoColor=white)](https://twitter.com/caiquedourado)
@@ -151,7 +152,7 @@ if r.ok:
 ### [llm-cost-kit](https://github.com/CaiqueDourado/llm-cost-kit)
 *Know what each LLM call really costs, with prices you can trace back to the provider's page.*
 
-[![llm-cost-kit cover](https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/llm-cost-kit)
+[![llm-cost-kit cover](https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.png)](https://github.com/CaiqueDourado/llm-cost-kit)
 
 Tracks the true cost of every LLM call — prompt, cached, output, and thinking tokens — across OpenAI, Gemini, Claude and DeepSeek, with per-call price tables you can trace back to the provider's pricing page. Born from a real cost audit that cut a product's AI bill from US$1.00 to US$0.14 (−85.8%).
 
@@ -183,7 +184,7 @@ $ llm-cost-kit check src/ --recorder record   # scripts calling LLMs without met
 ### [SimilarImageFinder](https://github.com/CaiqueDourado/SimilarImageFinder)
 *Find duplicate and near-duplicate product photos with perceptual image hashing — Python and .NET return the same bits.*
 
-[![SimilarImageFinder cover](https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/phash-steps.png)](https://github.com/CaiqueDourado/SimilarImageFinder)
+[![SimilarImageFinder cover](https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/cover.png)](https://github.com/CaiqueDourado/SimilarImageFinder)
 
 Perceptual hashing (aHash, dHash, pHash) that finds near-duplicate images even after resize, recompression, or brightness edits. Forged from 5 years managing 114M product offers from 7,179 Brazilian stores — where the same photo from different merchants never had the same SHA-256.
 
@@ -235,7 +236,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/DedupKit"><img src="https://github.com/python.png?size=80" width="56" height="56" alt="DedupKit"></a>
+    <a href="https://github.com/CaiqueDourado/DedupKit"><img src="https://github.com/CaiqueDourado/DedupKit/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DedupKit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/DedupKit"><b>DedupKit</b></a>: Cross-merchant product deduplication for Brazilian Portuguese e-commerce. Identifies matching listings without EAN/SKU and rejects false positives (Python &amp; .NET with identical results).<br>
@@ -245,7 +246,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://github.com/openai.png?size=80" width="56" height="56" alt="llm-cost-kit"></a>
+    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-cost-kit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/llm-cost-kit"><b>llm-cost-kit</b></a>: Calculate exact pricing and token costs for LLM inference calls across OpenAI, Anthropic Claude, Google Gemini, and open models with up-to-date sources.<br>
@@ -255,7 +256,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://github.com/python.png?size=80" width="56" height="56" alt="SimilarImageFinder"></a>
+    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/exact-vs-perceptual-hash.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="SimilarImageFinder"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><b>SimilarImageFinder</b></a>: Perceptual image hashing engine (aHash, dHash, pHash, wHash) for large-scale e-commerce product image deduplication and catalog clustering.<br>
@@ -264,7 +265,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://github.com/microsoft.png?size=80" width="56" height="56" alt="BrCommerceKit"></a>
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://github.com/CaiqueDourado/BrCommerceKit/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="BrCommerceKit"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/BrCommerceKit"><b>BrCommerceKit</b></a>: Brazilian e-commerce engineering toolkit for .NET / C#. Platform fingerprinting across 20 engines (Shopify, VTEX, Nuvemshop, Loja Integrada), streaming feed parser for Brazilian dialects (<code>preco_por</code>, <code>g:</code>), Shopify <code>products.json</code> reader, BRL price normalizer, and catalog quality inspector (placeholder images and generic EAN detection).<br>
@@ -275,18 +276,51 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://github.com/dotnet.png?size=80" width="56" height="56" alt="PtBr.Text"></a>
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://github.com/CaiqueDourado/PtBr.Text/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="PtBr.Text"></a>
   </td>
   <td>
     <a href="https://github.com/CaiqueDourado/PtBr.Text"><b>PtBr.Text</b></a>: Brazilian Portuguese text &amp; data engineering toolkit for .NET. Validation and formatting for CPF, new alphanumeric CNPJ, CEP, and 9-digit phones. Includes data-to-text generation (gender/plural agreement), RAKE PT-BR keyword extraction with essential stopwords, and contact extraction.<br>
-    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://img.shields.io/badge/.NET-NuGet%20v0.1-30363d?style=flat-square&logo=nuget&logoColor=white" alt="NuGet"></a>
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://img.shields.io/badge/.NET-C%23-30363d?style=flat-square&logo=csharp&logoColor=white" alt="C#"></a>
     <img src="https://img.shields.io/badge/Tax%20ID-Alphanumeric%20CNPJ-8250df?style=flat-square&labelColor=30363d" alt="Alphanumeric CNPJ">
     <img src="https://img.shields.io/badge/NLP-RAKE%20PT--BR-2ea043?style=flat-square" alt="RAKE">
   </td>
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://br.wordpress.org/plugins/people-also-ask/"><img src="https://github.com/WordPress.png?size=80" width="56" height="56" alt="WordPress Plugin"></a>
+    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/pros-e-contras-ptbr/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pros-e-contras-ptbr"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><b>pros-e-contras-ptbr</b></a>: Top pros and cons of a product from its Brazilian Portuguese reviews. No API, no model download; lexicon learned from 11.7M real review clauses.<br>
+    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><img src="https://img.shields.io/badge/Python-Library-30363d?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+    <img src="https://img.shields.io/badge/NLP-Pros%20%26%20Cons-8250df?style=flat-square&labelColor=30363d" alt="NLP">
+    <img src="https://img.shields.io/badge/Lexicon-11.7M%20Clauses-2ea043?style=flat-square" alt="11.7M Clauses">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/DomainCheck"><img src="https://github.com/CaiqueDourado/DomainCheck/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DomainCheck"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/DomainCheck"><b>DomainCheck</b></a>: Is this domain available? Registro.br for <code>.br</code>, WHOIS discovered through IANA for every other extension, a DNS pre-check and a name generator.<br>
+    <a href="https://github.com/CaiqueDourado/DomainCheck"><img src="https://img.shields.io/badge/.NET-C%23-30363d?style=flat-square&logo=csharp&logoColor=white" alt="C#"></a>
+    <img src="https://img.shields.io/badge/WHOIS-Registro.br%20%2F%20IANA-8250df?style=flat-square&labelColor=30363d" alt="WHOIS">
+    <img src="https://img.shields.io/badge/DNS-Pre--check-2ea043?style=flat-square" alt="DNS Pre-check">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/ibge-nomes"><img src="https://github.com/CaiqueDourado/ibge-nomes/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="ibge-nomes"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/ibge-nomes"><b>ibge-nomes</b></a>: Python client for IBGE’s names API (2010 Census): rank, frequency, state, gender and decade. Standard library only.<br>
+    <a href="https://github.com/CaiqueDourado/ibge-nomes"><img src="https://img.shields.io/badge/Python-Client-30363d?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+    <img src="https://img.shields.io/badge/IBGE-Census%202010-8250df?style=flat-square&labelColor=30363d" alt="IBGE">
+    <img src="https://img.shields.io/badge/Dependencies-Standard%20Library-2ea043?style=flat-square" alt="Dependencies">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://br.wordpress.org/plugins/people-also-ask/"><img src="https://ps.w.org/people-also-ask/assets/icon.svg?rev=3167175" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="People Also Ask Plugin"></a>
   </td>
   <td>
     <a href="https://br.wordpress.org/plugins/people-also-ask/"><b>People Also Ask Plugin</b></a>: Official WordPress.org plugin automating programmatic SEO content from Google SERP "People Also Ask" questions. Features multi-level scraping, automated Schema Markup, and YouTube embeds.<br>
@@ -297,7 +331,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
-    <a href="https://supernichos.com"><img src="https://github.com/google.png?size=80" width="56" height="56" alt="SuperNichos"></a>
+    <a href="https://supernichos.com"><img src="https://supernichos.com/wp-content/uploads/2023/10/logo-n-light.svg" width="56" height="56" style="border-radius: 8px; object-fit: contain; background-color: #000036; padding: 6px; box-sizing: border-box;" alt="SuperNichos"></a>
   </td>
   <td>
     <a href="https://supernichos.com"><b>SuperNichos</b></a>: Brazil's largest niche discovery and segment mining engine. Ingests 50M Google Brazil queries, normalizing and clustering terms with Metaphone, Soundex, MinHash, and N-gram algorithms.<br>
@@ -312,15 +346,15 @@ Console.WriteLine(a - b);                             // Hamming distance
 
 ### Open Datasets & Scale Highlights
 
-| Repository / Dataset | Volume / Scale | Focus & Description |
-| :--- | :--- | :--- |
-| [**catalogo-produtos-ecommerce-brasil**](https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil) | **114M offers** (7,179 stores) | Massive open Brazilian e-commerce price and product offers catalog. |
-| [**reviews-produtos-ptbr**](https://github.com/CaiqueDourado/reviews-produtos-ptbr) | **2.87M reviews** | Brazilian product reviews dataset with sentiment classification and extracted pros/cons. |
-| [**pares-matching-produtos-ptbr**](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) | **2.1M labelled pairs** | Benchmark dataset of product offers labeled for deduplication and fuzzy match validation. |
-| [**lojas-virtuais-brasil**](https://github.com/CaiqueDourado/lojas-virtuais-brasil) | **63,974 stores** | Census of Brazilian online stores with platform fingerprinting, SSL verification, and CNPJ data. |
-| [**fipe-ficha-tecnica-veiculos**](https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos) | **1.65M FIPE prices**, 37,794 versions | Brazilian vehicle prices 2020–2026 (cars, motorcycles, trucks), specifications and vehicle × product matches. |
-| [**nomes-e-sobrenomes-brasil**](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) | **104k names** | Brazilian given names, surnames, and frequency data from IBGE Census and public records. |
-| [**municipios-e-estados-do-brasil**](https://github.com/CaiqueDourado/municipios-e-estados-do-brasil) | **5,570 municipalities** | All 5,570 Brazilian cities, 27 states, IBGE codes, and geographic metadata. |
+| | Repository / Dataset | Volume / Scale | Focus & Description |
+| :---: | :--- | :--- | :--- |
+| <a href="https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil"><img src="https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="catalogo-produtos-ecommerce-brasil"></a> | [**catalogo-produtos-ecommerce-brasil**](https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil) | **114M offers** (7,179 stores) | Massive open Brazilian e-commerce price and product offers catalog. |
+| <a href="https://github.com/CaiqueDourado/reviews-produtos-ptbr"><img src="https://github.com/CaiqueDourado/reviews-produtos-ptbr/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="reviews-produtos-ptbr"></a> | [**reviews-produtos-ptbr**](https://github.com/CaiqueDourado/reviews-produtos-ptbr) | **2.87M reviews** | Brazilian product reviews dataset with sentiment classification and extracted pros/cons. |
+| <a href="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr"><img src="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr/raw/main/docs/img/gold-methods.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pares-matching-produtos-ptbr"></a> | [**pares-matching-produtos-ptbr**](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) | **2.1M labelled pairs** | Benchmark dataset of product offers labeled for deduplication and fuzzy match validation. |
+| <a href="https://github.com/CaiqueDourado/lojas-virtuais-brasil"><img src="https://github.com/CaiqueDourado/lojas-virtuais-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="lojas-virtuais-brasil"></a> | [**lojas-virtuais-brasil**](https://github.com/CaiqueDourado/lojas-virtuais-brasil) | **63,974 stores** | Census of Brazilian online stores with platform fingerprinting, SSL verification, and CNPJ data. |
+| <a href="https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos"><img src="https://raw.githubusercontent.com/CaiqueDourado/fipe-ficha-tecnica-veiculos/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="fipe-ficha-tecnica-veiculos"></a> | [**fipe-ficha-tecnica-veiculos**](https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos) | **1.65M FIPE prices**, 37,794 versions, 25.5M part pairs | Brazilian vehicle prices 2020–2026 (cars, motorcycles, trucks), specifications and vehicle × auto part matches. |
+| <a href="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil"><img src="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil/raw/main/docs/img/cover.en.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="nomes-e-sobrenomes-brasil"></a> | [**nomes-e-sobrenomes-brasil**](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) | **104k names** | Brazilian given names, surnames, and frequency data from IBGE Census and public records. |
+| <a href="https://github.com/CaiqueDourado/municipios-e-estados-do-brasil"><img src="https://raw.githubusercontent.com/CaiqueDourado/municipios-e-estados-do-brasil/main/docs/img/mapa-fusos.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="municipios-e-estados-do-brasil"></a> | [**municipios-e-estados-do-brasil**](https://github.com/CaiqueDourado/municipios-e-estados-do-brasil) | **5,570 municipalities** | All 5,570 Brazilian cities, 27 states, IBGE codes, and geographic metadata. |
 
 ---
 
@@ -532,6 +566,7 @@ When not architecting pipelines or analyzing data, I play electric bass. I run a
 
 - 🌐 [tudosobreprodutos.com.br](https://www.tudosobreprodutos.com.br)
 - 💼 [linkedin.com/in/caiquedourado](https://www.linkedin.com/in/caiquedourado/)
+- 📊 [kaggle.com/caiquedourado](https://www.kaggle.com/caiquedourado)
 - ✉️ [contato@tudosobreprodutos.com.br](mailto:contato@tudosobreprodutos.com.br)
 - 🐦 [@caiquedourado](https://twitter.com/caiquedourado)
 - 📝 [caiquedourado.com.br](https://caiquedourado.com.br)
@@ -608,6 +643,266 @@ O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura de preços do
 **Website www.tudosobreprodutos.com.br:**
 
 ![TudoSobreProdutos screenshot](./assets/tudosobreprodutos_screenshot.png)
+
+---
+
+### [scrapladder](https://github.com/CaiqueDourado/scrapladder)
+*Baixa páginas web subindo uma escada progressiva de métodos, lembrando por domínio qual degrau funcionou.*
+
+[![scrapladder cover](https://raw.githubusercontent.com/CaiqueDourado/scrapladder/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/scrapladder)
+
+Sobe uma escada progressiva de camadas de requisição — de HTTP simples (`requests`, `httpx`), personificação TLS de navegador real (`curl_cffi`), navegadores headless (Playwright, Camoufox, Scrapling), até APIs de scraping pagas — lembrando qual degrau teve sucesso por domínio e pulando degraus bloqueados automaticamente.
+
+```python
+from scrapladder import Ladder
+
+with Ladder(memory="scrapladder.json") as ladder:
+    r = ladder.fetch("https://loja.example.com.br/produto/123", must_contain="KZ ZSN Pro")
+
+if r.ok:
+    print(r.method, len(r.html))   # ex: curl_cffi 184213
+else:
+    print(r.summary())             # ex: blocked via - [curl_cffi:challenged > playwright:challenged]
+```
+
+[![Repositório](https://img.shields.io/badge/Repositório-CaiqueDourado%2Fscrapladder-30363d?style=flat-square&logo=github&logoColor=white)](https://github.com/CaiqueDourado/scrapladder)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-30363d?style=flat-square&logo=python&logoColor=white)](https://github.com/CaiqueDourado/scrapladder)
+[![Licença: MIT](https://img.shields.io/badge/licença-MIT-30363d?style=flat-square)](https://github.com/CaiqueDourado/scrapladder/blob/main/LICENSE)
+
+---
+
+### [transcriptladder](https://github.com/CaiqueDourado/transcriptladder)
+*Transcrições resilientes do YouTube que não quebram: legendas diretas, metadados do yt-dlp e fallback neural com Whisper.*
+
+[![transcriptladder cover](https://raw.githubusercontent.com/CaiqueDourado/transcriptladder/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/transcriptladder)
+
+Tenta a extração de legendas em ordem de resiliência em cascata (`youtube-transcript-api` → download direto da URL de legendas → extração de legendas via `yt-dlp` → `faster-whisper` local), adaptando-se dinamicamente conforme o YouTube atualiza suas páginas.
+
+```python
+from transcriptladder import Transcriber
+
+with Transcriber(languages=["pt", "en"], memory="transcriptladder.json") as t:
+    r = t.transcribe("https://youtu.be/VIDEO_ID")
+
+if r.ok:
+    print(r.method, r.language)      # ex: yt_dlp_subs pt
+    print(r.text[:300])
+    open("video.srt", "w").write(r.srt())
+```
+
+[![Repositório](https://img.shields.io/badge/Repositório-CaiqueDourado%2Ftranscriptladder-30363d?style=flat-square&logo=github&logoColor=white)](https://github.com/CaiqueDourado/transcriptladder)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-30363d?style=flat-square&logo=python&logoColor=white)](https://github.com/CaiqueDourado/transcriptladder)
+[![Licença: MIT](https://img.shields.io/badge/licença-MIT-30363d?style=flat-square)](https://github.com/CaiqueDourado/transcriptladder/blob/main/LICENSE)
+---
+
+### [llm-cost-kit](https://github.com/CaiqueDourado/llm-cost-kit)
+*Saiba quanto cada chamada de LLM custou de verdade, com preços rastreáveis até a página do provedor.*
+
+[![llm-cost-kit cover](https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/llm-cost-kit)
+
+Rastreia o custo real de cada chamada de LLM — tokens de prompt, em cache, de saída e de pensamento (thinking) — em OpenAI, Gemini, Claude e DeepSeek, com tabelas de preços com fonte verificável. Nascido de uma auditoria real que reduziu a fatura de IA de um produto de US$ 1,00 para US$ 0,14 (−85,8%).
+
+```python
+from llm_cost_kit import Ledger, PriceTable, SQLiteSink, target, timer
+
+prices = PriceTable.load("prices.yaml")   # todo preço tem source e checked_at
+ledger = Ledger(prices, SQLiteSink("costs.sqlite"))
+
+for product in products:
+    with target(product_id=product["id"]):
+        with timer() as t:
+            resp = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
+        ledger.record(resp, model="gemini-2.5-flash", flow="spec_sheet", latency_ms=t.ms)
+```
+
+```bash
+$ llm-cost-kit report costs.sqlite --by meta.product_id
+$ llm-cost-kit prices prices.yaml        # preços desatualizados ou suspeitos
+$ llm-cost-kit check src/ --recorder record   # scripts chamando LLMs sem tarifação
+```
+
+[![Repositório](https://img.shields.io/badge/Repositório-CaiqueDourado%2Fllm--cost--kit-30363d?style=flat-square&logo=github&logoColor=white)](https://github.com/CaiqueDourado/llm-cost-kit)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-30363d?style=flat-square&logo=python&logoColor=white)](https://github.com/CaiqueDourado/llm-cost-kit)
+[![Licença: MIT](https://img.shields.io/badge/licença-MIT-30363d?style=flat-square)](https://github.com/CaiqueDourado/llm-cost-kit/blob/main/LICENSE)
+
+---
+
+### [SimilarImageFinder](https://github.com/CaiqueDourado/SimilarImageFinder)
+*Encontre fotos de produto duplicadas ou quase duplicadas com hash perceptual de imagens — Python e .NET devolvem os mesmos bits.*
+
+[![SimilarImageFinder cover](https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/cover.png)](https://github.com/CaiqueDourado/SimilarImageFinder)
+
+Hash perceptual de imagens (aHash, dHash, pHash) para identificar imagens quase duplicadas mesmo após redimensionamento, recompressão ou ajustes de brilho. Criado a partir da experiência de 5 anos gerenciando 114 milhões de ofertas de produtos de 7.179 lojas brasileiras — onde a mesma foto de lojistas diferentes nunca compartilhava o mesmo SHA-256.
+
+```python
+from similar_image_finder import perceptual_hash
+
+a = perceptual_hash("loja-a/luminaria.jpg")
+b = perceptual_hash("loja-b/pendente-preto-600x600.webp")
+print(a - b)   # Distância de Hamming: 0-6 = mesma imagem, >20 = produto diferente
+```
+
+```csharp
+using SimilarImageFinder;
+
+var a = ImageLoader.Hash("loja-a/luminaria.jpg");          // pHash, 64 bits
+var b = ImageLoader.Hash("loja-b/pendente.webp");
+Console.WriteLine(a - b);                                // Distância de Hamming
+```
+
+[![Repositório](https://img.shields.io/badge/Repositório-CaiqueDourado%2FSimilarImageFinder-30363d?style=flat-square&logo=github&logoColor=white)](https://github.com/CaiqueDourado/SimilarImageFinder)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-30363d?style=flat-square&logo=python&logoColor=white)](https://github.com/CaiqueDourado/SimilarImageFinder)
+[![.NET 8](https://img.shields.io/badge/.NET-8.0-30363d?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/CaiqueDourado/SimilarImageFinder)
+[![Licença: MIT](https://img.shields.io/badge/licença-MIT-30363d?style=flat-square)](https://github.com/CaiqueDourado/SimilarImageFinder/blob/main/LICENSE)
+
+---
+
+### Bibliotecas Open Source & Ferramentas para Desenvolvedores
+
+<table>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/scrapladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/scrapladder/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="scrapladder"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/scrapladder"><b>scrapladder</b></a>: Baixa páginas web subindo uma escada progressiva de métodos (HTTP simples, personificação TLS com curl_cffi, Playwright, APIs pagas) e lembra por domínio qual degrau funcionou.<br>
+    <a href="https://github.com/CaiqueDourado/scrapladder"><img src="https://img.shields.io/badge/Python-Biblioteca-30363d?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+    <img src="https://img.shields.io/badge/Anti--Bot-Resili%C3%AAncia-8250df?style=flat-square&labelColor=30363d" alt="Resiliência">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/transcriptladder"><img src="https://raw.githubusercontent.com/CaiqueDourado/transcriptladder/refs/heads/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="transcriptladder"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/transcriptladder"><b>transcriptladder</b></a>: Transcrição resiliente de vídeos do YouTube combinando APIs de legendas, metadados do yt-dlp e fallback neural com faster-whisper. Gera texto limpo, segmentos cronometrados e SRT.<br>
+    <a href="https://github.com/CaiqueDourado/transcriptladder"><img src="https://img.shields.io/badge/Python-Biblioteca-30363d?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+    <img src="https://img.shields.io/badge/%C3%81udio%20%2F%20V%C3%ADdeo-Whisper-8250df?style=flat-square&labelColor=30363d" alt="Whisper">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/DedupKit"><img src="https://github.com/CaiqueDourado/DedupKit/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DedupKit"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/DedupKit"><b>DedupKit</b></a>: Deduplicação de produtos entre múltiplos lojistas para o e-commerce brasileiro. Identifica ofertas idênticas sem EAN/SKU e rejeita falsos positivos (Python e .NET com resultados idênticos).<br>
+    <a href="https://github.com/CaiqueDourado/DedupKit"><img src="https://img.shields.io/badge/Python%20%26%20.NET-Dual%20Runtime-30363d?style=flat-square" alt="Dual Runtime"></a>
+    <img src="https://img.shields.io/badge/Fon%C3%A9tico-Metaphone%20%2F%20MinHash-8250df?style=flat-square&labelColor=30363d" alt="Metaphone">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-cost-kit"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><b>llm-cost-kit</b></a>: Calcula custos exatos e precificação de tokens para chamadas de inferência de LLM em OpenAI, Anthropic Claude, Google Gemini e modelos abertos com fontes atualizadas.<br>
+    <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://img.shields.io/badge/LLMOps-Otimiza%C3%A7%C3%A3o%20de%20Custos-2ea043?style=flat-square" alt="LLMOps"></a>
+    <img src="https://img.shields.io/badge/Multi--Provedor-OpenAI%20%2F%20Claude%20%2F%20Gemini-30363d?style=flat-square" alt="Multi-provedor">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/exact-vs-perceptual-hash.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="SimilarImageFinder"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><b>SimilarImageFinder</b></a>: Motor de hash perceptual de imagens (aHash, dHash, pHash, wHash) para deduplicação em grande escala de fotos de produtos e clusterização de catálogos de e-commerce.<br>
+    <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://img.shields.io/badge/Hash%20de%20Imagem-pHash%20%2F%20dHash-8250df?style=flat-square&labelColor=30363d" alt="Hash de Imagem"></a>
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://github.com/CaiqueDourado/BrCommerceKit/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="BrCommerceKit"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><b>BrCommerceKit</b></a>: Toolkit de engenharia de e-commerce brasileiro para .NET / C#. Identificação de 20 plataformas (Shopify, VTEX, Nuvemshop, Loja Integrada), leitor streaming de feeds com dialetos brasileiros (<code>preco_por</code>, <code>g:</code>), leitor de <code>products.json</code> da Shopify, normalizador de preços em BRL e inspetor de qualidade de catálogo (placeholder e EANs genéricos).<br>
+    <a href="https://github.com/CaiqueDourado/BrCommerceKit"><img src="https://img.shields.io/badge/.NET-C%23-30363d?style=flat-square&logo=csharp&logoColor=white" alt="C#"></a>
+    <img src="https://img.shields.io/badge/Plataformas-20%20Motores-8250df?style=flat-square&labelColor=30363d" alt="Plataformas">
+    <img src="https://img.shields.io/badge/CLI-brdetect%20%2F%20feed--inspect-2ea043?style=flat-square" alt="CLI">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://github.com/CaiqueDourado/PtBr.Text/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="PtBr.Text"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><b>PtBr.Text</b></a>: Toolkit de texto e dados em português brasileiro para .NET. Validação e formatação de CPF, novo CNPJ alfanumérico, CEP e telefones de 9 dígitos. Geração de texto com concordância de gênero/plural, extração RAKE PT-BR de palavras-chave e extração de contatos.<br>
+    <a href="https://github.com/CaiqueDourado/PtBr.Text"><img src="https://img.shields.io/badge/.NET-C%23-30363d?style=flat-square&logo=csharp&logoColor=white" alt="C#"></a>
+    <img src="https://img.shields.io/badge/Documentos-CNPJ%20Alfanum%C3%A9rico-8250df?style=flat-square&labelColor=30363d" alt="CNPJ Alfanumérico">
+    <img src="https://img.shields.io/badge/NLP-RAKE%20PT--BR-2ea043?style=flat-square" alt="RAKE">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/pros-e-contras-ptbr/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pros-e-contras-ptbr"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><b>pros-e-contras-ptbr</b></a>: Principais prós e contras de um produto a partir de avaliações em português brasileiro. Sem API, sem download de modelos; léxico aprendido a partir de 11,7 milhões de cláusulas de reviews reais.<br>
+    <a href="https://github.com/CaiqueDourado/pros-e-contras-ptbr"><img src="https://img.shields.io/badge/Python-Biblioteca-30363d?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+    <img src="https://img.shields.io/badge/NLP-Pr%C3%B3s%20%26%20Contras-8250df?style=flat-square&labelColor=30363d" alt="NLP">
+    <img src="https://img.shields.io/badge/L%C3%A9xico-11.7M%20Cl%C3%A1usulas-2ea043?style=flat-square" alt="11.7M Cláusulas">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/DomainCheck"><img src="https://github.com/CaiqueDourado/DomainCheck/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="DomainCheck"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/DomainCheck"><b>DomainCheck</b></a>: Esse domínio está disponível? Consulta ao Registro.br para <code>.br</code>, WHOIS descoberto via IANA para qualquer outra extensão, pré-checagem via DNS e gerador de nomes candidatos.<br>
+    <a href="https://github.com/CaiqueDourado/DomainCheck"><img src="https://img.shields.io/badge/.NET-C%23-30363d?style=flat-square&logo=csharp&logoColor=white" alt="C#"></a>
+    <img src="https://img.shields.io/badge/WHOIS-Registro.br%20%2F%20IANA-8250df?style=flat-square&labelColor=30363d" alt="WHOIS">
+    <img src="https://img.shields.io/badge/DNS-Pr%C3%A9--checagem-2ea043?style=flat-square" alt="DNS Pré-checagem">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/ibge-nomes"><img src="https://github.com/CaiqueDourado/ibge-nomes/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="ibge-nomes"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/ibge-nomes"><b>ibge-nomes</b></a>: Cliente Python para a API de nomes do IBGE (Censo 2010): posição no ranking, frequência, estado de maior incidência, sexo e década de nascimento. Apenas biblioteca padrão.<br>
+    <a href="https://github.com/CaiqueDourado/ibge-nomes"><img src="https://img.shields.io/badge/Python-Cliente-30363d?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
+    <img src="https://img.shields.io/badge/IBGE-Censo%202010-8250df?style=flat-square&labelColor=30363d" alt="IBGE">
+    <img src="https://img.shields.io/badge/Depend%C3%AAncias-Stdlib%20pura-2ea043?style=flat-square" alt="Dependências">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://br.wordpress.org/plugins/people-also-ask/"><img src="https://ps.w.org/people-also-ask/assets/icon.svg?rev=3167175" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="People Also Ask Plugin"></a>
+  </td>
+  <td>
+    <a href="https://br.wordpress.org/plugins/people-also-ask/"><b>People Also Ask Plugin</b></a>: Plugin oficial para WordPress.org automatizando a criação de conteúdo para SEO programático com base nas perguntas "As pessoas também perguntam" da SERP do Google. Raspagem multinível, Schema Markup automatizado e embeds do YouTube.<br>
+    <a href="https://br.wordpress.org/plugins/people-also-ask/"><img src="https://img.shields.io/badge/WordPress.org-Plugin%20Oficial-21759b?style=flat-square&logo=wordpress&logoColor=white" alt="Plugin WordPress"></a>
+    <a href="https://www.youtube.com/watch?v=txbozF2zYZA"><img src="https://img.shields.io/badge/Demo-YouTube-ff0000?style=flat-square&logo=youtube&logoColor=white" alt="Vídeo Demonstrativo"></a>
+    <img src="https://img.shields.io/badge/PHP-Custom%20Post%20Types-8250df?style=flat-square&labelColor=30363d" alt="PHP">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
+    <a href="https://supernichos.com"><img src="https://supernichos.com/wp-content/uploads/2023/10/logo-n-light.svg" width="56" height="56" style="border-radius: 8px; object-fit: contain; background-color: #000036; padding: 6px; box-sizing: border-box;" alt="SuperNichos"></a>
+  </td>
+  <td>
+    <a href="https://supernichos.com"><b>SuperNichos</b></a>: Maior motor de descoberta de nichos e mineração de segmentos do Brasil. Ingestão de 50M de buscas do Google Brasil, normalizando e agrupando termos com Metaphone, Soundex, MinHash e N-gram.<br>
+    <a href="https://supernichos.com"><img src="https://img.shields.io/badge/Plataforma-Online-2ea043?style=flat-square" alt="SuperNichos no ar"></a>
+    <a href="https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s"><img src="https://img.shields.io/badge/Estudo%20de%20Caso-YouTube-ff0000?style=flat-square&logo=youtube&logoColor=white" alt="Estudo de Caso"></a>
+    <img src="https://img.shields.io/badge/escala-50M%20de%20buscas-8250df?style=flat-square&labelColor=30363d" alt="50M de buscas">
+  </td>
+</tr>
+</table>
+
+---
+
+### Datasets Abertos & Destaques de Escala
+
+| | Repositório / Dataset | Volume / Escala | Foco & Descrição |
+| :---: | :--- | :--- | :--- |
+| <a href="https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil"><img src="https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="catalogo-produtos-ecommerce-brasil"></a> | [**catalogo-produtos-ecommerce-brasil**](https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil) | **114M de ofertas** (7.179 lojas) | Catálogo aberto massivo de preços e ofertas de produtos do e-commerce brasileiro. |
+| <a href="https://github.com/CaiqueDourado/reviews-produtos-ptbr"><img src="https://github.com/CaiqueDourado/reviews-produtos-ptbr/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="reviews-produtos-ptbr"></a> | [**reviews-produtos-ptbr**](https://github.com/CaiqueDourado/reviews-produtos-ptbr) | **2,87M de avaliações** | Base de dados de avaliações de produtos no Brasil com classificação de sentimento e extração de prós e contras. |
+| <a href="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr"><img src="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr/raw/main/docs/img/gold-methods.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pares-matching-produtos-ptbr"></a> | [**pares-matching-produtos-ptbr**](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) | **2,1M de pares rotulados** | Dataset de benchmark com pares de ofertas de produtos rotulados para validação de deduplicação e fuzzy match. |
+| <a href="https://github.com/CaiqueDourado/lojas-virtuais-brasil"><img src="https://github.com/CaiqueDourado/lojas-virtuais-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="lojas-virtuais-brasil"></a> | [**lojas-virtuais-brasil**](https://github.com/CaiqueDourado/lojas-virtuais-brasil) | **63.974 lojas** | Censo de lojas virtuais brasileiras com fingerprint de plataforma, verificação de SSL e dados cadastrais de CNPJ. |
+| <a href="https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos"><img src="https://raw.githubusercontent.com/CaiqueDourado/fipe-ficha-tecnica-veiculos/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="fipe-ficha-tecnica-veiculos"></a> | [**fipe-ficha-tecnica-veiculos**](https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos) | **1,65M de preços FIPE**, 37.794 versões, 25,5M de pares com autopeças | Preços de veículos no Brasil de 2020 a 2026 (carros, motos, caminhões), fichas técnicas e cruzamento veículo × autopeças. |
+| <a href="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil"><img src="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="nomes-e-sobrenomes-brasil"></a> | [**nomes-e-sobrenomes-brasil**](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) | **104 mil nomes** | Nomes próprios, sobrenomes e frequências a partir do Censo do IBGE e registros públicos. |
+| <a href="https://github.com/CaiqueDourado/municipios-e-estados-do-brasil"><img src="https://raw.githubusercontent.com/CaiqueDourado/municipios-e-estados-do-brasil/main/docs/img/mapa-fusos.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="municipios-e-estados-do-brasil"></a> | [**municipios-e-estados-do-brasil**](https://github.com/CaiqueDourado/municipios-e-estados-do-brasil) | **5.570 municípios** | Todos os 5.570 municípios brasileiros, 27 estados, códigos do IBGE e metadados geográficos. |
+
+---
 
 ### [SuperNichos](https://supernichos.com) (Mineração de nichos e palavras-chave, 2023-atual)
 - 700.000 nichos e 50M+ de palavras-chave em uma única plataforma
@@ -820,6 +1115,7 @@ Fora dos terminais e dos pipelines de dados, sou contrabaixista. Mantenho um can
 
 - 🌐 [tudosobreprodutos.com.br](https://www.tudosobreprodutos.com.br)
 - 💼 [linkedin.com/in/caiquedourado](https://www.linkedin.com/in/caiquedourado/)
+- 📊 [kaggle.com/caiquedourado](https://www.kaggle.com/caiquedourado)
 - ✉️ [contato@tudosobreprodutos.com.br](mailto:contato@tudosobreprodutos.com.br)
 - 🐦 [@caiquedourado](https://twitter.com/caiquedourado)
 - 📝 [caiquedourado.com.br](https://caiquedourado.com.br)
