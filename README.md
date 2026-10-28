@@ -75,6 +75,7 @@ The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Br
 - **Observability:** Sentry (runtime errors), Vercel Analytics, Speed Insights (Core Web Vitals in production)
 - **Agent-ready architecture:** `llms.txt`, MCP Server Card, ARD 1.0 catalog, `agent-skills.json`; `Accept: text/markdown` content negotiation via `turndown` (HTML-to-Markdown pipeline); server-side OG image generation via `@napi-rs/canvas`
 - **AEO / GEO:** Custom 12-step HTML-to-Markdown pipeline (`lib/markdown-for-agents.ts`) that strips 95%+ of UI noise from Next.js pages for LLM consumption (1.55 MB HTML down to 64 KB Markdown, 86 images deduplicated to 8); `Content-Signal` directives in `robots.txt` (`ai-train=no, search=yes`); canonical attribution header injected into every Markdown response
+- **Open source from this pipeline:** [scrapladder](https://github.com/CaiqueDourado/scrapladder) · [transcriptladder](https://github.com/CaiqueDourado/transcriptladder) · [llm-cost-kit](https://github.com/CaiqueDourado/llm-cost-kit) · [llm-batch-kit](https://github.com/CaiqueDourado/llm-batch-kit) · [pros-e-contras-ptbr](https://github.com/CaiqueDourado/pros-e-contras-ptbr) · [DedupKit](https://github.com/CaiqueDourado/DedupKit)
 
 **System workflow:**
 
@@ -256,6 +257,16 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/llm-batch-kit/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-batch-kit"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><b>llm-batch-kit</b></a>: Provider Batch APIs at half price without mismatched answers or paying twice: (prompt, item) pairs, signed manifest, idempotent collection and a Postgres in-flight queue.<br>
+    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><img src="https://img.shields.io/badge/Batch%20API-%C3%970.5%20cost-2ea043?style=flat-square" alt="Batch API"></a>
+    <img src="https://img.shields.io/badge/Postgres-SKIP%20LOCKED%20queue-30363d?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres queue">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
     <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/exact-vs-perceptual-hash.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="SimilarImageFinder"></a>
   </td>
   <td>
@@ -353,8 +364,11 @@ Console.WriteLine(a - b);                             // Hamming distance
 | <a href="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr"><img src="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr/raw/main/docs/img/gold-methods.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pares-matching-produtos-ptbr"></a> | [**pares-matching-produtos-ptbr**](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) | **2.1M labelled pairs** | Benchmark dataset of product offers labeled for deduplication and fuzzy match validation. |
 | <a href="https://github.com/CaiqueDourado/lojas-virtuais-brasil"><img src="https://github.com/CaiqueDourado/lojas-virtuais-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="lojas-virtuais-brasil"></a> | [**lojas-virtuais-brasil**](https://github.com/CaiqueDourado/lojas-virtuais-brasil) | **63,974 stores** | Census of Brazilian online stores with platform fingerprinting, SSL verification, and CNPJ data. |
 | <a href="https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos"><img src="https://raw.githubusercontent.com/CaiqueDourado/fipe-ficha-tecnica-veiculos/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="fipe-ficha-tecnica-veiculos"></a> | [**fipe-ficha-tecnica-veiculos**](https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos) | **1.65M FIPE prices**, 37,794 versions, 25.5M part pairs | Brazilian vehicle prices 2020–2026 (cars, motorcycles, trucks), specifications and vehicle × auto part matches. |
-| <a href="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil"><img src="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil/raw/main/docs/img/cover.en.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="nomes-e-sobrenomes-brasil"></a> | [**nomes-e-sobrenomes-brasil**](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) | **104k names** | Brazilian given names, surnames, and frequency data from IBGE Census and public records. |
+| <a href="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil"><img src="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil/raw/main/docs/img/cover.en.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="nomes-e-sobrenomes-brasil"></a> | [**nomes-e-sobrenomes-brasil**](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) | **46,840 names, 27,047 surnames** | Brazilian given names and surnames with IBGE Census frequencies, phonetic keys and meanings. |
 | <a href="https://github.com/CaiqueDourado/municipios-e-estados-do-brasil"><img src="https://raw.githubusercontent.com/CaiqueDourado/municipios-e-estados-do-brasil/main/docs/img/mapa-fusos.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="municipios-e-estados-do-brasil"></a> | [**municipios-e-estados-do-brasil**](https://github.com/CaiqueDourado/municipios-e-estados-do-brasil) | **5,570 municipalities** | All 5,570 Brazilian cities, 27 states, IBGE codes, and geographic metadata. |
+| <a href="https://github.com/CaiqueDourado/palavras-da-biblia"><img src="https://raw.githubusercontent.com/CaiqueDourado/palavras-da-biblia/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="palavras-da-biblia"></a> | [**palavras-da-biblia**](https://github.com/CaiqueDourado/palavras-da-biblia) | **592,643 words**, 30,127 distinct | Word frequencies of the Portuguese Bible (Almeida 1993) by book and Testament, characteristic words and quoted excerpts. |
+| <a href="https://github.com/CaiqueDourado/paises-do-mundo-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/919apps.com_screenshot.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="paises-do-mundo-ptbr"></a> | [**paises-do-mundo-ptbr**](https://github.com/CaiqueDourado/paises-do-mundo-ptbr) | **167 countries**, 53 columns | ISO codes, Brazilian Portuguese names, languages, currencies, time zones and regional formats. |
+| | [**taxonomia-google-produtos-ptbr**](https://github.com/CaiqueDourado/taxonomia-google-produtos-ptbr) | **5,595 categories** | Google's product taxonomy in Portuguese and English: flat table, closure table and JSON tree. |
 
 ---
 
@@ -445,6 +459,7 @@ Comprehensive online product intelligence guide with detailed specifications, re
 - **NLP Sentiment extraction:** Pros and Cons generated via sentence splitting with POS Tagger + Sentiment Analysis with Amazon Comprehend ([see architecture presentation](https://docs.google.com/presentation/d/1Y9ShmHLBnlbyZYIlbUPzZ_-QEk0fqIO6UMf-0dZOPQM/edit#slide=id.p))
 - **Structured Data:** JSON-LD schemas for FAQ, ItemList, Product, Table, BreadcrumbList, and Article
 - **Stack & Architecture:** 100% static HTML generated with C# and SQL Server, deployed to Google Cloud Storage (serverless, infinite scale)
+- **Open data & code:** [catalogo-produtos-ecommerce-brasil](https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil) · [reviews-produtos-ptbr](https://github.com/CaiqueDourado/reviews-produtos-ptbr) · [pares-matching-produtos-ptbr](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) · [DedupKit](https://github.com/CaiqueDourado/DedupKit) · [SimilarImageFinder](https://github.com/CaiqueDourado/SimilarImageFinder) · [pros-e-contras-ptbr](https://github.com/CaiqueDourado/pros-e-contras-ptbr)
 - **Live Archive:** [Visit archived site](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v)
 
 ![Tudo Sobre Produtos 1st Version](./assets/tudosobreprodutos_primeira_versao.png)
@@ -461,6 +476,7 @@ Platform with 104,000 indexed names, covering meanings, origins, etymology, and 
 - **Stack:** Built with Next.js 14, Tailwind CSS, TypeScript, Supabase, and OpenAI API
 - **Performance:** 100% mobile-friendly with perfect Core Web Vitals scores
 - **Structured Data:** JSON-LD schemas for FAQ, ItemList, WebSite, Breadcrumbs, and Article
+- **Open data & code:** [nomes-e-sobrenomes-brasil](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) · [ibge-nomes](https://github.com/CaiqueDourado/ibge-nomes)
 - **Live Archive:** [Visit archived site](https://web.archive.org/web/20250610174857/https://nomessobrenomes.com/qual-o-significado-do-nome-alan-gustavo)
 
 ![Nomes e Sobrenomes](./assets/nomessobrenomes.com_screenshot.png)
@@ -473,6 +489,7 @@ Comprehensive intelligence and reputational analysis of 63,933 Brazilian e-comme
 - **Security & Reputation:** Automated SSL certificate verification and direct cross-referencing links to Consumidor.gov.br, Jusbrasil, and Reclame Aqui
 - **Platform Detection:** Automatic fingerprinting of e-commerce platforms (Shopify, VTEX, WooCommerce, Nuvemshop, etc.)
 - **AI Synthesis:** Contextual explanatory content generated via OpenAI API
+- **Open data & code:** [lojas-virtuais-brasil](https://github.com/CaiqueDourado/lojas-virtuais-brasil) · [BrCommerceKit](https://github.com/CaiqueDourado/BrCommerceKit) · [DomainCheck](https://github.com/CaiqueDourado/DomainCheck)
 - **Live Archive:** [Visit archived site](https://web.archive.org/web/20250618081809/https://tudosobrelojas.com/a-loja-saboreat-e-confavel-tudo-sobre-a-loja-saboreat/)
 
 ![Tudo Sobre Lojas](./assets/tudosobrelojas.com_screenshot.png)
@@ -488,12 +505,29 @@ Comprehensive Portuguese dictionary platform with 187,000 words, including defin
 
 ![Tudo sobre as Palavras](./assets/tudosobreaspalavras_screenshot.png)
 
+### [Tudo Sobre Carros, Motos e Caminhões](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/) (2022)
+Family of four vehicle portals, "auto parts and accessories + specifications + FIPE table", with a page per make, model and version.
+- **Sites:** Tudo Sobre Carros, [Tudo para Seus Carros](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/), [Tudo Sobre Motos](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) and [Tudo Sobre Caminhões](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/)
+- **Scale:** 245 makes and 11,948 FIPE models of cars, motorcycles and trucks; 1.6M monthly FIPE prices; specifications of 37,794 versions
+- **Features:** FIPE table and price history, IPVA estimate, specifications and auto parts "that fit this vehicle"
+- **Auto parts fitment:** 25.5M vehicle × product pairs matched by model name against the 114M-offer e-commerce catalog, each with a warning level
+- **Specifications crawler:** yes/no equipment read from the SVG path of each icon on the page
+- **Content:** rule-based Portuguese text for every version (about, equipment, price history, FAQ), no LLM
+- **Architecture:** 100% static HTML generated with C# and SQL Server, hosted on Google Cloud Storage
+- **Open data & code:** [fipe-ficha-tecnica-veiculos](https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos) (with SQLite and JSON releases)
+- **Live Archive:** [Tudo para Seus Carros](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/) · [Tudo Sobre Motos](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) · [Tudo Sobre Caminhões](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/)
+
+| | |
+|:---:|:---:|
+| [![Tudo Sobre Motos](./assets/tudosobreduasrodas.com_screenshot.png)](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) | [![Tudo Sobre Caminhões](./assets/tudosobrecaminhoes.com_screenshot.png)](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/) |
+
 ### [Versiculo-Do-Dia.com](https://versiculo-do-dia.com/) (2022)
 Bible verse platform with automated programmatic shareable graphics designed for social media distribution.
 - **Automated Graphics:** Programmatic generation of high-resolution Bible verse images formatted for social media sharing (Instagram, Facebook, WhatsApp)
 - **Database:** Full relational Bible database
 - **Engine:** Dynamic image rendering engine in C#
 - **Architecture:** 100% static HTML platform hosted on Google Cloud Storage
+- **Open data & code:** [palavras-da-biblia](https://github.com/CaiqueDourado/palavras-da-biblia)
 - **Live Site:** [Visit site](https://versiculo-do-dia.com/)
 
 ![Versiculo do Dia](./assets/versiculo-do-dia.com_screenshot.png)
@@ -503,6 +537,7 @@ Programmatic discovery catalog generated from the [Apple Enterprise Partner Feed
 - **Scale:** 2.4M apps ingested and indexed from the official [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf)
 - **Internationalization:** Multi-language catalog published across 176 countries
 - **Regionalization:** Advanced cultural and geographic formatting implemented using C# `System.Globalization.CultureInfo` and `System.Globalization.RegionInfo`
+- **Open data & code:** [paises-do-mundo-ptbr](https://github.com/CaiqueDourado/paises-do-mundo-ptbr)
 - **Live Archive:** [Visit archived site](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule)
 
 ![919Apps](./assets/919apps.com_screenshot.png)
@@ -620,6 +655,7 @@ O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura de preços do
 - **Observabilidade:** Sentry (erros em runtime), Vercel Analytics, Speed Insights (Core Web Vitals em produção)
 - **Arquitetura agent-ready:** `llms.txt`, MCP Server Card, catálogo ARD 1.0, `agent-skills.json`; negociação de conteúdo `Accept: text/markdown` via pipeline `turndown` (HTML para Markdown); geração de imagens OG server-side via `@napi-rs/canvas`
 - **AEO / GEO:** Pipeline proprietário de 12 etapas de conversão de HTML para Markdown (`lib/markdown-for-agents.ts`) que remove mais de 95% do ruído de interface das páginas Next.js para consumo por LLMs (1,55 MB de HTML reduzidos para 64 KB de Markdown, 86 imagens deduplicadas para 8); diretivas `Content-Signal` no `robots.txt` (`ai-train=no, search=yes`); injeção de cabeçalho de atribuição canônica em todas as respostas Markdown
+- **Código aberto deste pipeline:** [scrapladder](https://github.com/CaiqueDourado/scrapladder) · [transcriptladder](https://github.com/CaiqueDourado/transcriptladder) · [llm-cost-kit](https://github.com/CaiqueDourado/llm-cost-kit) · [llm-batch-kit](https://github.com/CaiqueDourado/llm-batch-kit) · [pros-e-contras-ptbr](https://github.com/CaiqueDourado/pros-e-contras-ptbr) · [DedupKit](https://github.com/CaiqueDourado/DedupKit)
 
 **Fluxo do sistema:**
 
@@ -802,6 +838,16 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/llm-batch-kit/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-batch-kit"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><b>llm-batch-kit</b></a>: APIs de lote do provedor pela metade do preço, sem resposta trocada nem pagar duas vezes: pares (prompt, item), manifesto assinado, coleta idempotente e fila no Postgres.<br>
+    <a href="https://github.com/CaiqueDourado/llm-batch-kit"><img src="https://img.shields.io/badge/Batch%20API-%C3%970.5%20cost-2ea043?style=flat-square" alt="Batch API"></a>
+    <img src="https://img.shields.io/badge/Postgres-SKIP%20LOCKED%20queue-30363d?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres queue">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
     <a href="https://github.com/CaiqueDourado/SimilarImageFinder"><img src="https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/exact-vs-perceptual-hash.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="SimilarImageFinder"></a>
   </td>
   <td>
@@ -899,8 +945,11 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 | <a href="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr"><img src="https://github.com/CaiqueDourado/pares-matching-produtos-ptbr/raw/main/docs/img/gold-methods.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="pares-matching-produtos-ptbr"></a> | [**pares-matching-produtos-ptbr**](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) | **2,1M de pares rotulados** | Dataset de benchmark com pares de ofertas de produtos rotulados para validação de deduplicação e fuzzy match. |
 | <a href="https://github.com/CaiqueDourado/lojas-virtuais-brasil"><img src="https://github.com/CaiqueDourado/lojas-virtuais-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="lojas-virtuais-brasil"></a> | [**lojas-virtuais-brasil**](https://github.com/CaiqueDourado/lojas-virtuais-brasil) | **63.974 lojas** | Censo de lojas virtuais brasileiras com fingerprint de plataforma, verificação de SSL e dados cadastrais de CNPJ. |
 | <a href="https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos"><img src="https://raw.githubusercontent.com/CaiqueDourado/fipe-ficha-tecnica-veiculos/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="fipe-ficha-tecnica-veiculos"></a> | [**fipe-ficha-tecnica-veiculos**](https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos) | **1,65M de preços FIPE**, 37.794 versões, 25,5M de pares com autopeças | Preços de veículos no Brasil de 2020 a 2026 (carros, motos, caminhões), fichas técnicas e cruzamento veículo × autopeças. |
-| <a href="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil"><img src="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="nomes-e-sobrenomes-brasil"></a> | [**nomes-e-sobrenomes-brasil**](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) | **104 mil nomes** | Nomes próprios, sobrenomes e frequências a partir do Censo do IBGE e registros públicos. |
+| <a href="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil"><img src="https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil/raw/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="nomes-e-sobrenomes-brasil"></a> | [**nomes-e-sobrenomes-brasil**](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) | **46.840 nomes, 27.047 sobrenomes** | Nomes e sobrenomes brasileiros com frequências do Censo do IBGE, chaves fonéticas e significados. |
 | <a href="https://github.com/CaiqueDourado/municipios-e-estados-do-brasil"><img src="https://raw.githubusercontent.com/CaiqueDourado/municipios-e-estados-do-brasil/main/docs/img/mapa-fusos.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="municipios-e-estados-do-brasil"></a> | [**municipios-e-estados-do-brasil**](https://github.com/CaiqueDourado/municipios-e-estados-do-brasil) | **5.570 municípios** | Todos os 5.570 municípios brasileiros, 27 estados, códigos do IBGE e metadados geográficos. |
+| <a href="https://github.com/CaiqueDourado/palavras-da-biblia"><img src="https://raw.githubusercontent.com/CaiqueDourado/palavras-da-biblia/main/docs/img/cover.pt-BR.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="palavras-da-biblia"></a> | [**palavras-da-biblia**](https://github.com/CaiqueDourado/palavras-da-biblia) | **592.643 palavras**, 30.127 diferentes | Frequência das palavras da Bíblia (Almeida 1993) por livro e Testamento, palavras características e trechos citados. |
+| <a href="https://github.com/CaiqueDourado/paises-do-mundo-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/919apps.com_screenshot.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="paises-do-mundo-ptbr"></a> | [**paises-do-mundo-ptbr**](https://github.com/CaiqueDourado/paises-do-mundo-ptbr) | **167 países**, 53 colunas | Códigos ISO, nomes em português do Brasil, idiomas, moedas, fusos horários e formatos regionais. |
+| | [**taxonomia-google-produtos-ptbr**](https://github.com/CaiqueDourado/taxonomia-google-produtos-ptbr) | **5.595 categorias** | A taxonomia de produtos do Google em português e inglês: tabela, tabela de fechamento e árvore JSON. |
 
 ---
 
@@ -994,6 +1043,7 @@ Guia de produtos com especificações detalhadas, opiniões de compradores e com
 - **NLP:** Geração de Prós e Contras via divisão de sentenças com POS Tagger + Análise de Sentimento no Amazon Comprehend ([ver apresentação da arquitetura](https://docs.google.com/presentation/d/1Y9ShmHLBnlbyZYIlbUPzZ_-QEk0fqIO6UMf-0dZOPQM/edit#slide=id.p))
 - **Dados estruturados:** Schemas JSON-LD de FAQ, ItemList, Product, Table, BreadcrumbList e Article
 - **Arquitetura:** 100% estático em HTML gerado em C# e SQL Server, hospedado no Google Cloud Storage (serverless)
+- **Dados e código abertos:** [catalogo-produtos-ecommerce-brasil](https://github.com/CaiqueDourado/catalogo-produtos-ecommerce-brasil) · [reviews-produtos-ptbr](https://github.com/CaiqueDourado/reviews-produtos-ptbr) · [pares-matching-produtos-ptbr](https://github.com/CaiqueDourado/pares-matching-produtos-ptbr) · [DedupKit](https://github.com/CaiqueDourado/DedupKit) · [SimilarImageFinder](https://github.com/CaiqueDourado/SimilarImageFinder) · [pros-e-contras-ptbr](https://github.com/CaiqueDourado/pros-e-contras-ptbr)
 - **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v)
 
 ![Tudo Sobre Produtos 1ª Versão](./assets/tudosobreprodutos_primeira_versao.png)
@@ -1010,6 +1060,7 @@ Portal com 104 mil nomes próprios catalogados com significados, origem, etimolo
 - **Tecnologia:** Next.js 14, Tailwind CSS, TypeScript, Supabase e API da OpenAI
 - **Performance:** 100% adequado a dispositivos móveis com notas perfeitas no Web Vitals
 - **Dados estruturados:** Schemas JSON-LD de FAQ, ItemList, WebSite, Breadcrumbs e Article
+- **Dados e código abertos:** [nomes-e-sobrenomes-brasil](https://github.com/CaiqueDourado/nomes-e-sobrenomes-brasil) · [ibge-nomes](https://github.com/CaiqueDourado/ibge-nomes)
 - **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20250610174857/https://nomessobrenomes.com/qual-o-significado-do-nome-alan-gustavo)
 
 ![Nomes e Sobrenomes](./assets/nomessobrenomes.com_screenshot.png)
@@ -1022,6 +1073,7 @@ Análise completa de lojas virtuais e e-commerces brasileiros com dados enriquec
 - **Segurança & Reputação:** Checagem automatizada de certificado SSL e links diretos para busca de reclamações no Consumidor.gov.br, Jusbrasil e Reclame Aqui
 - **Identificação de tecnologia:** Detecção automática da plataforma de e-commerce utilizada (Shopify, VTEX, WooCommerce, Nuvemshop, etc.)
 - **IA:** Geração de conteúdo de apoio e síntese explicativa com API da OpenAI
+- **Dados e código abertos:** [lojas-virtuais-brasil](https://github.com/CaiqueDourado/lojas-virtuais-brasil) · [BrCommerceKit](https://github.com/CaiqueDourado/BrCommerceKit) · [DomainCheck](https://github.com/CaiqueDourado/DomainCheck)
 - **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20250618081809/https://tudosobrelojas.com/a-loja-saboreat-e-confavel-tudo-sobre-a-loja-saboreat/)
 
 ![Tudo Sobre Lojas](./assets/tudosobrelojas.com_screenshot.png)
@@ -1037,12 +1089,29 @@ Dicionário completo com 187 mil palavras, incluindo significados, sinônimos, g
 
 ![Tudo sobre as Palavras](./assets/tudosobreaspalavras_screenshot.png)
 
+### [Tudo Sobre Carros, Motos e Caminhões](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/) (2022)
+Família de quatro portais de veículos, "peças e acessórios + ficha técnica + tabela FIPE", com uma página por marca, modelo e versão.
+- **Sites:** Tudo Sobre Carros, [Tudo para Seus Carros](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/), [Tudo Sobre Motos](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) e [Tudo Sobre Caminhões](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/)
+- **Escala:** 245 marcas e 11.948 modelos FIPE de carros, motos e caminhões; 1,6 milhão de preços FIPE mensais; ficha técnica de 37.794 versões
+- **Recursos:** tabela FIPE e histórico de preços, estimativa de IPVA, ficha técnica e autopeças "indicadas para este veículo"
+- **Compatibilidade de autopeças:** 25,5 milhões de pares veículo × produto, casados pelo nome do modelo contra o catálogo de 114 milhões de ofertas, cada um com nível de alerta
+- **Crawler de ficha técnica:** itens de sim ou não lidos pelo desenho (SVG) de cada ícone da página
+- **Conteúdo:** texto em português por regras para cada versão (sobre, equipamentos, histórico de preço, FAQ), sem LLM
+- **Arquitetura:** HTML 100% estático gerado em C# e SQL Server, hospedado no Google Cloud Storage
+- **Dados e código abertos:** [fipe-ficha-tecnica-veiculos](https://github.com/CaiqueDourado/fipe-ficha-tecnica-veiculos) (com releases em SQLite e JSON)
+- **Arquivo histórico:** [Tudo para Seus Carros](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/) · [Tudo Sobre Motos](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) · [Tudo Sobre Caminhões](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/)
+
+| | |
+|:---:|:---:|
+| [![Tudo Sobre Motos](./assets/tudosobreduasrodas.com_screenshot.png)](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) | [![Tudo Sobre Caminhões](./assets/tudosobrecaminhoes.com_screenshot.png)](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/) |
+
 ### [Versiculo-Do-Dia.com](https://versiculo-do-dia.com/) (2022)
 Plataforma de versículos bíblicos com imagens programáticas compartilháveis para redes sociais.
 - **Geração de imagens:** Automação de artes de versículos bíblicos formatadas para compartilhamento em redes sociais (Instagram, Facebook, WhatsApp)
 - **Base de dados:** Banco relacional completo da Bíblia
 - **Motor visual:** Renderizador dinâmico de imagens em C#
 - **Arquitetura:** Site 100% estático em HTML hospedado no Google Cloud Storage
+- **Dados e código abertos:** [palavras-da-biblia](https://github.com/CaiqueDourado/palavras-da-biblia)
 - **Site no ar:** [Conheça o site](https://versiculo-do-dia.com/)
 
 ![Versículo do Dia](./assets/versiculo-do-dia.com_screenshot.png)
@@ -1052,6 +1121,7 @@ Portal programático gerado a partir do [Apple Enterprise Partner Feed](https://
 - **Escala:** 2,4 milhões de aplicativos indexados diretamente do [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf)
 - **Alcance internacional:** Site multi-idiomas publicado em 176 países
 - **Regionalização:** Suporte avançado a internacionalização usando `System.Globalization.CultureInfo` e `System.Globalization.RegionInfo` em C#
+- **Dados e código abertos:** [paises-do-mundo-ptbr](https://github.com/CaiqueDourado/paises-do-mundo-ptbr)
 - **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule)
 
 ![919Apps](./assets/919apps.com_screenshot.png)
