@@ -456,17 +456,10 @@ Built from scratch in ASP.NET + SQL Server + Azure (9 months of development, nig
 | ![Baralho do Crime memory game](./assets/baralho_do_crime_jogo.jpg) | ![Baralho do Crime portal](./assets/baralho_do_crime_portal.png) |
 
 ### Open Source & Publications
-- Articles (2026), on Medium, all in [articles](https://github.com/CaiqueDourado/articles):
-  - [Seven ways to turn millions of Google searches into page templates](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f)
-  - [Almost 400 million search patterns, five databases, and what actually worked](https://medium.com/@caiquedourado/almost-400-million-search-patterns-five-databases-and-what-actually-worked-139cb4a28c4e)
-  - [From 1.7 million search patterns to 83 sites: how I chose what to build](https://medium.com/@caiquedourado/from-1-7-million-search-patterns-to-83-sites-how-i-chose-what-to-build-f764687dfe12)
-- Data and NLP articles (2026):
-  - [Metaphone, Soundex, n-grams and MinHash on Brazilian product names](https://medium.com/@caiquedourado/metaphone-soundex-n-grams-and-minhash-on-brazilian-product-names-d6f67745ee4d)
-  - [Finding the same photo across 7,179 stores](https://medium.com/@caiquedourado/finding-the-same-photo-across-7-179-stores-a4e94bc93777)
-  - [Sentence splitting + sentiment analysis = pros and cons](https://github.com/CaiqueDourado/articles/blob/main/pros-and-cons/README.md)
-  - [Enriching sign-up data with open APIs](https://github.com/CaiqueDourado/articles/blob/main/open-apis/README.md)
-  - [Training Stanford NER on Portuguese with a dictionary](https://github.com/CaiqueDourado/articles/blob/main/stanford-ner/README.md)
-  - [What I learned squeezing 50 million searches](https://github.com/CaiqueDourado/articles/blob/main/fifty-million-searches/README.md)
+- Articles:
+  - [From 1.7 million search patterns to 83 sites: how I chose what to build](https://medium.com/@caiquedourado/from-1-7-million-search-patterns-to-83-sites-how-i-chose-what-to-build-f764687dfe12) (2026, Medium)
+  - [What I learned breaking down 50 million Google searches](https://caiquedourado.com.br/o-que-aprendi-debulhando-50-milhoes-de-termos-de-busca-no-google/) (2023, in Portuguese)
+  - [Case study: É bom? Vale a pena?](https://github.com/CaiqueDourado/portuguese-product-reviews/blob/main/docs/case-study-e-bom-vale-a-pena.md): the product-review site I ran from 2017 to 2022
 - Older articles: *Push Notifications guide*
 
 ---
@@ -486,6 +479,7 @@ Comprehensive online product intelligence guide with detailed specifications, re
 - **Structured Data:** JSON-LD schemas for FAQ, ItemList, Product, Table, BreadcrumbList, and Article
 - **Stack & Architecture:** 100% static HTML generated with C# and SQL Server, deployed to Google Cloud Storage (serverless, infinite scale)
 - **Open data & code:** [brazilian-ecommerce-products](https://github.com/CaiqueDourado/brazilian-ecommerce-products) · [portuguese-product-reviews](https://github.com/CaiqueDourado/portuguese-product-reviews) · [product-matching-pairs-portuguese](https://github.com/CaiqueDourado/product-matching-pairs-portuguese) · [DedupKit](https://github.com/CaiqueDourado/DedupKit) · [SimilarImageFinder](https://github.com/CaiqueDourado/SimilarImageFinder) · [pros-e-contras-ptbr](https://github.com/CaiqueDourado/pros-e-contras-ptbr)
+- **Lessons learned:** [What I would do differently](https://github.com/CaiqueDourado/brazilian-ecommerce-products#what-i-would-do-differently)
 - **Live Archive:** [Visit archived site](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v)
 
 ![Tudo Sobre Produtos 1st Version](./assets/tudosobreprodutos_primeira_versao.png)
@@ -1069,17 +1063,10 @@ Desenvolvido do zero em ASP.NET + SQL Server + Azure (9 meses de desenvolvimento
 | ![Jogo da memória Baralho do Crime](./assets/baralho_do_crime_jogo.jpg) | ![Portal Baralho do Crime](./assets/baralho_do_crime_portal.png) |
 
 ### Open Source & Publicações
-- Artigos (2026), todos em [articles](https://github.com/CaiqueDourado/articles):
-  - [De 1,7 milhão de padrões de busca a 83 sites: como escolhi o que construir](https://github.com/CaiqueDourado/articles/blob/main/choosing-sites/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/from-1-7-million-search-patterns-to-83-sites-how-i-chose-what-to-build-f764687dfe12))
-  - [Quase 400 milhões de padrões de busca, cinco bancos de dados e o que de fato funcionou](https://github.com/CaiqueDourado/articles/blob/main/scale-search-patterns/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/almost-400-million-search-patterns-five-databases-and-what-actually-worked-139cb4a28c4e))
-  - [Sete jeitos de transformar milhões de buscas do Google em modelos de página](https://github.com/CaiqueDourado/articles/blob/main/seven-ways-search-patterns/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f))
-- Artigos de dados e NLP (2026):
-  - [Metaphone, Soundex, n-gramas e MinHash em nomes de produtos brasileiros](https://github.com/CaiqueDourado/articles/blob/main/text-similarity/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/metaphone-soundex-n-grams-and-minhash-on-brazilian-product-names-d6f67745ee4d))
-  - [Achando a mesma foto em 7.179 lojas](https://github.com/CaiqueDourado/articles/blob/main/image-similarity/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/finding-the-same-photo-across-7-179-stores-a4e94bc93777))
-  - [Divisão de sentenças + análise de sentimentos = prós e contras](https://github.com/CaiqueDourado/articles/blob/main/pros-and-cons/README.pt-BR.md)
-  - [Enriquecendo cadastros com APIs abertas](https://github.com/CaiqueDourado/articles/blob/main/open-apis/README.pt-BR.md)
-  - [Treinando o Stanford NER em português com um dicionário](https://github.com/CaiqueDourado/articles/blob/main/stanford-ner/README.pt-BR.md)
-  - [O que aprendi debulhando 50 milhões de buscas](https://github.com/CaiqueDourado/articles/blob/main/fifty-million-searches/README.pt-BR.md)
+- Artigos:
+  - [De 1,7 milhão de padrões de busca a 83 sites: como escolhi o que construir](https://github.com/CaiqueDourado/articles/blob/main/choosing-sites/README.pt-BR.md) (2026, [em inglês no Medium](https://medium.com/@caiquedourado/from-1-7-million-search-patterns-to-83-sites-how-i-chose-what-to-build-f764687dfe12))
+  - [O que aprendi debulhando 50 milhões de termos de busca no Google](https://caiquedourado.com.br/o-que-aprendi-debulhando-50-milhoes-de-termos-de-busca-no-google/) (2023)
+  - [Estudo de caso: É bom? Vale a pena?](https://github.com/CaiqueDourado/portuguese-product-reviews/blob/main/docs/estudo-de-caso-e-bom-vale-a-pena.md): o site de opiniões de produtos que mantive de 2017 a 2022
 - Artigos antigos: *Guia de Push Notifications*
 
 ---
@@ -1098,6 +1085,7 @@ Guia de produtos com especificações detalhadas, opiniões de compradores e com
 - **Dados estruturados:** Schemas JSON-LD de FAQ, ItemList, Product, Table, BreadcrumbList e Article
 - **Arquitetura:** 100% estático em HTML gerado em C# e SQL Server, hospedado no Google Cloud Storage (serverless)
 - **Dados e código abertos:** [brazilian-ecommerce-products](https://github.com/CaiqueDourado/brazilian-ecommerce-products) · [portuguese-product-reviews](https://github.com/CaiqueDourado/portuguese-product-reviews) · [product-matching-pairs-portuguese](https://github.com/CaiqueDourado/product-matching-pairs-portuguese) · [DedupKit](https://github.com/CaiqueDourado/DedupKit) · [SimilarImageFinder](https://github.com/CaiqueDourado/SimilarImageFinder) · [pros-e-contras-ptbr](https://github.com/CaiqueDourado/pros-e-contras-ptbr)
+- **Lições aprendidas:** [O que eu faria diferente](https://github.com/CaiqueDourado/brazilian-ecommerce-products/blob/main/README.pt-BR.md#o-que-eu-faria-diferente)
 - **Arquivo histórico:** [Conheça o site arquivado](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v)
 
 ![Tudo Sobre Produtos 1ª Versão](./assets/tudosobreprodutos_primeira_versao.png)
