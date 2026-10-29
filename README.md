@@ -484,7 +484,7 @@ Comprehensive online product intelligence guide with detailed specifications, re
 ### Portal de Cartórios no Brasil (Brazilian Registry Offices, 2024)
 National registry office directory covering all Brazilian municipalities with enriched public records.
 - **Scale:** Complete database of all notary and registry offices across Brazilian municipalities
-- **Architecture:** Static HTML generation with dynamic map integration and schema markup
+- **Architecture:** One page per office generated from the crawled tables and published on WordPress, with maps and schema markup
 - **Audience:** Thousands of monthly organic visits for legal document authentication and certificate requests
 - **Open data & code:** [brazilian-notary-registry-offices](https://github.com/CaiqueDourado/brazilian-notary-registry-offices) (a sample of the crawled registry: services, revenue since 2005 and CNJ decisions) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/brazilian-notary-registry-offices)
 
@@ -1087,7 +1087,7 @@ Guia de produtos com especificações detalhadas, opiniões de compradores e com
 ### Portal de Cartórios no Brasil (2024)
 Guia nacional de cartórios com informações completas de todos os municípios brasileiros.
 - **Escala:** Base com todos os cartórios de notas, registro civil e imóveis do Brasil
-- **Arquitetura:** Páginas estáticas com mapas e dados estruturados locais
+- **Arquitetura:** Uma página por serventia, gerada a partir das tabelas coletadas e publicada no WordPress, com mapas e dados estruturados locais
 - **Audiência:** Milhares de acessos orgânicos/mês para emissão de certidões e serviços notariais
 - **Dados e código abertos:** [brazilian-notary-registry-offices](https://github.com/CaiqueDourado/brazilian-notary-registry-offices) (amostra do cadastro coletado: atribuições, arrecadação desde 2005 e decisões do CNJ) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/brazilian-notary-registry-offices)
 
