@@ -24,18 +24,18 @@ Founder of [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) and 
 ![TypeScript](https://img.shields.io/badge/TypeScript-30363d?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-30363d?style=flat-square&logo=javascript&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-30363d?style=flat-square&logo=csharp&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-30363d?style=flat-square&logo=php&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-30363d?style=flat-square&logo=dotnet&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-30363d?style=flat-square&logo=nextdotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-30363d?style=flat-square&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-30363d?style=flat-square&logo=react&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-30363d?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-30363d?style=flat-square&logo=postgresql&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-30363d?style=flat-square&logo=duckdb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-30363d?style=flat-square&logo=redis&logoColor=white)
 ![Google BigQuery](https://img.shields.io/badge/BigQuery-30363d?style=flat-square&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-30363d?style=flat-square&logo=docker&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-30363d?style=flat-square&logo=playwright&logoColor=white)
 ![Scrapy](https://img.shields.io/badge/Scrapy-30363d?style=flat-square&logo=scrapy&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-30363d?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-30363d?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 
@@ -382,13 +382,14 @@ Console.WriteLine(a - b);                             // Hamming distance
 | <a href="https://github.com/CaiqueDourado/portuguese-entity-gazetteer"><img src="https://raw.githubusercontent.com/CaiqueDourado/portuguese-entity-gazetteer/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="portuguese-entity-gazetteer"></a> | [**portuguese-entity-gazetteer**](https://github.com/CaiqueDourado/portuguese-entity-gazetteer) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/portuguese-entity-gazetteer) | **307k entities**, 747 types, 26 classes | Portuguese gazetteer of places, people, works, products and brands with their types, curated by hand; the entity dictionary behind SuperNichos' search patterns. |
 | <a href="https://github.com/CaiqueDourado/brazilian-notary-registry-offices"><img src="https://raw.githubusercontent.com/CaiqueDourado/brazilian-notary-registry-offices/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="brazilian-notary-registry-offices"></a> | [**brazilian-notary-registry-offices**](https://github.com/CaiqueDourado/brazilian-notary-registry-offices) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/brazilian-notary-registry-offices) | **16,266 offices**, sample of 1,009 with revenue 2005–2026 | Brazilian notary and registry offices (cartórios) from the CNJ registry: services, acts and revenue per semester, Corregedoria decisions; personal data masked. |
 | <a href="https://github.com/CaiqueDourado/paises-do-mundo-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/919apps.com_screenshot.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="paises-do-mundo-ptbr"></a> | [**paises-do-mundo-ptbr**](https://github.com/CaiqueDourado/paises-do-mundo-ptbr) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/paises-do-mundo-ptbr) | **167 countries**, 53 columns | ISO codes, Brazilian Portuguese names, languages, currencies, time zones and regional formats. |
-| | [**taxonomia-google-produtos-ptbr**](https://github.com/CaiqueDourado/taxonomia-google-produtos-ptbr) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/taxonomia-google-produtos-ptbr) | **5,595 categories** | Google's product taxonomy in Portuguese and English: flat table, closure table and JSON tree. |
+| <a href="https://github.com/CaiqueDourado/taxonomia-google-produtos-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/taxonomia-google-produtos-ptbr/main/docs/img/category-json.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="taxonomia-google-produtos-ptbr"></a> | [**taxonomia-google-produtos-ptbr**](https://github.com/CaiqueDourado/taxonomia-google-produtos-ptbr) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/taxonomia-google-produtos-ptbr) | **5,595 categories** | Google's product taxonomy in Portuguese and English: flat table, closure table and JSON tree. |
 
 ---
 
 ### [SuperNichos](https://supernichos.com) (Niche & keyword mining tool, 2023-present)
 - 700,000 niches and 50M+ keywords in a single platform
 - Largest niche discovery and segment mining tool in Brazil
+- **Origin story:** [What I learned breaking down 50 million Google searches](https://caiquedourado.com.br/o-que-aprendi-debulhando-50-milhoes-de-termos-de-busca-no-google/) (2023, in Portuguese): the spreadsheet that became the tool
 
 **How it was built:**
 1. **Data Ingestion:** Processed 55M Google search queries with volume, CPC and competition (Keyword Planner metrics via Ubersuggest in 2018, plus DataForSEO for Brazil, the US, Spain and Argentina).
@@ -455,10 +456,8 @@ Built from scratch in ASP.NET + SQL Server + Azure (9 months of development, nig
 | ![Baralho do Crime memory game](./assets/baralho_do_crime_jogo.jpg) | ![Baralho do Crime portal](./assets/baralho_do_crime_portal.png) |
 
 ### Open Source & Publications
-- `Akatus .NET SDK`: Payment gateway integration library
-- `Mailee.me .NET SDK`: Email marketing integration library
 - Articles (2026), on Medium: [Seven ways to turn millions of Google searches into page templates](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f) · [Almost 400 million search patterns, five databases, and what actually worked](https://medium.com/@caiquedourado/almost-400-million-search-patterns-five-databases-and-what-actually-worked-139cb4a28c4e) · [From 1.7 million search patterns to 83 sites: how I chose what to build](https://medium.com/@caiquedourado/from-1-7-million-search-patterns-to-83-sites-how-i-chose-what-to-build-f764687dfe12) · all in [articles](https://github.com/CaiqueDourado/articles)
-- Older articles: *Criando apps para Orkut com OpenSocial API*, *Push Notifications guide*, *Monitoring ASP.NET errors with appfail.net*
+- Older articles: *Push Notifications guide*
 
 ---
 
@@ -587,7 +586,7 @@ Keynote delivered to hundreds of e-commerce leaders on web analytics architectur
 
 ## Recognition
 
-- 🏆 **E-Commerce Brasil Award 2019:** Professional of the Year, Sales Category
+- 🏆 **[E-Commerce Brasil Award 2019](https://caiquedourado.com.br/premio-e-commerce-brasil-profissional-destaque-do-ano-de-2019/):** Professional of the Year, Sales Category
 - 🎤 **Speaker** at E-Commerce Brasil Ads & Performance Congress 2019 (Google Analytics)
 - 🏅 **e-Bit Diamond Seal:** Editora Juspodivm (top 3 in Brazilian book segment)
 - ⭐ **RA1000** by Reclame Aqui (Cupons VIP + Juspodivm)
@@ -982,13 +981,14 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 | <a href="https://github.com/CaiqueDourado/portuguese-entity-gazetteer"><img src="https://raw.githubusercontent.com/CaiqueDourado/portuguese-entity-gazetteer/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="portuguese-entity-gazetteer"></a> | [**portuguese-entity-gazetteer**](https://github.com/CaiqueDourado/portuguese-entity-gazetteer) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/portuguese-entity-gazetteer) | **307 mil entidades**, 747 tipos, 26 classes | Dicionário de entidades do português (lugares, pessoas, obras, produtos e marcas) com seus tipos, revisado à mão; o dicionário de entidades dos padrões de busca do SuperNichos. |
 | <a href="https://github.com/CaiqueDourado/brazilian-notary-registry-offices"><img src="https://raw.githubusercontent.com/CaiqueDourado/brazilian-notary-registry-offices/main/docs/img/cover.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="brazilian-notary-registry-offices"></a> | [**brazilian-notary-registry-offices**](https://github.com/CaiqueDourado/brazilian-notary-registry-offices) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/brazilian-notary-registry-offices) | **16.266 serventias**, amostra de 1.009 com arrecadação 2005–2026 | Cartórios do Brasil a partir do cadastro do CNJ: atribuições, atos e arrecadação por semestre, decisões da Corregedoria; dados pessoais mascarados. |
 | <a href="https://github.com/CaiqueDourado/paises-do-mundo-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/919apps.com_screenshot.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="paises-do-mundo-ptbr"></a> | [**paises-do-mundo-ptbr**](https://github.com/CaiqueDourado/paises-do-mundo-ptbr) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/paises-do-mundo-ptbr) | **167 países**, 53 colunas | Códigos ISO, nomes em português do Brasil, idiomas, moedas, fusos horários e formatos regionais. |
-| | [**taxonomia-google-produtos-ptbr**](https://github.com/CaiqueDourado/taxonomia-google-produtos-ptbr) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/taxonomia-google-produtos-ptbr) | **5.595 categorias** | A taxonomia de produtos do Google em português e inglês: tabela, tabela de fechamento e árvore JSON. |
+| <a href="https://github.com/CaiqueDourado/taxonomia-google-produtos-ptbr"><img src="https://raw.githubusercontent.com/CaiqueDourado/taxonomia-google-produtos-ptbr/main/docs/img/category-json.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="taxonomia-google-produtos-ptbr"></a> | [**taxonomia-google-produtos-ptbr**](https://github.com/CaiqueDourado/taxonomia-google-produtos-ptbr) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/taxonomia-google-produtos-ptbr) | **5.595 categorias** | A taxonomia de produtos do Google em português e inglês: tabela, tabela de fechamento e árvore JSON. |
 
 ---
 
 ### [SuperNichos](https://supernichos.com) (Mineração de nichos e palavras-chave, 2023-atual)
 - 700.000 nichos e 50M+ de palavras-chave em uma única plataforma
 - Maior ferramenta de descoberta de nichos e mineração de segmentos do Brasil
+- **A história de origem:** [O que aprendi debulhando 50 milhões de termos de busca no Google](https://caiquedourado.com.br/o-que-aprendi-debulhando-50-milhoes-de-termos-de-busca-no-google/) (2023): a planilha que virou a ferramenta
 
 **Como foi construído:**
 1. **Ingestão de Dados:** Processamento de 55 milhões de buscas do Google com volume, CPC e concorrência (métricas do Keyword Planner via Ubersuggest em 2018, mais DataForSEO para Brasil, EUA, Espanha e Argentina).
@@ -1059,10 +1059,8 @@ Desenvolvido do zero em ASP.NET + SQL Server + Azure (9 meses de desenvolvimento
 | ![Jogo da memória Baralho do Crime](./assets/baralho_do_crime_jogo.jpg) | ![Portal Baralho do Crime](./assets/baralho_do_crime_portal.png) |
 
 ### Open Source & Publicações
-- `Akatus .NET SDK`: Biblioteca de integração com gateway de pagamento
-- `Mailee.me .NET SDK`: Biblioteca de integração com plataforma de e-mail marketing
 - Artigos (2026): [De 1,7 milhão de padrões de busca a 83 sites: como escolhi o que construir](https://github.com/CaiqueDourado/articles/blob/main/choosing-sites/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/from-1-7-million-search-patterns-to-83-sites-how-i-chose-what-to-build-f764687dfe12)) · [Quase 400 milhões de padrões de busca, cinco bancos de dados e o que de fato funcionou](https://github.com/CaiqueDourado/articles/blob/main/scale-search-patterns/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/almost-400-million-search-patterns-five-databases-and-what-actually-worked-139cb4a28c4e)) · [Sete jeitos de transformar milhões de buscas do Google em modelos de página](https://github.com/CaiqueDourado/articles/blob/main/seven-ways-search-patterns/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f)) · todos em [articles](https://github.com/CaiqueDourado/articles)
-- Artigos antigos: *Criando apps para Orkut com OpenSocial API*, *Guia de Push Notifications*, *Monitoramento de erros em ASP.NET com appfail.net*
+- Artigos antigos: *Guia de Push Notifications*
 
 ---
 
@@ -1190,7 +1188,7 @@ Palestra técnica ministrada para centenas de profissionais e lojistas sobre pla
 
 ## Reconhecimentos
 
-- 🏆 **Prêmio E-Commerce Brasil 2019:** Profissional Destaque do Ano, Categoria Vendas
+- 🏆 **[Prêmio E-Commerce Brasil 2019](https://caiquedourado.com.br/premio-e-commerce-brasil-profissional-destaque-do-ano-de-2019/):** Profissional Destaque do Ano, Categoria Vendas
 - 🎤 **Palestrante** no Congresso E-Commerce Brasil Ads & Performance 2019 (Google Analytics)
 - 🏅 **Selo Diamante e-Bit:** Editora Juspodivm (top 3 no segmento de livros do Brasil)
 - ⭐ **RA1000** pelo Reclame Aqui (Cupons VIP + Juspodivm)
