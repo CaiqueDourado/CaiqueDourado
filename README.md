@@ -456,7 +456,7 @@ Built from scratch in ASP.NET + SQL Server + Azure (9 months of development, nig
 ### Open Source & Publications
 - `Akatus .NET SDK`: Payment gateway integration library
 - `Mailee.me .NET SDK`: Email marketing integration library
-- Articles (2026): [Seven ways to turn millions of Google searches into page templates](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f) (Medium) · all in [articles](https://github.com/CaiqueDourado/articles)
+- Articles (2026), on Medium: [Seven ways to turn millions of Google searches into page templates](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f) · [Almost 400 million search patterns, five databases, and what actually worked](https://medium.com/@caiquedourado/almost-400-million-search-patterns-five-databases-and-what-actually-worked-139cb4a28c4e) · all in [articles](https://github.com/CaiqueDourado/articles)
 - Older articles: *Criando apps para Orkut com OpenSocial API*, *Push Notifications guide*, *Monitoring ASP.NET errors with appfail.net*
 
 ---
@@ -1058,7 +1058,7 @@ Desenvolvido do zero em ASP.NET + SQL Server + Azure (9 meses de desenvolvimento
 ### Open Source & Publicações
 - `Akatus .NET SDK`: Biblioteca de integração com gateway de pagamento
 - `Mailee.me .NET SDK`: Biblioteca de integração com plataforma de e-mail marketing
-- Artigos (2026): [Sete jeitos de transformar milhões de buscas do Google em modelos de página](https://github.com/CaiqueDourado/articles/blob/main/seven-ways-search-patterns/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f)) · todos em [articles](https://github.com/CaiqueDourado/articles)
+- Artigos (2026): [Quase 400 milhões de padrões de busca, cinco bancos de dados e o que de fato funcionou](https://github.com/CaiqueDourado/articles/blob/main/scale-search-patterns/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/almost-400-million-search-patterns-five-databases-and-what-actually-worked-139cb4a28c4e)) · [Sete jeitos de transformar milhões de buscas do Google em modelos de página](https://github.com/CaiqueDourado/articles/blob/main/seven-ways-search-patterns/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f)) · todos em [articles](https://github.com/CaiqueDourado/articles)
 - Artigos antigos: *Criando apps para Orkut com OpenSocial API*, *Guia de Push Notifications*, *Monitoramento de erros em ASP.NET com appfail.net*
 
 ---
