@@ -394,7 +394,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 2. **Normalization & Clustering:** Normalized search queries and grouped terms to uncover semantic and textual patterns using string similarity algorithms (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
 3. **Mining & Discovery:** Clustered final data to uncover thousands of profitable niches and market opportunities (for product development, service offerings, addressing unmet customer pain points, and programmatic SEO).
 
-- **Open data & code:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38M searches, 1.73M patterns of five algorithms, 154k patterns labelled by hand) · [search-pattern-miner](https://github.com/CaiqueDourado/search-pattern-miner) (the algorithms, rewritten in Python and .NET) · [portuguese-entity-gazetteer](https://github.com/CaiqueDourado/portuguese-entity-gazetteer) (the 307k-entity dictionary behind the [tipo] patterns)
+- **Open data & code:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38M searches, 1.73M patterns of five algorithms, 154k patterns labelled by hand) · [search-pattern-miner](https://github.com/CaiqueDourado/search-pattern-miner) (the algorithms, rewritten in Python and .NET) · [portuguese-entity-gazetteer](https://github.com/CaiqueDourado/portuguese-entity-gazetteer) (the 307k-entity dictionary behind the [tipo] patterns) · article: [Seven ways to turn millions of Google searches into page templates](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f)
 
 [![SuperNichos Case Study on YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
@@ -456,7 +456,8 @@ Built from scratch in ASP.NET + SQL Server + Azure (9 months of development, nig
 ### Open Source & Publications
 - `Akatus .NET SDK`: Payment gateway integration library
 - `Mailee.me .NET SDK`: Email marketing integration library
-- Articles: *Criando apps para Orkut com OpenSocial API*, *Push Notifications guide*, *Monitoring ASP.NET errors with appfail.net*
+- Articles (2026): [Seven ways to turn millions of Google searches into page templates](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f) (Medium) · all in [articles](https://github.com/CaiqueDourado/articles)
+- Older articles: *Criando apps para Orkut com OpenSocial API*, *Push Notifications guide*, *Monitoring ASP.NET errors with appfail.net*
 
 ---
 
@@ -991,7 +992,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 2. **Normalização & Clusterização:** Normalização dos termos de busca e agrupamento para identificar padrões semânticos e textuais usando algoritmos de similaridade de strings (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
 3. **Mineração & Descoberta:** Clusterização final para revelar milhares de nichos lucrativos e oportunidades de mercado (para criação de produtos, serviços, atendimento de dores latentes e SEO programático).
 
-- **Dados e código abertos:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38 mi de buscas, 1,73 mi de padrões de cinco algoritmos, 154 mil padrões rotulados à mão) · [search-pattern-miner](https://github.com/CaiqueDourado/search-pattern-miner) (os algoritmos, reescritos em Python e .NET) · [portuguese-entity-gazetteer](https://github.com/CaiqueDourado/portuguese-entity-gazetteer) (o dicionário de 307 mil entidades dos padrões com [tipo])
+- **Dados e código abertos:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38 mi de buscas, 1,73 mi de padrões de cinco algoritmos, 154 mil padrões rotulados à mão) · [search-pattern-miner](https://github.com/CaiqueDourado/search-pattern-miner) (os algoritmos, reescritos em Python e .NET) · [portuguese-entity-gazetteer](https://github.com/CaiqueDourado/portuguese-entity-gazetteer) (o dicionário de 307 mil entidades dos padrões com [tipo]) · artigo: [Sete jeitos de transformar milhões de buscas do Google em modelos de página](https://github.com/CaiqueDourado/articles/blob/main/seven-ways-search-patterns/README.pt-BR.md)
 
 [![Estudo de Caso SuperNichos no YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
@@ -1057,7 +1058,8 @@ Desenvolvido do zero em ASP.NET + SQL Server + Azure (9 meses de desenvolvimento
 ### Open Source & Publicações
 - `Akatus .NET SDK`: Biblioteca de integração com gateway de pagamento
 - `Mailee.me .NET SDK`: Biblioteca de integração com plataforma de e-mail marketing
-- Artigos técnicos: *Criando apps para Orkut com OpenSocial API*, *Guia de Push Notifications*, *Monitoramento de erros em ASP.NET com appfail.net*
+- Artigos (2026): [Sete jeitos de transformar milhões de buscas do Google em modelos de página](https://github.com/CaiqueDourado/articles/blob/main/seven-ways-search-patterns/README.pt-BR.md) ([em inglês no Medium](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f)) · todos em [articles](https://github.com/CaiqueDourado/articles)
+- Artigos antigos: *Criando apps para Orkut com OpenSocial API*, *Guia de Push Notifications*, *Monitoramento de erros em ASP.NET com appfail.net*
 
 ---
 
