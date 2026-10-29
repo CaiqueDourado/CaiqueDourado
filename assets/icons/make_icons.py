@@ -32,6 +32,10 @@ icons = {
 <circle cx="184" cy="184" r="34" fill="#0F172A" stroke="#34D399" stroke-width="7"/><path d="M168 184l11 11 21-22" stroke="#34D399" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>'''),
  "ibge-nomes": (SUN, f'''<circle cx="96" cy="96" r="30" {W}/><path d="M44 196c4-38 26-58 52-58s48 20 52 58" {W}/>
 <text x="188" y="128" {T} font-size="54" {F}>Aa</text><path d="M162 156H212 M162 180H200" {W} stroke-width="8"/>'''),
+ "search-pattern-miner": (VIOLET, f'''<path d="M36 74H104 M36 116H96 M36 158H104" {W} stroke-width="8" opacity=".7"/>
+<path d="M112 80l26 36-26 36" {W} stroke-width="8"/>
+<path d="M172 60H154V172H172 M206 60H224V172H206" {W}/><circle cx="189" cy="116" r="9" {F}/>
+<path d="M60 206H196" {W} stroke-width="7" opacity=".55"/>'''),
 }
 
 

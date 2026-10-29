@@ -247,6 +247,16 @@ Console.WriteLine(a - b);                             // Hamming distance
 </tr>
 <tr>
   <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/search-pattern-miner"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/search-pattern-miner.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="search-pattern-miner"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/search-pattern-miner"><b>search-pattern-miner</b></a>: Turns search queries into page templates (<code>como fazer [comida]</code>) with the 7 algorithms behind SuperNichos: prefixes, n-grams, skip-grams, bags of words and entity replacement, plus volume/CPC ranking (Python &amp; .NET with identical results).<br>
+    <a href="https://github.com/CaiqueDourado/search-pattern-miner"><img src="https://img.shields.io/badge/Python%20%26%20.NET-Dual%20Runtime-30363d?style=flat-square" alt="Dual Runtime"></a>
+    <img src="https://img.shields.io/badge/SEO-Query%20Templates-8250df?style=flat-square&labelColor=30363d" alt="Patterns">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
     <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-cost-kit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-cost-kit"></a>
   </td>
   <td>
@@ -383,7 +393,7 @@ Console.WriteLine(a - b);                             // Hamming distance
 2. **Normalization & Clustering:** Normalized search queries and grouped terms to uncover semantic and textual patterns using string similarity algorithms (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
 3. **Mining & Discovery:** Clustered final data to uncover thousands of profitable niches and market opportunities (for product development, service offerings, addressing unmet customer pain points, and programmatic SEO).
 
-- **Open data & code:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38M searches, 1.73M patterns of five algorithms, 154k patterns labelled by hand)
+- **Open data & code:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38M searches, 1.73M patterns of five algorithms, 154k patterns labelled by hand) · [search-pattern-miner](https://github.com/CaiqueDourado/search-pattern-miner) (the algorithms, rewritten in Python and .NET)
 
 [![SuperNichos Case Study on YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
@@ -833,6 +843,16 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 </tr>
 <tr>
   <td width="72" align="center">
+    <a href="https://github.com/CaiqueDourado/search-pattern-miner"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/search-pattern-miner.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="search-pattern-miner"></a>
+  </td>
+  <td>
+    <a href="https://github.com/CaiqueDourado/search-pattern-miner"><b>search-pattern-miner</b></a>: Transforma buscas em modelos de página (<code>como fazer [comida]</code>) com os 7 algoritmos por trás do SuperNichos: prefixos, n-gramas, skip-grams, saco de palavras e troca de entidades, mais ranking por volume e CPC (Python e .NET com resultados idênticos).<br>
+    <a href="https://github.com/CaiqueDourado/search-pattern-miner"><img src="https://img.shields.io/badge/Python%20%26%20.NET-Dual%20Runtime-30363d?style=flat-square" alt="Dual Runtime"></a>
+    <img src="https://img.shields.io/badge/SEO-Modelos%20de%20Busca-8250df?style=flat-square&labelColor=30363d" alt="Patterns">
+  </td>
+</tr>
+<tr>
+  <td width="72" align="center">
     <a href="https://github.com/CaiqueDourado/llm-cost-kit"><img src="https://raw.githubusercontent.com/CaiqueDourado/CaiqueDourado/main/assets/icons/llm-cost-kit.png" width="56" height="56" style="border-radius: 8px; object-fit: cover;" alt="llm-cost-kit"></a>
   </td>
   <td>
@@ -969,7 +989,7 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 2. **Normalização & Clusterização:** Normalização dos termos de busca e agrupamento para identificar padrões semânticos e textuais usando algoritmos de similaridade de strings (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
 3. **Mineração & Descoberta:** Clusterização final para revelar milhares de nichos lucrativos e oportunidades de mercado (para criação de produtos, serviços, atendimento de dores latentes e SEO programático).
 
-- **Dados e código abertos:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38 mi de buscas, 1,73 mi de padrões de cinco algoritmos, 154 mil padrões rotulados à mão)
+- **Dados e código abertos:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38 mi de buscas, 1,73 mi de padrões de cinco algoritmos, 154 mil padrões rotulados à mão) · [search-pattern-miner](https://github.com/CaiqueDourado/search-pattern-miner) (os algoritmos, reescritos em Python e .NET)
 
 [![Estudo de Caso SuperNichos no YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
