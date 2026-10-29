@@ -459,6 +459,7 @@ Built from scratch in ASP.NET + SQL Server + Azure (9 months of development, nig
 - Articles:
   - [From 1.7 million search patterns to 83 sites: how I chose what to build](https://medium.com/@caiquedourado/from-1-7-million-search-patterns-to-83-sites-how-i-chose-what-to-build-f764687dfe12) (2026, Medium)
   - [What I learned breaking down 50 million Google searches](https://caiquedourado.com.br/o-que-aprendi-debulhando-50-milhoes-de-termos-de-busca-no-google/) (2023, in Portuguese)
+  - [I found over 200,000 one-word domains available to register](https://caiquedourado.com.br/encontrei-mais-de-200-mil-dominios-de-uma-unica-palavra-disponiveis-para-registro/) (2024, in Portuguese)
   - [Case study: É bom? Vale a pena?](https://github.com/CaiqueDourado/portuguese-product-reviews/blob/main/docs/case-study-e-bom-vale-a-pena.md): the product-review site I ran from 2017 to 2022
 - Older articles: *Push Notifications guide*
 
@@ -1066,6 +1067,7 @@ Desenvolvido do zero em ASP.NET + SQL Server + Azure (9 meses de desenvolvimento
 - Artigos:
   - [De 1,7 milhão de padrões de busca a 83 sites: como escolhi o que construir](https://github.com/CaiqueDourado/articles/blob/main/choosing-sites/README.pt-BR.md) (2026, [em inglês no Medium](https://medium.com/@caiquedourado/from-1-7-million-search-patterns-to-83-sites-how-i-chose-what-to-build-f764687dfe12))
   - [O que aprendi debulhando 50 milhões de termos de busca no Google](https://caiquedourado.com.br/o-que-aprendi-debulhando-50-milhoes-de-termos-de-busca-no-google/) (2023)
+  - [Encontrei mais de 200 mil domínios de uma única palavra disponíveis para registro](https://caiquedourado.com.br/encontrei-mais-de-200-mil-dominios-de-uma-unica-palavra-disponiveis-para-registro/) (2024)
   - [Estudo de caso: É bom? Vale a pena?](https://github.com/CaiqueDourado/portuguese-product-reviews/blob/main/docs/estudo-de-caso-e-bom-vale-a-pena.md): o site de opiniões de produtos que mantive de 2017 a 2022
 - Artigos antigos: *Guia de Push Notifications*
 
