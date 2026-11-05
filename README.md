@@ -56,6 +56,8 @@ I build autonomous systems that discover, ingest, normalize, and interpret massi
 |:---:|:---:|:---:|
 | ![Editora Juspodivm E-commerce team](./assets/juspodivm_equipe.jpg) | ![Caique Dourado & Marcelo Linhares, E-Commerce Brasil](./assets/juspodivm_palestra_marcelo_linhares.jpg) | ![e-Bit Diamond award trophy](./assets/juspodivm_ebit_diamante.jpg) |
 
+[![Trilha da carreira](https://github-timeline.frangolab.com/embed/caiquedourado/trilha.svg?paleta=verde&lang=pt-BR)](https://github-timeline.frangolab.com/u/caiquedourado?lang=pt-BR)
+
 ## Selected work
 
 ### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Product intelligence platform, 2020 / re-architected 2026)
