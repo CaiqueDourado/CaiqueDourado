@@ -5,9 +5,9 @@
 
 **Software Engineer · Data Pipelines · Generative AI Platforms · Brazil**
 
-I've been turning messy web data into decisions since 2001.
+Building systems that turn web noise into decisions since 2001.
 
-I founded [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) and [SuperNichos](https://supernichos.com). I'm Head of Operations at [Agência Disco](https://www.disco-tec.com), one of Brazil's leading Shopify agencies. Before that I was CMO at Samurai Experts / Locaweb, and I sat on the advisory board of ABLEC. 25 years writing code, from Delphi 5 in 2001 to AI pipelines in 2026.
+Founder of [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) and [SuperNichos](https://supernichos.com). Head of Operations at [Agência Disco](https://www.disco-tec.com) (one of Brazil's leading Shopify agencies). Former CMO at Samurai Experts / Locaweb. Advisory Board Member at ABLEC. Over 25 years hands-on, from Delphi 5 in 2001 to distributed AI pipelines in 2026.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-30363d?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caiquedourado/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-30363d?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/caiquedourado)
@@ -41,14 +41,14 @@ I founded [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) and [
 
 ## What I do
 
-I build systems that find, collect, clean and make sense of huge amounts of messy web data. Then I turn it into decisions: what to buy, what to build, what to fix.
+I build autonomous systems that discover, ingest, normalize, and interpret massive volumes of unstructured web data, turning raw noise into purchasing intelligence and actionable business decisions.
 
-- **Crawlers and data pipelines:** I collect from 3,600+ stores with Playwright, DrissionPage, curl_cffi, Scrapy and httpx, including the sites that block bots.
-- **Matching products across stores:** the same product in different stores, without EAN or SKU, with Metaphone, Soundex, n-grams, MinHash and perceptual image hashing.
-- **AI, LLMs and NLP at scale:** pros and cons from millions of reviews, RAG, OpenAI, Gemini and Claude in the same pipeline, Whisper transcription, YouTube automation and neural voices.
-- **Programmatic SEO, AEO and GEO:** 30M+ pages generated from data. Structured data, technical SEO, Core Web Vitals, and pages built to be the source AI answers cite (Perplexity, ChatGPT Search).
-- **E-commerce growth and CRO:** A/B tests (GrowthBook, Optimizely), CRM automation (Klaviyo, Insider), GA4, server-side tracking and conversion funnels.
-- **Fast modern web:** Next.js (TypeScript) on top of async Python (FastAPI, Redis, Supabase/PostgreSQL, BigQuery).
+- **Distributed Crawlers & Data Pipelines:** Resilient scraping infrastructure (Playwright, DrissionPage, curl_cffi, Scrapy, httpx) with smart proxy rotation and anti-bot mitigation across 3,600+ stores.
+- **Data Engineering & Deduplication:** Cross-merchant catalog clustering without EAN/SKU using Metaphone, Soundex, N-gram, MinHash, and Perceptual Image Hashing.
+- **AI, LLMs & NLP at Scale:** Sentiment extraction from millions of reviews, RAG pipelines, multi-provider LLM orchestration (OpenAI, Gemini, Claude), Whisper transcription, YouTube automation, and neural TTS.
+- **Programmatic SEO / AEO / GEO:** Data-driven content generation at scale (30M+ pages); structured data, schema markup, technical SEO, Core Web Vitals. Answer Engine Optimization (Perplexity, ChatGPT Search) and Generative Engine Optimization to position content as the canonical source for AI-generated answers.
+- **E-commerce Growth & CRO:** A/B testing (GrowthBook, Optimizely), CRM automation (Klaviyo, Insider), GA4, server-side tracking, conversion funnel optimization.
+- **High-Performance Modern Web:** Next.js (SSR/SSG, TypeScript) + async Python backends (FastAPI, Redis, Supabase/PostgreSQL, BigQuery).
 
 ---
 
@@ -60,7 +60,7 @@ I build systems that find, collect, clean and make sense of huge amounts of mess
 
 ### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Product intelligence platform, 2020 / re-architected 2026)
 
-Think RTINGS.com and Versus.com, made for Brazil: Brazilian prices from 3,600+ stores and local certifications (INMETRO, ANVISA). Brands don't pay to rank.
+The Brazilian equivalent of RTINGS.com and Versus.com, with added coverage of Brazilian retail prices, 3,600+ stores, and local certifications (INMETRO, ANVISA). Brands do not pay for ranking positions.
 
 ![TudoSobreProdutos platform screenshot](./assets/tudosobreprodutos_screenshot.png)
 
@@ -106,7 +106,7 @@ Think RTINGS.com and Versus.com, made for Brazil: Brazilian prices from 3,600+ s
 
 [![scrapladder cover](https://raw.githubusercontent.com/CaiqueDourado/scrapladder/main/docs/img/cover.png)](https://github.com/CaiqueDourado/scrapladder)
 
-It starts with plain HTTP and only climbs when it gets blocked: browser-like TLS (`curl_cffi`), headless browsers (Playwright, Camoufox, Scrapling), then paid scraping APIs. It remembers which rung worked on each domain and starts there next time.
+Climbs an escalating ladder of fetching layers — from plain HTTP (`requests`, `httpx`), real browser TLS impersonation (`curl_cffi`), headless browsers (Playwright, Camoufox, Scrapling), to paid scraping APIs — remembering which rung succeeded per domain and skipping blocked rungs automatically.
 
 ```python
 from scrapladder import Ladder
@@ -131,7 +131,7 @@ else:
 
 [![transcriptladder cover](https://raw.githubusercontent.com/CaiqueDourado/transcriptladder/refs/heads/main/docs/img/cover.png)](https://github.com/CaiqueDourado/transcriptladder)
 
-It tries the cheapest way first and moves on when YouTube says no: `youtube-transcript-api`, the caption URL, `yt-dlp` subtitles, and finally local `faster-whisper` listening to the audio.
+Tries caption extraction in cascading resilience order (`youtube-transcript-api` → plain caption URL download → `yt-dlp` subtitle extraction → local `faster-whisper`), adapting dynamically as YouTube updates its pages.
 
 ```python
 from transcriptladder import Transcriber
@@ -155,7 +155,7 @@ if r.ok:
 
 [![llm-cost-kit cover](https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.png)](https://github.com/CaiqueDourado/llm-cost-kit)
 
-It tracks what each LLM call really costs (prompt, cached, output and thinking tokens) on OpenAI, Gemini, Claude and DeepSeek. Every price points to the provider's page. It came from a real audit that cut one product's AI bill from US$1.00 to US$0.14 (−85.8%).
+Tracks the true cost of every LLM call — prompt, cached, output, and thinking tokens — across OpenAI, Gemini, Claude and DeepSeek, with per-call price tables you can trace back to the provider's pricing page. Born from a real cost audit that cut a product's AI bill from US$1.00 to US$0.14 (−85.8%).
 
 ```python
 from llm_cost_kit import Ledger, PriceTable, SQLiteSink, target, timer
@@ -187,7 +187,7 @@ $ llm-cost-kit check src/ --recorder record   # scripts calling LLMs without met
 
 [![SimilarImageFinder cover](https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/cover.png)](https://github.com/CaiqueDourado/SimilarImageFinder)
 
-It finds the same photo even after a resize, recompression or brightness change. I built it after 5 years with 114M offers from 7,179 Brazilian stores, where the same photo from two stores never had the same SHA-256.
+Perceptual hashing (aHash, dHash, pHash) that finds near-duplicate images even after resize, recompression, or brightness edits. Forged from 5 years managing 114M product offers from 7,179 Brazilian stores — where the same photo from different merchants never had the same SHA-256.
 
 ```python
 from similar_image_finder import perceptual_hash
@@ -392,23 +392,23 @@ Console.WriteLine(a - b);                             // Hamming distance
 - **Origin story:** [What I learned breaking down 50 million Google searches](https://caiquedourado.com.br/o-que-aprendi-debulhando-50-milhoes-de-termos-de-busca-no-google/) (2023, in Portuguese): the spreadsheet that became the tool
 
 **How it was built:**
-1. **Collect:** 55M Google searches with volume, CPC and competition (Keyword Planner numbers via Ubersuggest in 2018, plus DataForSEO for Brazil, the US, Spain and Argentina).
-2. **Group:** I cleaned the searches and grouped them by what they have in common, with Metaphone, Soundex, n-grams, MinHash, fingerprints and NgramKeyer.
-3. **Find the niches:** the groups showed thousands of niches worth building on: products, services, pains nobody answers, and programmatic SEO.
+1. **Data Ingestion:** Processed 55M Google search queries with volume, CPC and competition (Keyword Planner metrics via Ubersuggest in 2018, plus DataForSEO for Brazil, the US, Spain and Argentina).
+2. **Normalization & Clustering:** Normalized search queries and grouped terms to uncover semantic and textual patterns using string similarity algorithms (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
+3. **Mining & Discovery:** Clustered final data to uncover thousands of profitable niches and market opportunities (for product development, service offerings, addressing unmet customer pain points, and programmatic SEO).
 
 - **Open data & code:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38M searches, 1.73M patterns of five algorithms, 154k patterns labelled by hand) · [search-pattern-miner](https://github.com/CaiqueDourado/search-pattern-miner) (the algorithms, rewritten in Python and .NET) · [portuguese-entity-gazetteer](https://github.com/CaiqueDourado/portuguese-entity-gazetteer) (the 307k-entity dictionary behind the [tipo] patterns) · article: [I grouped 38 million Google searches into page templates. Here are the seven ways I did it.](https://medium.com/@caiquedourado/seven-ways-to-turn-millions-of-google-searches-into-page-templates-3671235eac0f)
 
 [![SuperNichos Case Study on YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
 ### [Gambis Mode [On]](https://caiquedourado.com.br) (Independent Venture: Programmatic SEO & Data Mining, 2017-present)
-My own lab for software and programmatic SEO. I designed, launched and monetized **over 40 sites** there.
+Independent software engineering and programmatic SEO laboratory responsible for the architecture, deployment, and monetization of **over 40 production web platforms**.
 - **Scale:** Over 30 million indexed pages generated from massive open datasets (Apple Enterprise Partner Feed, DBpedia, Freebase, IMDB, MusicBrainz, MovieLens, Open Food Facts, Tabela FIPE, Brazilian Federal Revenue CNPJs, Correios CEPs, Quotes, Bible)
 - **Data Engineering & NLP:** Entity deduplication with OpenRefine, phonetic and string similarity algorithms (Metaphone, Soundex, N-gram, MinHash), and syntactic parsing via Stanford NLP (POS Tagger)
 - **Infrastructure & Automation:** Distributed multi-proxy scrapers (Selenium, Chrome Headless, Cloudflare Workers, anti-captcha mitigation), dynamic banner rendering in C# (`System.Drawing.Image`), and serverless edge hosting on Google Cloud Storage
 - **Monetization & AdTech Ecosystem:** Large-scale commercial monetization through header bidding, ad exchanges, and affiliate networks (Google Ad Manager, Google AdSense, Awin, Lomadee, Rakuten Marketing, Amazon Associates, Taboola, Teads, MGID, Seedtag, Rubicon, RTB House, Cazamba, Clever Advertising)
 
 ### Agência Disco (Head of Operations, 2023-present)
-I run Shopify e-commerce growth for brands like Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões and 20+ more.
+Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões, and 20+ more.
 - Growth Marketing, CRO, Programmatic SEO, A/B Testing (GrowthBook)
 - CRM & marketing automation (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, server-side tracking, Customer Events, analytics & BI
@@ -425,14 +425,14 @@ I run Shopify e-commerce growth for brands like Chocolates Dengo, Rommanel, Malw
 - Stack: Moovin, e-Millennium ERP, Konduto, SendGrid, Maxipago, AWS, Cloudflare, Criteo, Optimizely
 
 ### [Google Analytics Real Time Dashboard](https://caiquedourado.com.br/dashboard-em-tempo-real-para-acompanhamento-seu-e-commerce/) (2017)
-A real-time dashboard I built so e-commerce teams could watch traffic and channels live.
+Real-time analytics and channel monitoring dashboard built for e-commerce operations.
 - Real-time traffic, conversion, and acquisition channel monitoring
 - Adopted and used by more than 5,000 e-commerce stores
 
 ![Google Analytics Real Time Dashboard](./assets/ga_realtime_dashboard.png)
 
 ### Cupons VIP (Co-founder & CTO, 2011-2013)
-I built it from scratch in ASP.NET, SQL Server and Azure, in 9 months of nights and weekends. As CTO, I did a bit of everything:
+Built from scratch in ASP.NET + SQL Server + Azure (9 months of development, nights and weekends). Acted as CTO and hands-on entrepreneur across all operational and engineering fronts:
 - **Product Development:** Full-stack architecture (Frontend, Backend in ASP.NET and SQL Server)
 - **Infrastructure & Hosting:** Server management and edge monitoring on Azure CDN and Cloudflare
 - **Customer Success:** Scaled support quality to earn the prestigious **RA1000** seal (top reputation on Reclame Aqui)
@@ -467,10 +467,10 @@ I built it from scratch in ASP.NET, SQL Server and Azure, in 9 months of nights 
 
 ## Programmatic SEO Projects
 
-From 2020 on, I built sites that turn data into millions of pages: crawling, matching products across stores, sentiment from reviews, and static hosting at the edge.
+Large-scale programmatic architectures developed since 2020, generating millions of indexed organic pages through autonomous web crawling, catalog entity resolution, NLP sentiment analysis, and serverless edge delivery.
 
 ### [Tudo Sobre Produtos - 1st Version](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v) (2020)
-A product guide with specs, real reviews and comparisons.
+Comprehensive online product intelligence guide with detailed specifications, real user reviews, and comparisons.
 - **Scale:** 280,000 products extracted from XML feeds across 4,800 Brazilian e-commerce stores
 - **Social proof:** 2,871,096 user reviews collected via Bazaarvoice API
 - **Web scraping:** Automated crawler for technical specification sheets across merchant stores
@@ -486,14 +486,14 @@ A product guide with specs, real reviews and comparisons.
 ![Tudo Sobre Produtos 1st Version](./assets/tudosobreprodutos_primeira_versao.png)
 
 ### Portal de Cartórios no Brasil (Brazilian Registry Offices, 2024)
-A directory of every notary and registry office in Brazil, with public records.
+National registry office directory covering all Brazilian municipalities with enriched public records.
 - **Scale:** Complete database of all notary and registry offices across Brazilian municipalities
 - **Architecture:** One page per office generated from the crawled tables and published on WordPress, with maps and schema markup
 - **Audience:** Thousands of monthly organic visits for legal document authentication and certificate requests
 - **Open data & code:** [brazilian-notary-registry-offices](https://github.com/CaiqueDourado/brazilian-notary-registry-offices) (a sample of the crawled registry: services, revenue since 2005 and CNJ decisions) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/brazilian-notary-registry-offices)
 
 ### [Nomes e Sobrenomes](https://web.archive.org/web/20250610174857/https://nomessobrenomes.com/qual-o-significado-do-nome-alan-gustavo) (2023)
-104,000 names, each with its meaning, origin, etymology and numerology.
+Platform with 104,000 indexed names, covering meanings, origins, etymology, and numerology.
 - **Scale:** 104,000 programmatic pages with full semantic entity coverage
 - **Stack:** Built with Next.js 14, Tailwind CSS, TypeScript, Supabase, and OpenAI API
 - **Performance:** 100% mobile-friendly with perfect Core Web Vitals scores
@@ -504,7 +504,7 @@ A directory of every notary and registry office in Brazil, with public records.
 ![Nomes e Sobrenomes](./assets/nomessobrenomes.com_screenshot.png)
 
 ### [Tudo Sobre Lojas](https://web.archive.org/web/20250618081809/https://tudosobrelojas.com/a-loja-saboreat-e-confavel-tudo-sobre-a-loja-saboreat/) (2023)
-Reputation and business data on 63,933 Brazilian online stores.
+Comprehensive intelligence and reputational analysis of 63,933 Brazilian e-commerce websites with enriched business data.
 - **Coverage:** Scraping and profiling of 63,933 Brazilian online stores
 - **Automated Visual Evidence:** Automated headless screenshot generation of Reclame Aqui reputation profiles and store homepages using C# and Selenium
 - **Data Enrichment:** Extracted domain owner CNPJ from Whois and cross-referenced with the Federal Revenue database (corporate partners, legal name, trade name, CNPJ, CNAE classification, share capital, physical address, email, phone)
@@ -517,7 +517,7 @@ Reputation and business data on 63,933 Brazilian online stores.
 ![Tudo Sobre Lojas](./assets/tudosobrelojas.com_screenshot.png)
 
 ### [Tudo sobre as Palavras](https://web.archive.org/web/20250923215535/https://tudosobreaspalavras.com/tudo-sobre-a-palavra-arrogado) (2023)
-A Portuguese dictionary with 187,000 words: definitions, synonyms, grammar and exercises.
+Comprehensive Portuguese dictionary platform with 187,000 words, including definitions, synonyms, grammar analysis, and educational exercises.
 - **Scale:** 187,000 programmatic pages generated (one for every dictionary entry) combining a pt-BR lexical database with OpenAI API content generation
 - **Linguistic Metadata:** Idiomatic and regional definitions, synonyms, antonyms, phonetics and pronunciation, grammatical class, consonants, vowels, root/stem, syllabic division, tonic syllable, singular/plural, gender forms, verb conjugations (infinitive, gerund, past participle), letter counts, educational games, rhymes, and usage examples
 - **Visuals:** Dynamic banner and educational graphic generation in C#
@@ -529,7 +529,7 @@ A Portuguese dictionary with 187,000 words: definitions, synonyms, grammar and e
 ![Tudo sobre as Palavras](./assets/tudosobreaspalavras_screenshot.png)
 
 ### [Tudo Sobre Carros, Motos e Caminhões](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/) (2022)
-Four vehicle sites with auto parts, specs and the FIPE price table. One page per make, model and version.
+Family of four vehicle portals, "auto parts and accessories + specifications + FIPE table", with a page per make, model and version.
 - **Sites:** Tudo Sobre Carros, [Tudo para Seus Carros](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/), [Tudo Sobre Motos](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) and [Tudo Sobre Caminhões](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/)
 - **Scale:** 245 makes and 11,948 FIPE models of cars, motorcycles and trucks; 1.6M monthly FIPE prices; specifications of 37,794 versions
 - **Features:** FIPE table and price history, IPVA estimate, specifications and auto parts "that fit this vehicle"
@@ -545,7 +545,7 @@ Four vehicle sites with auto parts, specs and the FIPE price table. One page per
 | [![Tudo Sobre Motos](./assets/tudosobreduasrodas.com_screenshot.png)](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) | [![Tudo Sobre Caminhões](./assets/tudosobrecaminhoes.com_screenshot.png)](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/) |
 
 ### [Versiculo-Do-Dia.com](https://versiculo-do-dia.com/) (2022)
-Bible verses, each with an image ready to share on social media.
+Bible verse platform with automated programmatic shareable graphics designed for social media distribution.
 - **Automated Graphics:** Programmatic generation of high-resolution Bible verse images formatted for social media sharing (Instagram, Facebook, WhatsApp)
 - **Database:** Full relational Bible database
 - **Engine:** Dynamic image rendering engine in C#
@@ -556,7 +556,7 @@ Bible verses, each with an image ready to share on social media.
 ![Versiculo do Dia](./assets/versiculo-do-dia.com_screenshot.png)
 
 ### [919Apps.com](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule) (2022)
-An app catalog built from the [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf) (EPF): 2.4 million apps.
+Programmatic discovery catalog generated from the [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf) (EPF), indexing 2.4 million apps.
 - **Scale:** 2.4M apps ingested and indexed from the official [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf)
 - **Internationalization:** Multi-language catalog published across 176 countries
 - **Regionalization:** Advanced cultural and geographic formatting implemented using C# `System.Globalization.CultureInfo` and `System.Globalization.RegionInfo`
@@ -566,7 +566,7 @@ An app catalog built from the [Apple Enterprise Partner Feed](https://performanc
 ![919Apps](./assets/919apps.com_screenshot.png)
 
 ### [People Also Ask Plugin](https://br.wordpress.org/plugins/people-also-ask/) (WordPress Plugin, 2024-2026)
-A plugin on WordPress.org that writes programmatic SEO content from Google's "People Also Ask" questions.
+Official WordPress plugin published on the WordPress.org repository, automating programmatic SEO content generation based on real-time Google "People Also Ask" SERP data.
 - **SERP Scraping:** Multi-level extraction of Google questions and answers via SerpAPI and DataForSEO API
 - **Automated Publishing:** Automatically structures content into headings (H2/H3), FAQ schemas, and contextual YouTube video embeds
 - **Architecture:** WordPress plugin architecture in PHP using Custom Post Types, WordPress Hooks, REST API, and headless browser proxying
@@ -583,7 +583,7 @@ A plugin on WordPress.org that writes programmatic SEO content from Google's "Pe
 ### [Congresso E-Commerce Brasil Ads & Performance 2019](https://caiquedourado.com.br/congresso-e-commerce-brasil-adsperformance-2019-google-analytics-como-estruturar-quais-indicadores-medir-e-que-decisoes-tomar-partir-deles/)
 *Google Analytics: Como estruturar, quais indicadores medir e que decisões tomar a partir deles?*
 
-A talk for hundreds of e-commerce people: how to set up Google Analytics, what to measure and what to decide from it.
+Keynote delivered to hundreds of e-commerce leaders on web analytics architecture, metric structuring, conversion funnels, and data-driven decision making.
 
 [![Watch talk on YouTube](https://img.youtube.com/vi/ubBikpBRV68/maxresdefault.jpg)](https://www.youtube.com/watch?v=ubBikpBRV68)
 
@@ -610,7 +610,7 @@ A talk for hundreds of e-commerce people: how to set up Google Analytics, what t
 
 ## Beyond Code
 
-Away from the code, I play bass. My YouTube channel has over 100 bass covers: [youtube.com/@CaiqueDourado](https://www.youtube.com/@CaiqueDourado/videos).
+When not architecting pipelines or analyzing data, I play electric bass. I run a YouTube channel with over 100 recorded bass covers: [youtube.com/@CaiqueDourado](https://www.youtube.com/@CaiqueDourado/videos).
 
 [![Bass Cover - Caique Dourado](https://img.youtube.com/vi/OMJANZzKwzU/maxresdefault.jpg)](https://www.youtube.com/watch?v=OMJANZzKwzU)
 
@@ -629,7 +629,7 @@ Away from the code, I play bass. My YouTube channel has over 100 bass covers: [y
 - 🐦 [@caiquedourado](https://twitter.com/caiquedourado)
 - 📝 [caiquedourado.com.br](https://caiquedourado.com.br)
 
-<sub>Software engineer, entrepreneur, bassist and heavy reader. Turning messy web data into order since 2001.</sub>
+<sub>Software engineer, entrepreneur, bassist, and voracious reader. Mining web data and turning chaos into structure since 2001.</sub>
 
 ---
 
@@ -640,9 +640,9 @@ Away from the code, I play bass. My YouTube channel has over 100 bass covers: [y
 
 ### Engenheiro de Software · Engenheiro de Dados · Growth Hacker · Empreendedor
 
-Transformo dado bagunçado da web em decisão desde 2001.
+Construindo sistemas que transformam caos em decisão desde 2001.
 
-Fundei o [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) e o [SuperNichos](https://supernichos.com). Sou Head de Operações na [Agência Disco](https://www.disco-tec.com), uma das principais agências Shopify do Brasil. Antes fui CMO na Samurai Experts / Locaweb e conselheiro da ABLEC. São 25 anos escrevendo código, do Delphi 5 em 2001 aos pipelines de IA em 2026.
+Fundador do [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) e [SuperNichos](https://supernichos.com). Head de Operações na [Agência Disco](https://www.disco-tec.com) (uma das principais agências Shopify do Brasil). Ex-CMO na Samurai Experts / Locaweb. Conselheiro da ABLEC. Mais de 25 anos de experiência prática, de Delphi 5 em 2001 a pipelines distribuídos de IA em 2026.
 
 **Python · Next.js · C# · PostgreSQL · Redis · Google BigQuery · n8n**
 
@@ -652,21 +652,21 @@ Fundei o [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) e o [S
 
 ## O que eu faço
 
-Eu construo sistemas que acham, coletam, limpam e entendem volumes enormes de dado bagunçado da web. Depois transformo isso em decisão: o que comprar, o que construir, o que consertar.
+Construo sistemas autônomos que descobrem, ingerem, normalizam e interpretam volumes massivos de dados desestruturados da web, transformando ruído em inteligência de compra e decisões de negócio.
 
-- **Crawlers e pipelines de dados:** coleto de mais de 3.600 lojas com Playwright, DrissionPage, curl_cffi, Scrapy e httpx, inclusive nos sites que bloqueiam robô.
-- **Juntar o mesmo produto entre lojas:** sem EAN nem SKU, com Metaphone, Soundex, n-gramas, MinHash e hash perceptual de imagem.
-- **IA, LLMs e NLP em escala:** prós e contras de milhões de avaliações, RAG, OpenAI, Gemini e Claude no mesmo pipeline, transcrição com Whisper, automação de YouTube e vozes neurais.
-- **SEO programático, AEO e GEO:** mais de 30 milhões de páginas geradas a partir de dados. Dados estruturados, SEO técnico, Core Web Vitals e páginas feitas para ser a fonte que as respostas de IA citam (Perplexity, ChatGPT Search).
-- **Growth e CRO de e-commerce:** testes A/B (GrowthBook, Optimizely), automação de CRM (Klaviyo, Insider), GA4, rastreamento server-side e funil de conversão.
-- **Web moderna e rápida:** Next.js (TypeScript) em cima de Python assíncrono (FastAPI, Redis, Supabase/PostgreSQL, BigQuery).
+- **Crawlers Distribuídos & Pipelines de Dados:** Infraestrutura resiliente de raspagem (Playwright, DrissionPage, curl_cffi, Scrapy, httpx) com rotação inteligente de proxies e mitigação antibot em 3.600+ lojas.
+- **Engenharia de Dados & Deduplicação:** Clusterização de catálogos entre múltiplos lojistas sem EAN/SKU usando Metaphone, Soundex, N-gram, MinHash e Perceptual Image Hashing.
+- **IA, LLMs & NLP em Escala:** Extração de sentimento em milhões de reviews, pipelines de RAG, orquestração multi-provedor (OpenAI, Gemini, Claude), transcrição com Whisper, automação para YouTube e TTS neural.
+- **SEO Programático / AEO / GEO:** Geração de conteúdo em escala orientada a dados (30M+ de páginas); dados estruturados, schema markup, SEO técnico e Core Web Vitals. Otimização para motores de resposta (Perplexity, ChatGPT Search) e Generative Engine Optimization para posicionar o conteúdo como fonte canônica para respostas geradas por IA.
+- **Growth para E-commerce & CRO:** Testes A/B (GrowthBook, Optimizely), automação de CRM (Klaviyo, Insider), GA4, rastreamento server-side e otimização de funil de conversão.
+- **Web Moderna de Alta Performance:** Next.js (SSR/SSG, TypeScript) + backends assíncronos em Python (FastAPI, Redis, Supabase/PostgreSQL, BigQuery).
 
 ---
 
 ## Projetos em destaque
 
 ### [TudoSobreProdutos.com.br](https://www.tudosobreprodutos.com.br) (Motor de inteligência de produtos, 2020 / relançado em 2026)
-Pense no RTINGS.com e no Versus.com, feitos para o Brasil: preços brasileiros de 3.600+ lojas e certificações nacionais (INMETRO, ANVISA). Marca não paga para aparecer no ranking.
+O equivalente brasileiro do RTINGS.com e Versus.com, com cobertura de preços do varejo brasileiro, 3.600+ lojas e certificações nacionais (INMETRO, ANVISA). Marcas não pagam por posição no ranking.
 - Plataforma completa de Data Mining & IA Generativa com **pipeline ETL de 17 estágios**, da raspagem bruta à distribuição multimodal
 - 2,8M+ de avaliações reais de usuários processadas; catálogo monitorado em 3.600+ lojas brasileiras
 - **Metodologia de avaliação:** Processo em 4 etapas: triagem técnica (fabricantes + dados globais) → Big Data (cruzamento de milhares de reviews reais e transcrições de vídeos de especialistas) → Motor de IA (identificação de falhas crônicas e qualidades reais ignoradas por outros sites) → Curadoria humana (especialistas validam cada dado no contexto de uso); 3 pilares de rigor: prova social consolidada, métricas de durabilidade a longo prazo (não apenas performance recém-saído da caixa) e comparabilidade técnica normalizada por faixa de preço
@@ -710,7 +710,7 @@ Pense no RTINGS.com e no Versus.com, feitos para o Brasil: preços brasileiros d
 
 [![scrapladder cover](https://raw.githubusercontent.com/CaiqueDourado/scrapladder/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/scrapladder)
 
-Começa no HTTP simples e só sobe quando toma bloqueio: TLS de navegador (`curl_cffi`), navegador headless (Playwright, Camoufox, Scrapling) e, por fim, APIs pagas de scraping. Lembra qual degrau funcionou em cada domínio e começa por ele na próxima vez.
+Sobe uma escada progressiva de camadas de requisição — de HTTP simples (`requests`, `httpx`), personificação TLS de navegador real (`curl_cffi`), navegadores headless (Playwright, Camoufox, Scrapling), até APIs de scraping pagas — lembrando qual degrau teve sucesso por domínio e pulando degraus bloqueados automaticamente.
 
 ```python
 from scrapladder import Ladder
@@ -735,7 +735,7 @@ else:
 
 [![transcriptladder cover](https://raw.githubusercontent.com/CaiqueDourado/transcriptladder/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/transcriptladder)
 
-Tenta o jeito mais barato primeiro e passa para o próximo quando o YouTube nega: `youtube-transcript-api`, a URL da legenda, legendas do `yt-dlp` e, por fim, o `faster-whisper` local ouvindo o áudio.
+Tenta a extração de legendas em ordem de resiliência em cascata (`youtube-transcript-api` → download direto da URL de legendas → extração de legendas via `yt-dlp` → `faster-whisper` local), adaptando-se dinamicamente conforme o YouTube atualiza suas páginas.
 
 ```python
 from transcriptladder import Transcriber
@@ -759,7 +759,7 @@ if r.ok:
 
 [![llm-cost-kit cover](https://raw.githubusercontent.com/CaiqueDourado/llm-cost-kit/main/docs/img/cover.pt-BR.png)](https://github.com/CaiqueDourado/llm-cost-kit)
 
-Mostra quanto cada chamada de LLM custa de verdade (tokens de prompt, de cache, de saída e de raciocínio) na OpenAI, no Gemini, no Claude e no DeepSeek. Cada preço aponta para a página do fornecedor. Nasceu de uma auditoria real que cortou a conta de IA de um produto de US$ 1,00 para US$ 0,14 (−85,8%).
+Rastreia o custo real de cada chamada de LLM — tokens de prompt, em cache, de saída e de pensamento (thinking) — em OpenAI, Gemini, Claude e DeepSeek, com tabelas de preços com fonte verificável. Nascido de uma auditoria real que reduziu a fatura de IA de um produto de US$ 1,00 para US$ 0,14 (−85,8%).
 
 ```python
 from llm_cost_kit import Ledger, PriceTable, SQLiteSink, target, timer
@@ -791,7 +791,7 @@ $ llm-cost-kit check src/ --recorder record   # scripts chamando LLMs sem tarifa
 
 [![SimilarImageFinder cover](https://raw.githubusercontent.com/CaiqueDourado/SimilarImageFinder/main/docs/img/cover.png)](https://github.com/CaiqueDourado/SimilarImageFinder)
 
-Acha a mesma foto mesmo depois de redimensionar, recomprimir ou mudar o brilho. Fiz depois de 5 anos com 114 milhões de ofertas de 7.179 lojas brasileiras, onde a mesma foto em duas lojas nunca tinha o mesmo SHA-256.
+Hash perceptual de imagens (aHash, dHash, pHash) para identificar imagens quase duplicadas mesmo após redimensionamento, recompressão ou ajustes de brilho. Criado a partir da experiência de 5 anos gerenciando 114 milhões de ofertas de produtos de 7.179 lojas brasileiras — onde a mesma foto de lojistas diferentes nunca compartilhava o mesmo SHA-256.
 
 ```python
 from similar_image_finder import perceptual_hash
@@ -996,23 +996,23 @@ Console.WriteLine(a - b);                                // Distância de Hammin
 - **A história de origem:** [O que aprendi debulhando 50 milhões de termos de busca no Google](https://caiquedourado.com.br/o-que-aprendi-debulhando-50-milhoes-de-termos-de-busca-no-google/) (2023): a planilha que virou a ferramenta
 
 **Como foi construído:**
-1. **Coletar:** 55 milhões de buscas do Google com volume, CPC e concorrência (números do Planejador de Palavras-chave via Ubersuggest em 2018, mais DataForSEO para Brasil, EUA, Espanha e Argentina).
-2. **Agrupar:** limpei as buscas e agrupei pelo que elas têm em comum, com Metaphone, Soundex, n-gramas, MinHash, fingerprints e NgramKeyer.
-3. **Achar os nichos:** os grupos mostraram milhares de nichos que valem a pena: produtos, serviços, dores que ninguém atende e SEO programático.
+1. **Ingestão de Dados:** Processamento de 55 milhões de buscas do Google com volume, CPC e concorrência (métricas do Keyword Planner via Ubersuggest em 2018, mais DataForSEO para Brasil, EUA, Espanha e Argentina).
+2. **Normalização & Clusterização:** Normalização dos termos de busca e agrupamento para identificar padrões semânticos e textuais usando algoritmos de similaridade de strings (Metaphone, Soundex, N-gram, MinHash, Fingerprint, NgramKeyer).
+3. **Mineração & Descoberta:** Clusterização final para revelar milhares de nichos lucrativos e oportunidades de mercado (para criação de produtos, serviços, atendimento de dores latentes e SEO programático).
 
 - **Dados e código abertos:** [google-keywords-dataset](https://github.com/CaiqueDourado/google-keywords-dataset) (38 mi de buscas, 1,73 mi de padrões de cinco algoritmos, 154 mil padrões rotulados à mão) · [search-pattern-miner](https://github.com/CaiqueDourado/search-pattern-miner) (os algoritmos, reescritos em Python e .NET) · [portuguese-entity-gazetteer](https://github.com/CaiqueDourado/portuguese-entity-gazetteer) (o dicionário de 307 mil entidades dos padrões com [tipo]) · artigo: [Agrupei 38 milhões de buscas do Google em modelos de página. Estes são os sete jeitos que usei.](https://github.com/CaiqueDourado/articles/blob/main/seven-ways-search-patterns/README.pt-BR.md)
 
 [![Estudo de Caso SuperNichos no YouTube](https://img.youtube.com/vi/kR3OM_zQE30/maxresdefault.jpg)](https://www.youtube.com/watch?v=kR3OM_zQE30&t=385s)
 
 ### [Gambis Mode [On]](https://caiquedourado.com.br) (Laboratório Independente: SEO Programático & Data Mining, 2017-atual)
-Meu laboratório próprio de software e SEO programático. Foi lá que eu desenhei, lancei e monetizei **mais de 40 sites**.
+Laboratório independente de engenharia de software e SEO programático responsável pela concepção, implementação e monetização de **mais de 40 plataformas web em produção**.
 - **Escala:** Mais de 30 milhões de páginas indexadas geradas a partir de bases abertas massivas (Apple Enterprise Partner Feed, DBpedia, Freebase, IMDB, MusicBrainz, MovieLens, Open Food Facts, Tabela FIPE, CNPJs da Receita Federal, CEPs dos Correios, Frases, Bíblia)
 - **Engenharia de Dados & NLP:** Deduplicação de entidades com OpenRefine, algoritmos fonéticos e de similaridade de strings (Metaphone, Soundex, N-gram, MinHash) e parsing sintático via Stanford NLP (POS Tagger)
 - **Infraestrutura & Automação:** Scrapers distribuídos com múltiplos proxies (Selenium, Chrome Headless, Cloudflare Workers, resolução de anti-captcha), renderização dinâmica de banners em C# (`System.Drawing.Image`) e hospedagem serverless no Google Cloud Storage
 - **Monetização & Ecossistema AdTech:** Monetização comercial em larga escala via header bidding, ad exchanges e redes de afiliados (Google Ad Manager, Google AdSense, Awin, Lomadee, Rakuten Marketing, Amazon Associates, Taboola, Teads, MGID, Seedtag, Rubicon, RTB House, Cazamba, Clever Advertising)
 
 ### Agência Disco (Head de Operações, 2023-atual)
-Cuido do growth de e-commerce em Shopify para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões e mais de 20 outras.
+Operação de growth e e-commerce em Shopify para marcas como Chocolates Dengo, Rommanel, Malwee, CIMED, Garmin, Contém 1G, Bold Snacks, Tânia Bulhões e mais de 20 outras.
 - Growth Marketing, CRO, SEO Programático, Testes A/B (GrowthBook)
 - CRM e automação de marketing (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, rastreamento server-side, Customer Events, analytics & BI
@@ -1033,14 +1033,14 @@ Cuido do growth de e-commerce em Shopify para marcas como Chocolates Dengo, Romm
 | ![Equipe de E-commerce Editora Juspodivm](./assets/juspodivm_equipe.jpg) | ![Caique Dourado e Marcelo Linhares no E-Commerce Brasil](./assets/juspodivm_palestra_marcelo_linhares.jpg) | ![Troféu Selo Diamante e-Bit](./assets/juspodivm_ebit_diamante.jpg) |
 
 ### [Google Analytics Real Time Dashboard](https://caiquedourado.com.br/dashboard-em-tempo-real-para-acompanhamento-seu-e-commerce/) (2017)
-Um painel em tempo real que eu fiz para o time de e-commerce acompanhar tráfego e canais ao vivo.
+Dashboard de acompanhamento em tempo real para operações de e-commerce.
 - Monitoramento de tráfego, conversão e canais de aquisição em tempo real
 - Utilizado por mais de 5.000 lojas virtuais
 
 ![Google Analytics Real Time Dashboard](./assets/ga_realtime_dashboard.png)
 
 ### Cupons VIP (Co-fundador & CTO, 2011-2013)
-Fiz do zero em ASP.NET, SQL Server e Azure, em 9 meses de noites e fins de semana. Como CTO, fiz um pouco de tudo:
+Desenvolvido do zero em ASP.NET + SQL Server + Azure (9 meses de desenvolvimento, noites e finais de semana). Atuação como CTO e empreendedor em todas as frentes:
 - **Desenvolvimento de Produto:** Arquitetura full stack (Frontend, Backend em ASP.NET e SQL Server)
 - **Infraestrutura & Hospedagem:** Servidores e edge com Azure CDN e Cloudflare
 - **Atendimento & Sucesso do Cliente:** Conquista do selo **RA1000** do Reclame Aqui
@@ -1075,10 +1075,10 @@ Fiz do zero em ASP.NET, SQL Server e Azure, em 9 meses de noites e fins de seman
 
 ## Projetos de SEO Programático
 
-A partir de 2020, fiz sites que transformam dados em milhões de páginas: rastreamento, junção de produtos entre lojas, sentimento das avaliações e hospedagem estática na borda.
+Projetos desenvolvidos a partir de 2020 com foco em geração de milhões de páginas indexadas via rastreamento web, catalogação de dados, NLP e hospedagem serverless.
 
 ### [Tudo Sobre Produtos (1ª Versão)](https://web.archive.org/web/20251021032358/https://tudosobreprodutos.com.br/tudo-sobre-bebedouro-cadence-pure-vita-elegant-0v) (2020)
-Um guia de produtos com ficha técnica, avaliações reais e comparações.
+Guia de produtos com especificações detalhadas, opiniões de compradores e comparações.
 - **Escala:** 280.000 produtos extraídos via feeds XML de 4.800 lojas brasileiras
 - **Prova social:** 2.871.096 avaliações de usuários via API do Bazaarvoice
 - **Web scraping:** Crawler de fichas técnicas nos sites dos fabricantes e lojas
@@ -1093,14 +1093,14 @@ Um guia de produtos com ficha técnica, avaliações reais e comparações.
 ![Tudo Sobre Produtos 1ª Versão](./assets/tudosobreprodutos_primeira_versao.png)
 
 ### Portal de Cartórios no Brasil (2024)
-Todos os cartórios do Brasil, com os dados públicos de cada um.
+Guia nacional de cartórios com informações completas de todos os municípios brasileiros.
 - **Escala:** Base com todos os cartórios de notas, registro civil e imóveis do Brasil
 - **Arquitetura:** Uma página por serventia, gerada a partir das tabelas coletadas e publicada no WordPress, com mapas e dados estruturados locais
 - **Audiência:** Milhares de acessos orgânicos/mês para emissão de certidões e serviços notariais
 - **Dados e código abertos:** [brazilian-notary-registry-offices](https://github.com/CaiqueDourado/brazilian-notary-registry-offices) (amostra do cadastro coletado: atribuições, arrecadação desde 2005 e decisões do CNJ) · [Kaggle](https://www.kaggle.com/datasets/caiquedourado/brazilian-notary-registry-offices)
 
 ### [Nomes e Sobrenomes](https://web.archive.org/web/20250610174857/https://nomessobrenomes.com/qual-o-significado-do-nome-alan-gustavo) (2023)
-104 mil nomes, cada um com significado, origem, etimologia e numerologia.
+Portal com 104 mil nomes próprios catalogados com significados, origem, etimologia e numerologia.
 - **Escala:** 104 mil páginas geradas a partir de base de dados proprietária
 - **Tecnologia:** Next.js 14, Tailwind CSS, TypeScript, Supabase e API da OpenAI
 - **Performance:** 100% adequado a dispositivos móveis com notas perfeitas no Web Vitals
@@ -1111,7 +1111,7 @@ Todos os cartórios do Brasil, com os dados públicos de cada um.
 ![Nomes e Sobrenomes](./assets/nomessobrenomes.com_screenshot.png)
 
 ### [Tudo Sobre Lojas](https://web.archive.org/web/20250618081809/https://tudosobrelojas.com/a-loja-saboreat-e-confavel-tudo-sobre-a-loja-saboreat/) (2023)
-Reputação e dados de cadastro de 63.933 lojas virtuais brasileiras.
+Análise completa de lojas virtuais e e-commerces brasileiros com dados enriquecidos de reputação e cadastro.
 - **Escala:** Scraping e análise de 63.933 lojas brasileiras
 - **Evidências visuais automáticas:** Geração de screenshots da página da loja no Reclame Aqui e da homepage da loja usando C# e Selenium
 - **Enriquecimento cadastral:** Extração do CNPJ no Whois e cruzamento com a base de CNPJ da Receita Federal (sócios, razão social, nome fantasia, CNPJ, CNAE, capital social, endereço, e-mail, telefone)
@@ -1124,7 +1124,7 @@ Reputação e dados de cadastro de 63.933 lojas virtuais brasileiras.
 ![Tudo Sobre Lojas](./assets/tudosobrelojas.com_screenshot.png)
 
 ### [Tudo sobre as Palavras](https://web.archive.org/web/20250923215535/https://tudosobreaspalavras.com/tudo-sobre-a-palavra-arrogado) (2023)
-Um dicionário de português com 187 mil palavras: significados, sinônimos, gramática e exercícios.
+Dicionário completo com 187 mil palavras, incluindo significados, sinônimos, gramática e exercícios educativos.
 - **Escala:** 187 mil páginas geradas (uma para cada verbete) a partir de banco de dados pt-BR + geração de conteúdo com API da OpenAI
 - **Riqueza gramatical:** Significado idiomático e regional, sinônimos, antônimos, ortografia e pronúncia, classe gramatical, consoantes, vogais, radical, separação silábica, sílaba tônica, singular/plural, flexão de gênero, tempos verbais (infinitivo, gerúndio, particípio), contagem de letras, atividades, jogos, rimas e exemplos práticos de uso
 - **Imagens:** Geração programática de imagens e artes explicativas em C#
@@ -1136,7 +1136,7 @@ Um dicionário de português com 187 mil palavras: significados, sinônimos, gra
 ![Tudo sobre as Palavras](./assets/tudosobreaspalavras_screenshot.png)
 
 ### [Tudo Sobre Carros, Motos e Caminhões](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/) (2022)
-Quatro sites de veículos com peças, ficha técnica e tabela FIPE. Uma página por marca, modelo e versão.
+Família de quatro portais de veículos, "peças e acessórios + ficha técnica + tabela FIPE", com uma página por marca, modelo e versão.
 - **Sites:** Tudo Sobre Carros, [Tudo para Seus Carros](https://web.archive.org/web/20230123215505/https://tudoparaseuscarros.com/), [Tudo Sobre Motos](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) e [Tudo Sobre Caminhões](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/)
 - **Escala:** 245 marcas e 11.948 modelos FIPE de carros, motos e caminhões; 1,6 milhão de preços FIPE mensais; ficha técnica de 37.794 versões
 - **Recursos:** tabela FIPE e histórico de preços, estimativa de IPVA, ficha técnica e autopeças "indicadas para este veículo"
@@ -1152,7 +1152,7 @@ Quatro sites de veículos com peças, ficha técnica e tabela FIPE. Uma página 
 | [![Tudo Sobre Motos](./assets/tudosobreduasrodas.com_screenshot.png)](https://web.archive.org/web/20230309142752/https://tudosobreduasrodas.com/) | [![Tudo Sobre Caminhões](./assets/tudosobrecaminhoes.com_screenshot.png)](https://web.archive.org/web/20230309142750/https://tudosobrecaminhoes.com/) |
 
 ### [Versiculo-Do-Dia.com](https://versiculo-do-dia.com/) (2022)
-Versículos da Bíblia, cada um com uma imagem pronta para compartilhar nas redes.
+Plataforma de versículos bíblicos com imagens programáticas compartilháveis para redes sociais.
 - **Geração de imagens:** Automação de artes de versículos bíblicos formatadas para compartilhamento em redes sociais (Instagram, Facebook, WhatsApp)
 - **Base de dados:** Banco relacional completo da Bíblia
 - **Motor visual:** Renderizador dinâmico de imagens em C#
@@ -1163,7 +1163,7 @@ Versículos da Bíblia, cada um com uma imagem pronta para compartilhar nas rede
 ![Versículo do Dia](./assets/versiculo-do-dia.com_screenshot.png)
 
 ### [919Apps.com](https://web.archive.org/web/20211203115104/https://919apps.com/lca/download-app-mhs-schedule) (2022)
-Um catálogo de apps feito a partir do [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf) (EPF): 2,4 milhões de aplicativos.
+Portal programático gerado a partir do [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf) (EPF), catalogando 2,4 milhões de aplicativos.
 - **Escala:** 2,4 milhões de aplicativos indexados diretamente do [Apple Enterprise Partner Feed](https://performance-partners.apple.com/epf)
 - **Alcance internacional:** Site multi-idiomas publicado em 176 países
 - **Regionalização:** Suporte avançado a internacionalização usando `System.Globalization.CultureInfo` e `System.Globalization.RegionInfo` em C#
@@ -1173,7 +1173,7 @@ Um catálogo de apps feito a partir do [Apple Enterprise Partner Feed](https://p
 ![919Apps](./assets/919apps.com_screenshot.png)
 
 ### [People Also Ask Plugin](https://br.wordpress.org/plugins/people-also-ask/) (Plugin WordPress, 2024-2026)
-Um plugin no WordPress.org que escreve conteúdo de SEO programático a partir das perguntas do "As pessoas também perguntam" do Google.
+Plugin oficial publicado no repositório do WordPress.org, criado para automatizar a geração de conteúdo para SEO programático com base na seção "As pessoas também perguntam" (People Also Ask) da SERP do Google.
 - **Extração de SERP:** Raspagem multinível de perguntas e respostas via SerpAPI e DataForSEO API
 - **Geração de Conteúdo:** Estruturação automática de artigos com headings (H2/H3), FAQs com Schema Markup e embeds de vídeos do YouTube
 - **Arquitetura:** Desenvolvido em PHP com Custom Post Types, WordPress Hooks, REST API e backend com proxies headless
@@ -1190,7 +1190,7 @@ Um plugin no WordPress.org que escreve conteúdo de SEO programático a partir d
 ### [Congresso E-Commerce Brasil Ads & Performance 2019](https://caiquedourado.com.br/congresso-e-commerce-brasil-adsperformance-2019-google-analytics-como-estruturar-quais-indicadores-medir-e-que-decisoes-tomar-partir-deles/)
 *Google Analytics: Como estruturar, quais indicadores medir e que decisões tomar a partir deles?*
 
-Uma palestra para centenas de pessoas de e-commerce: como montar o Google Analytics, o que medir e o que decidir com isso.
+Palestra técnica ministrada para centenas de profissionais e lojistas sobre planejamento de métricas no Google Analytics, modelagem de funis de conversão e tomada de decisões analíticas no e-commerce.
 
 [![Assista à palestra no YouTube](https://img.youtube.com/vi/ubBikpBRV68/maxresdefault.jpg)](https://www.youtube.com/watch?v=ubBikpBRV68)
 
@@ -1217,7 +1217,7 @@ Uma palestra para centenas de pessoas de e-commerce: como montar o Google Analyt
 
 ## Além do Código
 
-Longe do código, eu toco contrabaixo. Meu canal no YouTube tem mais de 100 covers: [youtube.com/@CaiqueDourado](https://www.youtube.com/@CaiqueDourado/videos).
+Fora dos terminais e dos pipelines de dados, sou contrabaixista. Mantenho um canal no YouTube com mais de 100 covers gravados: [youtube.com/@CaiqueDourado](https://www.youtube.com/@CaiqueDourado/videos).
 
 [![Bass Cover no YouTube - Caique Dourado](https://img.youtube.com/vi/OMJANZzKwzU/maxresdefault.jpg)](https://www.youtube.com/watch?v=OMJANZzKwzU)
 
@@ -1236,6 +1236,6 @@ Longe do código, eu toco contrabaixo. Meu canal no YouTube tem mais de 100 cove
 - 🐦 [@caiquedourado](https://twitter.com/caiquedourado)
 - 📝 [caiquedourado.com.br](https://caiquedourado.com.br)
 
-<sub>Programador, empreendedor, baixista e leitor voraz. Arrumando dado bagunçado da web desde 2001.</sub>
+<sub>Programador, empreendedor, baixista e leitor voraz. Minerando dados na web e transformando caos em estrutura desde 2001.</sub>
 
 </details>
