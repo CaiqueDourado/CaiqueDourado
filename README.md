@@ -416,6 +416,9 @@ Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee,
 - GA4, server-side tracking, Customer Events, analytics & BI
 - **Automated store audit in Python:** 500 audit checks on Disco's online stores: shopping experience & CRO; GTM, tracking, events & pixels; SEO; GEO, AI & agents; speed & Core Web Vitals; security & LGPD; accessibility. [Sample report (PDF, 149 pages)](assets/raio-x-exemplo.pdf)
 
+  <a href="assets/raio-x-exemplo.pdf"><img src="assets/raio-x-gtm.png" alt="Raio-X: Google Tag Manager audit slide" width="720"></a>
+
+
 ### Samurai Experts / Locaweb (CMO & Growth, 2021-2023)
 - Chief Marketing Officer, Growth Hacker
 - Branding Manager at Wake (wake.tech)
@@ -1020,6 +1023,9 @@ Operação de growth e e-commerce em Shopify para marcas como Chocolates Dengo, 
 - CRM e automação de marketing (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, rastreamento server-side, Customer Events, analytics & BI
 - **Diagnóstico automatizado em Python:** checagem de 500 itens de auditoria em lojas virtuais da Disco: experiência de compra e CRO; GTM, tracking, eventos e pixels; SEO; GEO, IA e agentes; velocidade e Core Web Vitals; segurança e LGPD; acessibilidade. [Exemplo de relatório (PDF, 149 páginas)](assets/raio-x-exemplo.pdf)
+
+  <a href="assets/raio-x-exemplo.pdf"><img src="assets/raio-x-gtm.png" alt="Raio-X: slide da auditoria do Google Tag Manager" width="720"></a>
+
 
 ### Samurai Experts / Locaweb (CMO & Growth, 2021-2023)
 - Chief Marketing Officer, Growth Hacker
