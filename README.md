@@ -415,6 +415,14 @@ Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee,
 - CRM & marketing automation (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, server-side tracking, Customer Events, analytics & BI
 - **Automated store audit in Python:** 500 audit checks on Disco's online stores: shopping experience & CRO; GTM, tracking, events & pixels; SEO; GEO, AI & agents; speed & Core Web Vitals; security & LGPD; accessibility. [Sample report (PDF, 149 pages)](assets/raio-x-exemplo.pdf)
+  - **Headless browser journeys (Playwright):** home → product → collection → search → cart, on mobile and desktop, including keyboard-only checks
+  - **Network hit capture:** intercepted GA4, Meta and Google Ads requests to map which platform receives each funnel step
+  - **GTM container parsing:** tags, triggers and variables read from the public container; paused tags and dead variables found by dependency graph; health score
+  - **LGPD consent testing:** rejects cookies, then measures which platforms still receive data (Consent Mode v2, TCF)
+  - **Real vs. lab performance:** CrUX field data (LCP, INP, CLS, 28 days) plus lab runs with filmstrip, side by side with competitors
+  - **SEO & GEO checks:** JSON-LD, canonical, sitemap, robots and AI crawlers, llms.txt; programmatic SEO page patterns mined from the catalog
+  - **Shipping simulation:** same cart, one ZIP code per Brazilian region, cheapest option and delivery time
+  - **Scoring & reporting:** penalty model per area, impact × effort, 30/60/90-day plan; one LLM call writes the executive summary from measured facts; HTML → PDF via Chromium
 
   <a href="assets/raio-x-exemplo.pdf"><img src="assets/raio-x.gif" alt="Raio-X: slides from store audit reports (GTM, speed, programmatic SEO, competitors, shipping, CRO)" width="720"></a>
 
@@ -1023,6 +1031,14 @@ Operação de growth e e-commerce em Shopify para marcas como Chocolates Dengo, 
 - CRM e automação de marketing (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, rastreamento server-side, Customer Events, analytics & BI
 - **Diagnóstico automatizado em Python:** checagem de 500 itens de auditoria em lojas virtuais da Disco: experiência de compra e CRO; GTM, tracking, eventos e pixels; SEO; GEO, IA e agentes; velocidade e Core Web Vitals; segurança e LGPD; acessibilidade. [Exemplo de relatório (PDF, 149 páginas)](assets/raio-x-exemplo.pdf)
+  - **Jornadas com navegador headless (Playwright):** home → produto → coleção → busca → carrinho, no celular e no desktop, incluindo testes só com teclado
+  - **Captura de hits de rede:** requisições de GA4, Meta e Google Ads interceptadas para mapear qual plataforma recebe cada etapa do funil
+  - **Leitura do container do GTM:** tags, gatilhos e variáveis lidos do container público; tags pausadas e variáveis mortas encontradas por grafo de dependência; nota de saúde
+  - **Teste de consentimento LGPD:** recusa os cookies e mede quais plataformas continuam recebendo dados (Consent Mode v2, TCF)
+  - **Velocidade real × laboratório:** dados de campo do CrUX (LCP, INP, CLS, 28 dias) e medição de laboratório com filmstrip, lado a lado com os concorrentes
+  - **Checagens de SEO e GEO:** JSON-LD, canonical, sitemap, robots e robôs de IA, llms.txt; padrões de SEO programático tirados do catálogo
+  - **Simulação de frete:** mesmo carrinho, um CEP por região do Brasil, opção mais barata e prazo
+  - **Nota e relatório:** modelo de penalidade por área, impacto × esforço, plano de 30/60/90 dias; uma chamada de LLM escreve o resumo executivo a partir dos fatos medidos; HTML → PDF via Chromium
 
   <a href="assets/raio-x-exemplo.pdf"><img src="assets/raio-x.gif" alt="Raio-X: slides de relatórios de auditoria (GTM, velocidade, SEO programático, concorrentes, frete, CRO)" width="720"></a>
 
