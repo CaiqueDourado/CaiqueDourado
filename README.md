@@ -414,6 +414,7 @@ Shopify e-commerce growth for brands such as Chocolates Dengo, Rommanel, Malwee,
 - Growth Marketing, CRO, Programmatic SEO, A/B Testing (GrowthBook)
 - CRM & marketing automation (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, server-side tracking, Customer Events, analytics & BI
+- **Automated store audit in Python:** 500 audit checks on Disco's online stores: shopping experience & CRO; GTM, tracking, events & pixels; SEO; GEO, AI & agents; speed & Core Web Vitals; security & LGPD; accessibility. [Sample report (PDF, 149 pages)](assets/raio-x-exemplo.pdf)
 
 ### Samurai Experts / Locaweb (CMO & Growth, 2021-2023)
 - Chief Marketing Officer, Growth Hacker
@@ -1018,6 +1019,7 @@ Operação de growth e e-commerce em Shopify para marcas como Chocolates Dengo, 
 - Growth Marketing, CRO, SEO Programático, Testes A/B (GrowthBook)
 - CRM e automação de marketing (Klaviyo, Insider, Shopify Email, n8n, Shopify Flow)
 - GA4, rastreamento server-side, Customer Events, analytics & BI
+- **Diagnóstico automatizado em Python:** checagem de 500 itens de auditoria em lojas virtuais da Disco: experiência de compra e CRO; GTM, tracking, eventos e pixels; SEO; GEO, IA e agentes; velocidade e Core Web Vitals; segurança e LGPD; acessibilidade. [Exemplo de relatório (PDF, 149 páginas)](assets/raio-x-exemplo.pdf)
 
 ### Samurai Experts / Locaweb (CMO & Growth, 2021-2023)
 - Chief Marketing Officer, Growth Hacker
